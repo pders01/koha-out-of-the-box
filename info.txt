@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: built_titling_lt
+font link: https://www.fontspring.com/fonts/typodermic/built-titling
+font author: Typodermic
+font author site: http://typodermicfonts.com/
+Slogan Font: LindenHill-webfont.ttf
+
+icon designer: Zach Bogart
+icon designer link: /zachbogart
+        
+{"bg":"#0C568D","icon":"#06345E","font":"#ffffff","slogan":"#ffffff"}
+      
