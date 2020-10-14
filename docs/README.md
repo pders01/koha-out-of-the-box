@@ -1,2 +1,5 @@
 # Koha_out_of_the_box
-TBA
+
+This project aims for a streamlined installation process of the [Koha ILS](koha-community.org). 
+Additionally we try to provide helpful documentation for non tech-savvy individuals.
+
