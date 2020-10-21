@@ -50,7 +50,7 @@ koha-create --create-db $name
 
 a2enmod headers proxy_http
 
-koha-plack --enbable $name && koha-plack --start $name && systemctl restart apache2
+koha-plack --enable $name && koha-plack --start $name && systemctl restart apache2
 
 koha-passwd $name > kpw.txt
 
