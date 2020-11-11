@@ -86,9 +86,9 @@ rm /etc/apache2/sites-available/000-default.conf
 
 systemctl restart apache2
 
-name += "${name}.conf"
+target="${name}.conf"
 
-sed -i '/# Intranet/!b;n;c<VirtualHost *:8080>' /etc/apache2/sites-available/$name
+sed -i '/# Intranet/!b;n;c<VirtualHost *:8080>' /etc/apache2/sites-available/$target
 
 
 echo 'Installation complete! You can access the the web OPAC via http://localhost:80 and the staff interface via http://localhost:8080'
