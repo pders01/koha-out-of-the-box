@@ -9,6 +9,14 @@ if [ "$rel" = "stretch" ] || [ "$rel" = "buster" ]
         echo "No suitable debian release! You may encounter issues."
 fi
 
+REQUIRED_PKG="gnupg gnupg2"
+PKG_OK=$(dpkg-query -W --showformat='${Status}\n' $REQUIRED_PKG|grep "install ok installed")
+echo Checking for $REQUIRED_PKG: $PKG_OK
+if [ "" = "$PKG_OK" ]; then
+  echo "No $REQUIRED_PKG. Setting up $REQUIRED_PKG."
+  sudo apt-get --yes install $REQUIRED_PKG 
+fi
+
 touch  /etc/apt/sources.list.d/koha.list
 
 wget -q -O- https://debian.koha-community.org/koha/gpg.asc |  apt-key add - && echo "Key import successful!"
