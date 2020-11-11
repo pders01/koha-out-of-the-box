@@ -30,29 +30,28 @@ apt-get install koha-common && echo "Installation of koha-common successful!"
 
 echo "Which database do you want to install?"
 
-while true; do 
+#while true; do 
 
-    options=("MariaDB" "MySQL" "Quit")
-
-    select opt in "${options[@]}"
-    do
-        case $opt in
-            "MariaDB")
-                echo "MariaDB selected"
-                apt-get install mariadb-server
-                break
-                ;;
-            "MySQL")
-                echo "MySQL selected"
-                apt-get install mysql-server
-                break
-                ;;
-            "Quit")
-                break
-                ;;
-            *) echo "invalid option $REPLY";;
-        esac
-    done
+options=("MariaDB" "MySQL" "Quit")
+select opt in "${options[@]}"
+do
+    case $opt in
+        "MariaDB")
+            echo "MariaDB selected"
+            apt-get install mariadb-server
+            break
+            ;;
+        "MySQL")
+            echo "MySQL selected"
+            apt-get install mysql-server
+            break
+            ;;
+        "Quit")
+            break
+            ;;
+        *) echo "invalid option $REPLY";;
+    esac
+done
 
 #    echo 'Just a sec'
 #
@@ -87,7 +86,7 @@ rm /etc/apache2/sites-available/000-default.conf
 
 systemctl restart apache2
 
-sed '/# Intranet/!b;n;c<VirtualHost *:8080>'
+sed -i '/# Intranet/!b;n;c<VirtualHost *:8080>'
 
 
 echo 'Installation complete! You can access the the web OPAC via http://localhost:80 and the staff interface via http://localhost:8080'
