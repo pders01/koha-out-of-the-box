@@ -9,13 +9,15 @@ if [ "$rel" = "stretch" ] || [ "$rel" = "buster" ]
         echo "No suitable debian release! You may encounter issues."
 fi
 
-REQUIRED_PKG="gnupg gnupg2"
+REQUIRED_PKG="gnupg gnupg2 figlet"
 PKG_OK=$(dpkg-query -W --showformat='${Status}\n' $REQUIRED_PKG|grep "install ok installed")
 echo Checking for $REQUIRED_PKG: $PKG_OK
 if [ "" = "$PKG_OK" ]; then
   echo "No $REQUIRED_PKG. Setting up $REQUIRED_PKG."
   sudo apt-get --yes install $REQUIRED_PKG 
 fi
+
+figlet -t 'Koha out of the box'
 
 touch  /etc/apt/sources.list.d/koha.list
 
@@ -53,18 +55,6 @@ do
     esac
 done
 
-#    echo 'Just a sec'
-#
-#    echo "All things set?"
-#    select opt in "Yes" "No"; do
-#        case $REPLY in 
-#        1) break 2 ;;
-#        2) break ;; 
-#        *) echo "Please select one of the given numerical options.." >&2
-#        esac
-#    done
-#done
-
 a2enmod rewrite && a2enmod cgi && systemctl restart apache2
 
 sed -i '/Listen 80/a Listen 8080' /etc/apache2/ports.conf
@@ -84,12 +74,11 @@ rm /var/www/html/index.html
 rm /etc/apache2/sites-enabled/000-default.conf
 rm /etc/apache2/sites-available/000-default.conf
 
-systemctl restart apache2
-
 target="${name}.conf"
 
 sed -i '/# Intranet/!b;n;c<VirtualHost *:8080>' /etc/apache2/sites-available/$target
 
+systemctl restart apache2
 
 echo 'Installation complete! You can access the the web OPAC via http://localhost:80 and the staff interface via http://localhost:8080'
 
