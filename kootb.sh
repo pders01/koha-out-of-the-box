@@ -19,24 +19,41 @@ apt-get update && echo "Adding koha to package sources successful!"
 
 apt-get install koha-common && echo "Installation of koha-common successful!"
 
+
 echo "Which database do you want to install?"
-options=("MariaDB" "MySQL" "Quit")
-select opt in "${options[@]}"
-do
-    case $opt in
-        "MariaDB")
-            echo "MariaDB selected"
-            apt-get install mariadb-server
-            ;;
-        "MySQL")
-            echo "MySQL selected"
-            apt-get install mysql-server
-            ;;
-        "Quit")
-            break
-            ;;
-        *) echo "invalid option $REPLY";;
-    esac
+
+while true; do 
+
+    options=("MariaDB" "MySQL" "Quit")
+    
+    select opt in "${options[@]}"
+    do
+        case $opt in
+            "MariaDB")
+                echo "MariaDB selected"
+                apt-get install mariadb-server
+                ;;
+            "MySQL")
+                echo "MySQL selected"
+                apt-get install mysql-server
+                ;;
+            "Quit")
+                break
+                ;;
+            *) echo "invalid option $REPLY";;
+        esac
+    done
+    
+    echo 'Just a sec'
+    
+    echo "All things set?"
+    select opt in "Yes" "No"; do
+        case $REPLY in 
+        1) break 2 ;;
+        2) break ;; 
+        *) echo "Please select one of the given numerical options.." >&2
+        esac
+    done
 done
 
 a2enmod rewrite && a2enmod cgi && systemctl restart apache2
@@ -54,7 +71,7 @@ koha-plack --enable $name && koha-plack --start $name && systemctl restart apach
 
 koha-passwd $name > kpw.txt
 
-
+echo 'Installation complete! You can access the the web OPAC via http://localhost:80 and the staff interface via http://localhost:8080'
 
 
 
