@@ -25,17 +25,19 @@ echo "Which database do you want to install?"
 while true; do 
 
     options=("MariaDB" "MySQL" "Quit")
-    
+
     select opt in "${options[@]}"
     do
         case $opt in
             "MariaDB")
                 echo "MariaDB selected"
                 apt-get install mariadb-server
+                break
                 ;;
             "MySQL")
                 echo "MySQL selected"
                 apt-get install mysql-server
+                break
                 ;;
             "Quit")
                 break
@@ -43,18 +45,18 @@ while true; do
             *) echo "invalid option $REPLY";;
         esac
     done
-    
-    echo 'Just a sec'
-    
-    echo "All things set?"
-    select opt in "Yes" "No"; do
-        case $REPLY in 
-        1) break 2 ;;
-        2) break ;; 
-        *) echo "Please select one of the given numerical options.." >&2
-        esac
-    done
-done
+
+#    echo 'Just a sec'
+#
+#    echo "All things set?"
+#    select opt in "Yes" "No"; do
+#        case $REPLY in 
+#        1) break 2 ;;
+#        2) break ;; 
+#        *) echo "Please select one of the given numerical options.." >&2
+#        esac
+#    done
+#done
 
 a2enmod rewrite && a2enmod cgi && systemctl restart apache2
 
@@ -70,6 +72,15 @@ a2enmod headers proxy_http
 koha-plack --enable $name && koha-plack --start $name && systemctl restart apache2
 
 koha-passwd $name > kpw.txt
+
+rm /var/www/html/index.html
+rm /etc/apache2/sites-enabled/000-default.conf
+rm /etc/apache2/sites-available/000-default.conf
+
+systemctl restart apache2
+
+sed '/# Intranet/!b;n;c<VirtualHost *:8080>'
+
 
 echo 'Installation complete! You can access the the web OPAC via http://localhost:80 and the staff interface via http://localhost:8080'
 
