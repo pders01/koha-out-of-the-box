@@ -34,8 +34,7 @@ Als Grundlage für Ihre Koha-Installation sollten Sie auch Debian verwenden, wen
 * Zugang zum Internet 
 * Unter Umständen Administrator-Rechte auf dem Gerät, das Sie zum Flashen verwenden
 
-
-### Flashen der SD-Karte auf Windows 10
+<summary>### Flashen der SD-Karte auf Windows 10</summary>
 
 #### Raspberry Pi Imager
 
@@ -82,7 +81,7 @@ Die Entwickler des Raspberry Pi haben ein grafisches Tool zur Erstellung von SD-
 5. Wählen Sie unter Datei die Image-Datei des Betriebssystems (.img) oder das übergeordnete ZIP-Archiv aus.
 7. Wählen Sie Ihre SD-Karte als Trägermedium aus. 
 8. Starten Sie den Schreibvorgang und warten Sie bis dieser abgeschlossen ist.
-
+</details>
 
 ### Flashen der SD-Karte auf macOS 
 
