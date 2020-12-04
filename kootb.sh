@@ -70,6 +70,8 @@ koha-plack --enable $name && koha-plack --start $name && systemctl restart apach
 
 koha-passwd $name > kpw.txt
 
+echo $name > libraryname.txt
+
 rm /var/www/html/index.html
 rm /etc/apache2/sites-enabled/000-default.conf
 rm /etc/apache2/sites-available/000-default.conf
@@ -80,7 +82,9 @@ sed -i '/# Intranet/!b;n;c<VirtualHost *:8080>' /etc/apache2/sites-available/$ta
 
 systemctl restart apache2
 
-echo 'Installation complete! You can access the the web OPAC via http://localhost:80 and the staff interface via http://localhost:8080'
+obtained_public_ip=$(/home/dev/Koha_out_of_the_box/public_ip.sh)
+
+echo 'Installation complete! You can access the the web OPAC via http://'${obtained_public_ip}':80 and the staff interface via http://'${obtained_public_ip}':8080'
 
 
 
