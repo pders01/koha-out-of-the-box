@@ -1,4 +1,5 @@
 <!-- _navbar.md -->
 
-* [English](/)
-* [Deutsch](/DE/)
+* [Kleine öffentliche Bibliotheken](/)
+* [Spezialbibliotheken](/SpB/)
+* [Schulbibliotheken](/SchuB/)

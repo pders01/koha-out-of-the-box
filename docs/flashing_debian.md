@@ -50,7 +50,7 @@ Die Entwickler des Raspberry Pi haben ein grafisches Tool zur Erstellung von SD-
 #### balenaEtcher (empfohlen)
 
 1. Laden Sie sich [hier](https://www.balena.io/etcher/) den Windows-Installer herunter.
-2. Laden Sie [hier](https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2020-08-24/2020-08-20-raspios-buster-armhf.zip) (1127MB) ein Image des Betriebssystem mit einer grafischen Benutzeroberfläche herunter, falls Sie eine möglichst komfortable Installation vornehmen möchten. 
+2. Laden Sie [hier](https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2020-08-24/2020-08-20-raspios-buster-armhf.zip) (1127MB) ein Image des Betriebssystems mit einer grafischen Benutzeroberfläche herunter, falls Sie eine möglichst komfortable Installation vornehmen möchten. 
 3. Oder laden Sie sich [hier](https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2020-08-24/2020-08-20-raspios-buster-armhf-lite.zip) (432MB) ein Image des Betriebssystems ohne grafische Benutzeroberfläche herunter, wenn Sie kein Problem damit haben, die komplette Installation und Konfiguration des Systems über die Kommandozeile vorzunehmen.
 4. Entpacken Sie das ZIP-Archiv mit einem Tool Ihrer Wahl. 
 5. Öffnen Sie die balenaEtcher Anwendung.
@@ -62,7 +62,7 @@ Die Entwickler des Raspberry Pi haben ein grafisches Tool zur Erstellung von SD-
 #### Win32DiskImager
 
 1. Laden Sie sich [hier](http://sourceforge.net/projects/win32diskimager/) den Installer herunter.
-2. Laden Sie [hier](https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2020-08-24/2020-08-20-raspios-buster-armhf.zip) (1127MB) ein Image des Betriebssystem mit einer grafischen Benutzeroberfläche herunter, falls Sie eine möglichst komfortable Installation vornehmen möchten. 
+2. Laden Sie [hier](https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2020-08-24/2020-08-20-raspios-buster-armhf.zip) (1127MB) ein Image des Betriebssystems mit einer grafischen Benutzeroberfläche herunter, falls Sie eine möglichst komfortable Installation vornehmen möchten. 
 3. Oder laden Sie sich [hier](https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2020-08-24/2020-08-20-raspios-buster-armhf-lite.zip) (432MB) ein Image des Betriebssystems ohne grafische Benutzeroberfläche herunter, wenn Sie kein Problem damit haben, die komplette Installation und Konfiguration des Systems über die Kommandozeile vorzunehmen.
 4. Entpacken Sie das ZIP-Archiv mit einem Tool Ihrer Wahl. 
 5. Schauen Sie nun nach, welcher Buchstabe Ihrer SD-Karte zugewiesen wurde. Sie können dies im Windows Explorer auf der linken Seite des Fensters überprüfen. Bitte führen Sie die folgenden Schritte nur aus, wenn Sie sich sicher sind.
@@ -76,7 +76,7 @@ Die Entwickler des Raspberry Pi haben ein grafisches Tool zur Erstellung von SD-
 #### Upswift imgFlasher
 
 1. Laden Sie sich [hier](https://www.upswift.io/imgflasher) den Installer herunter.
-2. Laden Sie [hier](https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2020-08-24/2020-08-20-raspios-buster-armhf.zip) (1127MB) ein Image des Betriebssystem mit einer grafischen Benutzeroberfläche herunter, falls Sie eine möglichst komfortable Installation vornehmen möchten. 
+2. Laden Sie [hier](https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2020-08-24/2020-08-20-raspios-buster-armhf.zip) (1127MB) ein Image des Betriebssystems mit einer grafischen Benutzeroberfläche herunter, falls Sie eine möglichst komfortable Installation vornehmen möchten. 
 3. Oder laden Sie sich [hier](https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2020-08-24/2020-08-20-raspios-buster-armhf-lite.zip) (432MB) ein Image des Betriebssystems ohne grafische Benutzeroberfläche herunter, wenn Sie kein Problem damit haben, die komplette Installation und Konfiguration des Systems über die Kommandozeile vorzunehmen.
 4. Entpacken Sie das ZIP-Archiv mit einem Tool Ihrer Wahl. Sie können mit diesem Tool allerdings auch ZIP-Archive als Quelle angeben. 
 5. Wählen Sie unter Datei die Image-Datei des Betriebssystems (.img) oder das übergeordnete ZIP-Archiv aus.
@@ -98,8 +98,8 @@ Die Entwickler des Raspberry Pi haben ein grafisches Tool zur Erstellung von SD-
 
 #### balenaEtcher (empfohlen)
 
-1. Laden Sie sich [hier](https://www.balena.io/etcher/) den Windows-Installer herunter.
-2. Laden Sie [hier](https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2020-08-24/2020-08-20-raspios-buster-armhf.zip) (1127MB) ein Image des Betriebssystem mit einer grafischen Benutzeroberfläche herunter, falls Sie eine möglichst komfortable Installation vornehmen möchten. 
+1. Laden Sie sich [hier](https://www.balena.io/etcher/) den macOS-Installer herunter.
+2. Laden Sie [hier](https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2020-08-24/2020-08-20-raspios-buster-armhf.zip) (1127MB) ein Image des Betriebssystems mit einer grafischen Benutzeroberfläche herunter, falls Sie eine möglichst komfortable Installation vornehmen möchten. 
 3. Oder laden Sie sich [hier](https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2020-08-24/2020-08-20-raspios-buster-armhf-lite.zip) (432MB) ein Image des Betriebssystems ohne grafische Benutzeroberfläche herunter, wenn Sie kein Problem damit haben, die komplette Installation und Konfiguration des Systems über die Kommandozeile vorzunehmen.
 4. Entpacken Sie das ZIP-Archiv mit einem Tool Ihrer Wahl. 
 5. Öffnen Sie die balenaEtcher Anwendung.
@@ -119,11 +119,23 @@ Die Entwickler des Raspberry Pi haben ein grafisches Tool zur Erstellung von SD-
 7. Zunächst müssen sie das Speichermedium aushängen: `disktutil unmountDisk /dev/diskX`. Ersetzten Sie hier das __X__ mit der Nummer des Identifiers, den Sie zuvor notiert haben. 
 8. Nun kopieren Sie das Image auf das Speichermedium: `sudo dd bs=1m if=Pfad_zu_Ihrem_Image.img of=/dev/rdiskX; sync`. Hierbei ersetzen Sie "Pfad_zu_Ihrem_Image" durch den Pfad in dem sich das heruntergeladene Image befindet. Haben Sie das Image beispielsweise in den Download-Ordner heruntergeladen, wäre der Pfad: `~/Downloads/Image.img` oder `/home/Ihr_Nutzername/Downloads/Image.img`.  Dieser Vorgang kann, abhängig von der Größe des verwendeten Images, bis zu 15 Minuten dauern. Sie können den Fortschritt überprüfen indem Sie die Tastenkombination __Strg+t__  im Terminal anwenden. 
 * Sollten Fehlermeldungen ausgegeben werden, führen Sie das jeweilige Kommando aus, und führen Sie den Schreibvorgang unter __8.__ erneut aus.
-* Falls Sie `dd:/dev/rdiskX: Resource busy` als Fehlermeldung zurückerhalten, müssen Sie das Speichermedium aushängen: `sudo diskutil unmountDisk /dev/diskX`.
-* Falls Sie `dd: bs:  illegal numeric value` als Fehlermeldung zurückerhalten, müssen Sie die *block size* von `bs=1m` auf `bs=1M` umändern.
-* Falls Sie `dd: /dev/rdiskX: Operation not permitted` als Fehlermeldung zurückerhalten, müssen Siedem Terminal Zugriff auf externe Speichermedien gewähren. Diese Einstellung finden Sie unter `System Preferences -> Security & Privacy -> Privacy -> Files and Folders -> Give removable Volumes access to Terminal`.
-* Falls Sie `dd: /dev/rdiskX: Permission denied` als Fehlermeldung zurückerhalten, erlaubt die Partitionstabelle der SD-Karte keine Schreibvorgänge durch MacOS. Sie können diesen Fehler jedoch durch das Löschen der Partitionstabelle beheben: `sudo diskutil partitionDisk /dev/diskX 1 MBR "Free Space" "%noformat%" 100%`.
-9. Ist der Schreibvorgang beendet können Sie das Medium auswerfen: `sudo diskutil eject /dev/rdiskX`
+* Falls Sie 
+`dd:/dev/rdiskX: Resource busy` 
+als Fehlermeldung zurückerhalten, müssen Sie das Speichermedium aushängen: 
+`sudo diskutil unmountDisk /dev/diskX`.
+* Falls Sie 
+`dd: bs:  illegal numeric value` 
+als Fehlermeldung zurückerhalten, müssen Sie die *block size* von 
+`bs=1m` auf `bs=1M` umändern.
+* Falls Sie 
+`dd: /dev/rdiskX: Operation not permitted` 
+als Fehlermeldung zurückerhalten, müssen Siedem Terminal Zugriff auf externe Speichermedien gewähren. Diese Einstellung finden Sie unter 
+`System Preferences -> Security & Privacy -> Privacy -> Files and Folders -> Give removable Volumes access to Terminal`.
+* Falls Sie 
+`dd: /dev/rdiskX: Permission denied` als Fehlermeldung zurückerhalten, erlaubt die Partitionstabelle der SD-Karte keine Schreibvorgänge durch MacOS. Sie können diesen Fehler jedoch durch das Löschen der Partitionstabelle beheben: 
+`sudo diskutil partitionDisk /dev/diskX 1 MBR "Free Space" "%noformat%" 100%`.
+9. Ist der Schreibvorgang beendet können Sie das Medium auswerfen: 
+`sudo diskutil eject /dev/rdiskX`
 
 
 ### Flashen der SD-Karte auf einer Linux-Distribution
