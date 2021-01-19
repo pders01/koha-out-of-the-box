@@ -2,4 +2,4 @@
 
 * [Home](/)
 * [z3950](SchuB/z3950.md)
-* [Katalogisierung](SchuB/Katalogisierung.md)
+* [Katalogisierung](SchuB/katalogisierung.md)
