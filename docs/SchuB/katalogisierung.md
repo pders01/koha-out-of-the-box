@@ -10,10 +10,10 @@ So liegt beispielsweise für einen Buchtitel im Bestand jeweils nur ein Datensat
 
 ### Importieren des Titeldatensatzes
 Im Unterpunkt "Katalogisierung" von Koha finden Sie die Import Funktion von Z39.50.
-![Bild vom Import Button](/docs/Images/import_button.png)
+![Bild vom Import Button](../Images/import_button.png)
 Der Button öffnet ein separates Fenster mit der Suchmaske des Tools.
-![Bild der Suchmaske](/docs/Images/z3950_suchmaske.png)
+![Bild der Suchmaske](../Images/z3950_suchmaske.png)
 Hier können verschiedene Suchkriterien eingegeben werden, um in mehreren Suchzielen zu recherchieren. Die potentiellen Suchziele müssen zuvor in Koha konfiguriert worden sein (s. Z39.50).
 Sollte an Ihren Rechner ein Barcode Scanner angeschlossen sein, können Sie diesen nutzen, um die ISBN des Mediums zu scannen und automatisch in die Suchmaske einzutragen.
-![Bild der Ergebnisliste](/docs/Images/z3950_ergebnisliste.png)
+![Bild der Ergebnisliste](../Images/z3950_ergebnisliste.png)
 Nach einer erfolgreichen Suche sollte ein oder mehrere Ergebnisse vorliegen. Im Fall von mehreren Ergebnissen wählen Sie bitte den vollständigsten Datensatz, sprich der Datensatz mit den meisten Angaben in der Tabelle.
