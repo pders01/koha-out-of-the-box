@@ -82,7 +82,7 @@ sed -i '/# Intranet/!b;n;c<VirtualHost *:8080>' /etc/apache2/sites-available/$ta
 
 systemctl restart apache2
 
-obtained_public_ip=$(/home/dev/Koha_out_of_the_box/public_ip.sh)
+obtained_public_ip=$(./public_ip.sh)
 
 echo 'Installation complete! You can access the the web OPAC via http://'${obtained_public_ip}':80 and the staff interface via http://'${obtained_public_ip}':8080'
 
