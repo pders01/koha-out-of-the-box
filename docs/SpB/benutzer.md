@@ -56,7 +56,7 @@ Außerdem fügen Sie in das Textfeld die Benachrichtigung für den Nutzer ein. D
 **Erlassen/Bezahlen von Gebühren:** Wenn der Benutzende den anstehenden Gebühren beglichen hat, werden diese manuell vom Konto entfernt. Hierfür wird das entsprechene Konto geöffnet und erneut der Reiter "Gebühren" ausgewählt. Nun erscheint unter "Bezahlen" das Formular "Gebühren zahlen". 
 
 
-![Erlassen von Gebühren](../Images/benutzer_gebührenerlassung.PNG)
+![Erlassen von Gebühren](../Images/benutzer_gebührerlassung.PNG)
 
 Bei diesem kann ausgewählt werden, welche Gebühren bezahlt wurden. Wählen Sie den Button "Alle Gebühren bezahlen" aus, so erscheint der Gesamtbetrag aller Gebühren. Nun haben Sie die Wahl zwischen dem Button "Bezahlen" oder "Erlassen". 
 Es gibt die Möglichkeit eine Quittung zu drucken, indem sie den Button "Drucken" betätigen. Daraufhin wird sich der Druckdialog Ihres Internetbrowsers öffnen, welchen Sie bestätigen können. 
