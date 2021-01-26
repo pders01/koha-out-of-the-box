@@ -23,6 +23,6 @@ Hier können verschiedene Suchkriterien eingegeben werden, um in mehreren Suchzi
 Sollte an Ihren Rechner ein Barcode Scanner angeschlossen sein, können Sie diesen nutzen, um die ISBN des Mediums zu scannen und automatisch in die Suchmaske einzutragen.
 
 <!--![Bild der Ergebnisliste](../Images/z3950_ergebnisliste.png) -->
-<img src="https://pders01.github.io/Koha_out_of_the_box/#/Images/z3950_ergebnisliste.png" alt="Bild der Ergebnisliste" width="1450">
+<img src="https://pders01.github.io/Koha_out_of_the_box/Images/z3950_ergebnisliste.png" alt="Bild der Ergebnisliste" width="1450">
 
 Nach einer erfolgreichen Suche sollte ein oder mehrere Ergebnisse vorliegen. Im Fall von mehreren Ergebnissen wählen Sie bitte den vollständigsten Datensatz, sprich der Datensatz mit den meisten Angaben in der Tabelle.
