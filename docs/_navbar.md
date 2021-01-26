@@ -1,5 +1,5 @@
 <!-- _navbar.md -->
 
-* [Kleine öffentliche Bibliotheken](/)
+* [Kleine öffentliche Bibliotheken](/Oeb/)
 * [Spezialbibliotheken](/SpB/)
 * [Schulbibliotheken](/SchuB/)
