@@ -1,7 +1,8 @@
 <!-- docs/SchuB/_sidebar.md -->
 
-* [Home](/)
+* [Übersicht](/SchuB/uebersicht.md)
 * [Ausleihe](SchuB/ausleihe.md)
-* [z3950](SchuB/z3950.md)
-* [Katalogisierung](SchuB/katalogisierung.md)
+* [Benutzerverwaltung](SchuB/benutzer.md)
 * [Erwerbung](SchuB/erwerbung.md)
+* [Katalogisierung](SchuB/katalogisierung.md)
+* [z3950](SchuB/z3950.md)
