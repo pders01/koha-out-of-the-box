@@ -1,14 +1,16 @@
 # Katalogisierung
-Der Begriff Katalogisierung beschreibt den Prozess der Erfassung von beschreibenden Metadaten zu den jeweiligen Medien der Bibliothek. Jedes in den Bestand eingehende Medium muss im Bibliothekssystem erfasst werden, um später in der Recherche im Katalog auffindbar zu sein. Der öffentliche Online Katalog wird auch als OPAC bezeichnet (Online Public Access Catalogue).
+Der Begriff Katalogisierung beschreibt den Prozess der Erfassung von beschreibenden Metadaten zu den jeweiligen Medien der Bibliothek. Jedes in den Bestand eingehende Medium muss im Bibliothekssystem erfasst werden, um später in der Recherche im Katalog auffindbar zu sein. Der öffentliche Online Katalog wird auch als OPAC (Online Public Access Catalogue) bezeichnet .
 Um eine erfolgreiche Recherche zu gewährleisten, muss bei der Erfassung der Daten – der Katalogisierung – ein vorgegebener Standard eingehalten werden.
 
 ## Titel- und Exemplardatensätze
 Im Prozess der Katalogisierung muss zwischen zwei wichtigen Begrifflichkeiten differenziert werden: Zuerst erstellen Sie einen sogenannten **Titeldatensatz**, der die beschreibenden Metadaten des Objektes enthält. 
 
-Dieser kann auch mit Hilfe des Tools **Z39.50** aus einer Datenquelle übernommen werden, beispielsweise dem Verbundskatalog K10 plus. Ein Verbundkatalog wird in Kooperation mehrerer Bibliotheken gepflegt, und weist daher einen hohen Qualitätsstandard vor.
+Dieser kann auch mit Hilfe des Tools **Z39.50** aus einer Datenquelle übernommen werden, beispielsweise dem Verbundskatalog K10plus. Ein Verbundkatalog wird in Kooperation mehrerer Bibliotheken gepflegt, und weist daher einen hohen Qualitätsstandard vor.
 
 Für den eigenen Katalog muss allerdings noch ein sogenannter **Exemplardatensatz** angelegt werden, das direkt mit einem einzelnen Objekt im Bestand korrespondiert. 
-So liegt beispielsweise für einen Buchtitel im Bestand jeweils nur ein Datensatz vor, sollten aber mehrere Ausgaben desselben Buches vorhanden sein, erhält jede ihren eigenen Exemplardatensatz. Dieser kann auch Daten enthalten, die einzigartige Merkmale der jeweiligen Ausgabe beschreiben, beispielsweise der Standort in der Bibliothek oder markante Beschädigungen. Da der Exemplardatensatz individuell angepasst werden muss, kann er nicht aus einer Datenquelle wie dem K10 plus übernommen werden.
+So liegt beispielsweise für einen Buchtitel im Bestand jeweils nur ein Datensatz vor, sollten aber mehrere Ausgaben desselben Buches vorhanden sein, erhält jede ihren eigenen Exemplardatensatz. Dieser kann auch Daten enthalten, die einzigartige Merkmale der jeweiligen Ausgabe beschreiben, beispielsweise der Standort in der Bibliothek oder markante Beschädigungen. Da der Exemplardatensatz individuell angepasst werden muss, kann er nicht aus einer Datenquelle wie dem K10plus übernommen werden.
+
+Sowohl der Titeldatensatz als auch der Exemplardatensatz nutzen ein Datenformat, das vorschreibt welche Felder angegeben werden können und wie diese ausgefüllt werden sollen. Dieses Datenformat heißt MARC (machine-readable cataloging). Wie der Name verrät, ermöglicht es dass die Daten von allen Bibliothekssystem korrekt interpretiert werden. Hierfür werden alle Feldern eine Nummer zugeordnet.
 
 ### Übernahme des Titeldatensatzes mit Z39.50
 Im Unterpunkt "Katalogisierung" von Koha finden Sie die Import Funktion von Z39.50.
@@ -36,9 +38,9 @@ Nach dem erfolgreichen Import sollte Ihnen eine Übersicht des Datensatzes angez
 
 Sind Sie mit dem Datensatz zufrieden, können Sie die Übernahme mit der Schaltfläche „Speichern“ abschließen.
 
-###Erstellen eines Exemplardatensatzes
+### Erstellen eines Exemplardatensatzes
 
-Nach Abschluss der Titeldatenübernahme beziehungsweise dem manuellen Anlegen eines Titeldatensatzes öffnet sich automatisch die Maske zur Erstellung eines Exemplardatensatzes. 
+Sowohl nach dem manuellen Anlegen eines Titeldatensatzes als auch nach der Übernahme mit Hilfe von Z39.50 öffnet sich automatisch die Maske zur Erstellung eines Exemplardatensatzes.
 
 <img src="https://pders01.github.io/Koha_out_of_the_box/Images/exemplar_maske.png" alt="Maske zur Erstellung eines Exemplars" width="1450">
 
@@ -47,12 +49,23 @@ Alternativ kann ein bestehender Titeldatensatz ausgewählt werden um ein Exempla
 <img src="https://pders01.github.io/Koha_out_of_the_box/Images/titel_exemplar_neu.png" alt="Titeldatensatz mit Option zum Hinzufügen eines neuen Exemplars" width="1450">
 
 #### MARC Pflichtfelder
+Die Felder des Exemplardatensatzes müssen manuell mit den richtigen Informationen ausgefüllt werden. Um den Aufwand möglich gering zu halten, kann man sich auf ein Minimum konzentrieren.
+
 Die folgenden Exemplarfelder sind lediglich eine Empfehlung, es steht natürlich jeder Bibliothek frei dem individuellen Bedürfnissen entsprechende Anpassungen zu machen. Allerdings sollten die gewählten Pflichtfelder früh festgelegt und durchgängig genutzt werden, um einen einheitlichen Standard für den Katalog zu gewährleisten.
 Exemplardatensätze können jederzeit bearbeitet und ergänzt werden.
 
 MARC Feld | Erläuterung
 --------- | -----------
-8 - Sammlung | Content from cell 2
-c - Aufstellung | Content in the second column
-o - Signatur | Content in the second column
-p - Barcode | Content in the second column
+8 - Sammlung | In diesem Feld kann die Angehörigkeit zu einer Sammlung oder einem Themenbereich angegeben werden. Die normierten Auswahlmöglichkeiten können in der **Konfiguration** unter CCODE angepasst werden. Standardmäßig wird hier unter Bellestrik, Sachliteratur und Nachschlagewerken unterschieden.
+c - Aufstellung | Hier wird der Standort innerhalb der Bibliothek angegeben. Auch diese normierten Angaben können unter LOC konfiguriert werden, um an individuelle Räumlichkeiten und Aufstellungen angepasst werden zu können. Standardmäßig werden hier Abteilungen wie Kinderbibliothek oder Belletristik angegeben.
+o - Signatur | In diesem Feld wird die individuelle Signatur des Exemplares vermerkt, die meist auch auf dem Medienetikett zu finden ist, beispielsweise auf dem Buchrücken. Genauere Informationen finden Sie unter **Systematik und Signatur**.
+p - Barcode | Der Barcode Ihres Mediums dient zur einfach Ausleihe und Rückgabe mit Hilfe eines Handscanners. In der Konfiguration sollte die automatische Erstellung eines Barcodes aktiviert sein, die durch ein einfaches Klickes in das Feld ausgelöst wird.
+
+## Systematik und Signatur
+
+### Systematik 
+Ordnungssystem der Bibliothek, das die verschiedenen Themenbereiche und Gruppierungen abbildet
+
+### Signatur
+Verkürzte Angabe der Systematik für den Buchrücken, oft mit Kurzform des Autoren Nachnamens um eine alphabetische Anordnung im Regal zu ermöglichen
+
