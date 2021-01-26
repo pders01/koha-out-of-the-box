@@ -1,5 +1,6 @@
 <!-- docs/SchuB/_sidebar.md -->
 
 * [Home](/)
-* [z3950](SchuB/z3950.md)
+* [Ausleihe](SpB/ausleihe.md)
+* [z3950](SpB/z3950.md)
 * [Benutzerverwaltung](SpB/benutzer.md)
