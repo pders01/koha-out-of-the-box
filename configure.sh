@@ -28,13 +28,15 @@ result_domain=$(dialog --inputbox 'Geben Sie hier Ihren Domäne-Namen ein' 0 0 2
 exitcode=$?;
 exec 3>&-
 
+echo -e "$server_ip\n$result_name\n$result_domain" > config.log
+
 echo -e "$server_ip\t$result_name.$result_domain" >> /etc/hosts
 echo -e "$server_ip\t$result_name-intra.$result_domain" >> /etc/hosts
 
 a2dissite 000-default.conf
 
-sed -i 's/myDNSname.org/$result_domain/g' /etc/koha/koha-sites.conf
-sed -i 's/myDNSname.org/$result_domain/g' /etc/apache2/sites-available/$result_name.conf
+sed -i "s/myDNSname.org/$result_domain/g" /etc/koha/koha-sites.conf
+sed -i "s/myDNSname.org/$result_domain/g" /etc/apache2/sites-available/$result_name.conf
 
 
 systemctl restart apache2
