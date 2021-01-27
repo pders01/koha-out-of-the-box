@@ -1,8 +1,13 @@
 #!/bin/bash
 
-dialog --title 'Koha - Konfiguration' --msgbox 'Dieses Tool dient der Erstellung und Konfiguration einer sogenannten Koha-Instanz. Folgen Sie einfach den Anweisungen auf dem Bildschirm. Zur Navigation verwenden Sie die Pfeiltasten. Sie können Eingaben mit der Enter-Taste bestätigen und zwischen verschiedenen Ebenen mit der Tabulator-Taste wechseln.' 20 50
+set -e
 
-a2enmod rewrite && a2enmod cgi && systemctl restart apache2
+if [[ "$(whoami)" != root ]]; then
+  dialog --title 'Koha - Berechtigungsfehler' --msgbox "Dieses Skript kann nur mit administrativen Rechten ausgeführt werden" 20 50 
+  exit 1
+fi
+
+dialog --title 'Koha - Konfiguration' --msgbox 'Dieses Tool dient der Erstellung und Konfiguration einer sogenannten Koha-Instanz. Folgen Sie einfach den Anweisungen auf dem Bildschirm. Zur Navigation verwenden Sie die Pfeiltasten. Sie können Eingaben mit der Enter-Taste bestätigen und zwischen verschiedenen Ebenen mit der Tabulator-Taste wechseln.' 20 50
 
 server_ip=$(ip addr show eth0 | awk '$1 == "inet" {gsub(/\/.*$/, "", $2); print $2}')
 
@@ -11,6 +16,10 @@ exec 3>&1;
 result_name=$(dialog --inputbox 'Bitte geben Sie hier den Namen Ihrer Bibliothek ein (klein, keine Leer- oder Sonderzeichen, Worttrennung mit _' 0 0 2>&1 1>&3);
 exitcode=$?;
 exec 3>&-
+
+if [ $exitcode == 1 ]; then
+	exit 1
+fi
 
 koha-create --create-db $result_name
 
@@ -28,6 +37,10 @@ result_domain=$(dialog --inputbox 'Geben Sie hier Ihren Domäne-Namen ein' 0 0 2
 exitcode=$?;
 exec 3>&-
 
+if [ $exitcode == 1 ]; then
+	exit 1
+fi
+
 echo -e "$server_ip\n$result_name\n$result_domain" > config.log
 
 echo -e "$server_ip\t$result_name.$result_domain" >> /etc/hosts
@@ -37,7 +50,6 @@ a2dissite 000-default.conf
 
 sed -i "s/myDNSname.org/$result_domain/g" /etc/koha/koha-sites.conf
 sed -i "s/myDNSname.org/$result_domain/g" /etc/apache2/sites-available/$result_name.conf
-
 
 systemctl restart apache2
 
