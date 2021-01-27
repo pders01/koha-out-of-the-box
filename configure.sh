@@ -76,8 +76,6 @@ if [ $exitcode == 1 ]; then
 	exit 1
 fi
 
-echo "TEST1" 
-
 # Write local server ip to /etc/hosts with corresponding domain name for local instances
 echo -e "$server_ip\t$result_name.$result_domain" >> /etc/hosts
 echo -e "$server_ip\t$result_name-intra.$result_domain" >> /etc/hosts
