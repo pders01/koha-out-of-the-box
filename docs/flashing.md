@@ -107,29 +107,68 @@ tar xvf kdpndntOS-v.X.Y.Z.tar
 
 1. Stecken Sie die SD-Karte in Ihren Multikartenleser oder in den SD-Kartenslot Ihres Geräts.
 2. Öffnen Sie ein Terminal, beispielsweise indem Sie über Spotlight (__Command+Leertaste__) nach "Terminal" suchen.
-3. Führen Sie folgendes Kommando aus: `diskutil list`. Hier müssen Sie nun nach der SD-Karte suchen. Orientieren Sie sich hierzu am Besten an der Größe des Speichermediums unter "Size". Notieren Sie sich den Identifier Ihrer SD-Karte: Beispielsweise: `/dev/disk2`.
+3. Führen Sie folgendes Kommando aus: 
+```
+diskutil list
+```
+Hier müssen Sie nun nach der SD-Karte suchen. Orientieren Sie sich hierzu am Besten an der Größe des Speichermediums unter "Size". Notieren Sie sich den Identifier Ihrer SD-Karte: Beispielsweise: 
+```
+/dev/disk2
+```
 4. __Vorsicht!__ Die Nutzung des Kommandos `dd` kann jede Partition auf Ihrem Gerät überschreiben. Wenn Sie das falsche Speichermedium auswählen, könnten Sie Ihre primäre Systempartition überschreiben.
-5. Zunächst müssen sie das Speichermedium aushängen: `disktutil unmountDisk /dev/diskX`. Ersetzten Sie hier das __X__ mit der Nummer des Identifiers, den Sie zuvor notiert haben. 
-6. Nun kopieren Sie das Image auf das Speichermedium: `sudo dd bs=1m if=Pfad_zu_Ihrem_Image.img of=/dev/rdiskX; sync`. Hierbei ersetzen Sie "Pfad_zu_Ihrem_Image" durch den Pfad in dem sich das heruntergeladene Image befindet. Haben Sie das Image beispielsweise in den Download-Ordner heruntergeladen, wäre der Pfad: `~/Downloads/Image.img` oder `/home/Ihr_Nutzername/Downloads/Image.img`.  Dieser Vorgang kann, abhängig von der Größe des verwendeten Images, bis zu 15 Minuten dauern. Sie können den Fortschritt überprüfen indem Sie die Tastenkombination __Strg+t__  im Terminal anwenden. 
+5. Zunächst müssen sie das Speichermedium aushängen: 
+```
+disktutil unmountDisk /dev/diskX
+```
+Ersetzten Sie hier das __X__ mit der Nummer des Identifiers, den Sie zuvor notiert haben. 
+6. Nun kopieren Sie das Image auf das Speichermedium: 
+```
+sudo dd bs=1m if=Pfad_zu_Ihrem_Image.img of=/dev/rdiskX; sync
+```
+Hierbei ersetzen Sie "Pfad_zu_Ihrem_Image" durch den Pfad in dem sich das heruntergeladene Image befindet. Haben Sie das Image beispielsweise in den Download-Ordner heruntergeladen, wäre der Pfad: 
+```
+~/Downloads/Image.img
+``` 
+oder 
+```
+/home/Ihr_Nutzername/Downloads/Image.img
+```
+Dieser Vorgang kann, abhängig von der Größe des verwendeten Images, bis zu 15 Minuten dauern. Sie können den Fortschritt überprüfen indem Sie die Tastenkombination __Strg+t__  im Terminal anwenden. 
 * Sollten Fehlermeldungen ausgegeben werden, führen Sie das jeweilige Kommando aus, und führen Sie den Schreibvorgang unter __8.__ erneut aus.
 * Falls Sie 
-`dd:/dev/rdiskX: Resource busy` 
+```
+dd:/dev/rdiskX: Resource busy
+``` 
 als Fehlermeldung zurückerhalten, müssen Sie das Speichermedium aushängen: 
-`sudo diskutil unmountDisk /dev/diskX`.
+```
+sudo diskutil unmountDisk /dev/diskX
+```
 * Falls Sie 
-`dd: bs:  illegal numeric value` 
+```
+dd: bs:  illegal numeric value
+``` 
 als Fehlermeldung zurückerhalten, müssen Sie die *block size* von 
 `bs=1m` auf `bs=1M` umändern.
 * Falls Sie 
-`dd: /dev/rdiskX: Operation not permitted` 
+```
+dd: /dev/rdiskX: Operation not permitted
+``` 
 als Fehlermeldung zurückerhalten, müssen Siedem Terminal Zugriff auf externe Speichermedien gewähren. Diese Einstellung finden Sie unter 
-`System Preferences -> Security & Privacy -> Privacy -> Files and Folders -> Give removable Volumes access to Terminal`.
+```
+System Preferences -> Security & Privacy -> Privacy -> Files and Folders -> Give removable Volumes access to Terminal
+```
 * Falls Sie 
-`dd: /dev/rdiskX: Permission denied` als Fehlermeldung zurückerhalten, erlaubt die Partitionstabelle der SD-Karte keine Schreibvorgänge durch MacOS. Sie können diesen Fehler jedoch durch das Löschen der Partitionstabelle beheben: 
-`sudo diskutil partitionDisk /dev/diskX 1 MBR "Free Space" "%noformat%" 100%`.
-9. Ist der Schreibvorgang beendet können Sie das Medium auswerfen: 
-`sudo diskutil eject /dev/rdiskX`
-
+```
+dd: /dev/rdiskX: Permission denied
+``` 
+als Fehlermeldung zurückerhalten, erlaubt die Partitionstabelle der SD-Karte keine Schreibvorgänge durch MacOS. Sie können diesen Fehler jedoch durch das Löschen der Partitionstabelle beheben: 
+```
+sudo diskutil partitionDisk /dev/diskX 1 MBR "Free Space" "%noformat%" 100%
+```
+1. Ist der Schreibvorgang beendet können Sie das Medium auswerfen: 
+```
+sudo diskutil eject /dev/rdiskX
+```
 
 ### Flashen der SD-Karte auf einer Linux-Distribution
 
