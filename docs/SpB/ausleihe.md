@@ -14,4 +14,21 @@ Rückgaben können in koha bestätigt werden, indem in der Ausleih-Oberfläche u
 ## Verlängern
 Auch die Verlängern-Funktion besitzt einen Schalter unter dem allgemeinen Eingabefeld, wenn man sich in der Ausleih-Ansicht befindet: ist diese ausgewählt, kann man Exemplarbarcodes ausgeliehener Medien darin verbuchen und standardmäßig verlängern. Wie schon bei der Rückgabe wird auch hier eine neue Oberfläche mit eigenem Eingabefeld für weitere Eingaben geöffnet, welche einem das nahtlose Verlängern mehrerer Medien nacheinander ermöglicht.
 
+„“
+
 ## Vormerkungen
+Für den Fall, dass alle Exemplare eines Titels vergriffen sind, der Titel aber baldmöglichst gebraucht wird, können die Nutzenden der Bibliothek eine Vormerkung starten. Eine Vormerkung ist ein Status, den ein Titel oder ein Exemplar erhalten kann, damit bei der Rückgabe eines solchen Exemplars dieses nicht zurück in den Bestand wandert, sondern gesondert aufbewahrt werden kann, um der Person, die die Vormerkung gestartet hat, das Exemplar bei der nächsten Gelegenheit ausleihen zu können.
+### Vormerkung im OPAC
+Nutzende können sich selbst nicht verfügbare Titel vormerken, indem sie beim jeweiligen Titel auf „Vormerken“ klicken. Diese Option wird nur dann angezeigt, wenn gerade ein Exemplar des Titels verfügbar ist. Ob Nutzende Titelvormerkungen, Exemplarvormerkungen, oder beides tätigen können, kann in der Adminfläche für jede Gruppe einzeln konfiguriert werden.
+### Vormerkung in der Admin-Oberfläche
+Um in der Administrationsoberfläche eine Vormerkung zu tätigen, wird der letzte Reiter unter dem allgemeinen Eingabefeld verwendet: „Katalog durchsuchen“. Selbsterklärend wird eine Eingabe in den Suchschlitz nun eine Trefferliste mit Titeln aus dem Katalog erzeugen. Hier können die einzelnen Treffer ausgewählt werden und über der Liste zwischen anderen Aktionen durch „Vormerken“ eine Vormerkung gestartet werden. Als nächstes wird die Suche nach der Person, für die der Titel vorgemerkt werden soll, gestartet. Wie gewohnt gibt es auch hier eine automatische Vervollständigung, die einem das schnellere Finden der Person erlaubt.
+Wurde die jeweilige Person gefunden, so leitet einen der Vorgang weiter zu den Vormerkungs-Details, von wo aus es zwei Wege gibt, die Vormerkung fortzuführen:
+1. Durch Auswählen der Checkbox „Nächstes verfügbares Exemplar vormerken“ wird der Titel insgesamt vorgemerkt und sobald eins der Exemplare des Titels verfügbar ist, dieses Exemplar automatisch zum vorgemerkten Exemplar.
+2. Wird unter "Ein bestimmtes Exemplar vormerken" eins der Exemplare ausgewählt, so bezieht sich die Vormerkung allein auf das ausgewählte Exemplar und andere Exemplare des Titels sind nicht in den weiteren Prozessen der Vormerkung miteinbegriffen.
+
+### Vorgemerkte Exemplare bereitstellen
+Wird ein vorgemerktes Exemplar zurückgegeben, erscheint bei der Rückgabe die Meldung „Vormerkung gefunden“. Wird die Vormerkung bestätigt, so erhält das Exemplar den Status „bereitgestellt“ und wartet somit auf die Ausleihe durch die der Bereitstellung zugewiesenen Person. Hier kann auch eine Quittung gedruckt werden, welche als Einlegestreifen für das Exemplar dienen kann.
+„Vormerkung ignorieren“ wird zwar verhindern, dass der Status zu „bereitgestellt“ wechseln wird, löscht aber nicht die Vormerkung an sich.
+
+### Stornieren von Vormerkungen
+Eine Übersicht der Bereitstellungen finden Sie in der Startseite der Ausleihe unter „Ausleihreports“ und dann dem Punkt „Bereitgestellte Vormerkungen“. Hier gibt es unter dem Reiter „Vormerkungen die länger als x Tage warten:“ eine Übersicht von Bereitstellungen, die über dem jeweils konfigurierten Limit liegen. Diese können entweder einzeln, oder über den Button links oben gemeinsam storniert werden.
