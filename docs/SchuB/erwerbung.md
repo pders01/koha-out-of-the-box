@@ -106,7 +106,7 @@ Mit „nicht zugegangene Bestellungen umbuchen“ wird der Vorgang begonnen, es 
 
 Um Bestellungen anlegen zu können, muss mindestens ein Lieferant in Koha angelegt werden. Die Funktion hierfür findet man auf der Startseite der Erwerbung.
 
-![Übersicht Erwerbungsmodul](../Images/EW_liefübers.png)
+![Übersicht Erwerbungsmodul](../Images/EW_Liefuebers.png)
  
 Die Schaltfläche *„Neuer Lieferant“* öffnet eine Erfassungsmaske, die in 3 Bereiche unterteilt ist: *Lieferantendetails, Kontaktdetails und Bestellinformationen.*
 ### Lieferantendetails
