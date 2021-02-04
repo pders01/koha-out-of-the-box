@@ -27,9 +27,9 @@ Wir haben zur Vereinfachung der Installation Raspberry Pi OS modifiziert und mit
 
 Die Releases werden aufgrund der Dateigröße in *tar.xz* Archive komprimiert, diese müssen Sie vor dem Flashvorgang erst entpacken. Die entpackte Datei hat eine Größe von __~5GB__, also stellen Sie sicher, dass auf Ihrem Computer genügend freier Speicherplatz vorhanden ist, bevor Sie die Dekomprimierung ausführen. Im Anschluss zeigen wir Ihnen, wie Sie das Archiv auf unterschiedlichen Betriebssystemen entpacken können.
 
-### Entpacken eines tar.xz Archivs
+## Entpacken eines tar.xz Archivs
 
-#### Windows 10 
+## Windows 10 
 
 Zur Dekomprimierung benötigen Sie die Open-Source Software [7zip](https://www.7-zip.org/), die Sie auf der Entwicklerseite kostenfrei herunterladen können.
 Hierbei müssen Sie in Erfahrung bringen, ob Ihr Betriebssystem in der 32-bit oder 64-bit Version läuft. Dies können Sie schnell herausfinden, indem Sie `Windows-Taste` zusammen mit der Taste `R` drücken, und im sich öffnenden Fenster (unten links) `winver` eingeben. Bestätigen Sie anschließen die Eingabe mit der Enter-Taste. 
@@ -42,14 +42,14 @@ Hierbei müssen Sie in Erfahrung bringen, ob Ihr Betriebssystem in der 32-bit od
 * Wiederholen Sie den vorherigen Schritt mit der neuen Datei.
 * Sofern alles funktioniert hat, sollte sich nun eine Datei __kdpndntOS-vX.Y.Z-alpha.img__ im Verzeichnis befinden, mit der Sie nun weiterarbeiten können. 
 
-#### macOS
+## macOS
  
 Auf macOS gibt es ein __The Unarchiver__. Dieses Tool können Sie einfach im App-Store herunterladen.
 
 * Anschließend führen Sie einen Rechtsklick auf das heruntergeladene Archiv aus und wählen unter __Öffnen mit__ The Unarchiver aus.
 * Sofern alles funktioniert hat, sollte sich nun eine Datei __kdpndntOS-vX.Y.Z-alpha.img__ im Verzeichnis befinden, mit der Sie nun weiterarbeiten können. 
 
-#### Linux 
+## Linux 
 
 ```
 cd ~/Downloads
@@ -64,8 +64,8 @@ tar xvf kdpndntOS-v.X.Y.Z.tar
 * Zugang zum Internet 
 * Unter Umständen Administrator-Rechte auf dem Gerät, das Sie zum Flashen verwenden
 
-### Flashen der SD-Karte auf Windows 10
-#### balenaEtcher (empfohlen)
+## Flashen der SD-Karte auf Windows 10
+## balenaEtcher (empfohlen)
 
 1. Laden Sie sich [hier](https://www.balena.io/etcher/) den Windows-Installer herunter.
 2. Öffnen Sie die balenaEtcher Anwendung.
@@ -74,7 +74,7 @@ tar xvf kdpndntOS-v.X.Y.Z.tar
 5. Starten Sie den Schreibvorgang.
 6. Warten Sie, bis der Prozess abgeschlossen ist und entfernen Sie die SD-Karte aus Ihrem SD-Kartenslot.
 
-#### Win32DiskImager
+## Win32DiskImager
 
 1. Laden Sie sich [hier](http://sourceforge.net/projects/win32diskimager/) den Installer herunter.
 2. Schauen Sie nun nach, welcher Buchstabe Ihrer SD-Karte zugewiesen wurde. Sie können dies im Windows Explorer auf der linken Seite des Fensters überprüfen. Bitte führen Sie die folgenden Schritte nur aus, wenn Sie sich sicher sind.
@@ -85,16 +85,16 @@ tar xvf kdpndntOS-v.X.Y.Z.tar
 7.  Schließen Sie das Tool und wählen Sie beim Icon in der Windows-Menüleiste "sicher entfernen" aus. 
 8.  Entfernen Sie die SD-Karte aus dem SD-Kartenslot oder dem SD-Kartenleser.
 
-#### Upswift imgFlasher
+## Upswift imgFlasher
 
 1. Laden Sie sich [hier](https://www.upswift.io/imgflasher) den Installer herunter.
 2. Wählen Sie unter Datei die Image-Datei des Betriebssystems aus (.img).
 3. Wählen Sie Ihre SD-Karte als Trägermedium aus. 
 4. Starten Sie den Schreibvorgang und warten Sie bis dieser abgeschlossen ist.
 
-### Flashen der SD-Karte auf macOS 
+## Flashen der SD-Karte auf macOS 
 
-#### balenaEtcher (empfohlen)
+## balenaEtcher (empfohlen)
 
 1. Laden Sie sich [hier](https://www.balena.io/etcher/) den macOS-Installer herunter. 
 2. Öffnen Sie die balenaEtcher Anwendung.
@@ -103,7 +103,7 @@ tar xvf kdpndntOS-v.X.Y.Z.tar
 5. Starten Sie den Schreibvorgang.
 6. Warten Sie, bis der Prozess abgeschlossen ist und entfernen Sie die SD-Karte aus Ihrem SD-Kartenslot.
 
-#### Kommandozeile
+### Kommandozeile
 
 1. Stecken Sie die SD-Karte in Ihren Multikartenleser oder in den SD-Kartenslot Ihres Geräts.
 2. Öffnen Sie ein Terminal, beispielsweise indem Sie über Spotlight (__Command+Leertaste__) nach "Terminal" suchen.
@@ -170,9 +170,9 @@ sudo diskutil partitionDisk /dev/diskX 1 MBR "Free Space" "%noformat%" 100%
 sudo diskutil eject /dev/rdiskX
 ```
 
-### Flashen der SD-Karte auf einer Linux-Distribution
+## Flashen der SD-Karte auf einer Linux-Distribution
 
-#### balenaEtcher (empfohlen)
+## balenaEtcher (empfohlen)
 
 1. Laden Sie sich [hier](https://www.balena.io/etcher/) den Installer herunter oder verwenden Sie den Package-Manager Ihrer Distribution.
 2. Öffnen Sie die balenaEtcher Anwendung.
