@@ -19,7 +19,7 @@ Ich zeige Ihnen nun am Beispiel eines Telekom-Anschlusses, wie dies in der Praxi
 
 Unter dem __Internet__-Reiter der Oberflächen können wir nun auf die Portweiterleitung zugreifen. Wie Sie sehen, ist hier schon eine Regel für die Portweiterleitung definiert.
 
-![Hier sehen Sie den Reiter Internet](Images/ntw_port_activation.PNG)  
+![Hier sehen Sie den Reiter Internet](Images/ntw_port_activation.png)  
 
 Falls Sie auf diese Einstellungen noch nicht zugreifen können, müssen Sie unter Umständen in den allgemeinen Einstellungen Änderungen zu Ihren Berechtigungen vornehmen. Ich musste bspw. im Interface die Sicherheitseinstellung von __Basic__ auf __Expert__ umändern, um Regeln für die Portweiterleitung definieren zu können.  
 
