@@ -85,7 +85,7 @@ tar xvf kdpndntOS-v.X.Y.Z.tar
 7.  Schließen Sie das Tool und wählen Sie beim Icon in der Windows-Menüleiste "sicher entfernen" aus. 
 8.  Entfernen Sie die SD-Karte aus dem SD-Kartenslot oder dem SD-Kartenleser.
 
-## Upswift imgFlasher
+### Upswift imgFlasher
 
 1. Laden Sie sich [hier](https://www.upswift.io/imgflasher) den Installer herunter.
 2. Wählen Sie unter Datei die Image-Datei des Betriebssystems aus (.img).
