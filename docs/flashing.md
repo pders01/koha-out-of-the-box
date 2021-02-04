@@ -29,7 +29,7 @@ Die Releases werden aufgrund der Dateigröße in *tar.xz* Archive komprimiert, d
 
 ## Entpacken eines tar.xz Archivs
 
-## Windows 10 
+### Windows 10 
 
 Zur Dekomprimierung benötigen Sie die Open-Source Software [7zip](https://www.7-zip.org/), die Sie auf der Entwicklerseite kostenfrei herunterladen können.
 Hierbei müssen Sie in Erfahrung bringen, ob Ihr Betriebssystem in der 32-bit oder 64-bit Version läuft. Dies können Sie schnell herausfinden, indem Sie `Windows-Taste` zusammen mit der Taste `R` drücken, und im sich öffnenden Fenster (unten links) `winver` eingeben. Bestätigen Sie anschließen die Eingabe mit der Enter-Taste. 
@@ -42,14 +42,14 @@ Hierbei müssen Sie in Erfahrung bringen, ob Ihr Betriebssystem in der 32-bit od
 * Wiederholen Sie den vorherigen Schritt mit der neuen Datei.
 * Sofern alles funktioniert hat, sollte sich nun eine Datei __kdpndntOS-vX.Y.Z-alpha.img__ im Verzeichnis befinden, mit der Sie nun weiterarbeiten können. 
 
-## macOS
+### macOS
  
 Auf macOS gibt es ein __The Unarchiver__. Dieses Tool können Sie einfach im App-Store herunterladen.
 
 * Anschließend führen Sie einen Rechtsklick auf das heruntergeladene Archiv aus und wählen unter __Öffnen mit__ The Unarchiver aus.
 * Sofern alles funktioniert hat, sollte sich nun eine Datei __kdpndntOS-vX.Y.Z-alpha.img__ im Verzeichnis befinden, mit der Sie nun weiterarbeiten können. 
 
-## Linux 
+### Linux 
 
 ```
 cd ~/Downloads
@@ -65,7 +65,7 @@ tar xvf kdpndntOS-v.X.Y.Z.tar
 * Unter Umständen Administrator-Rechte auf dem Gerät, das Sie zum Flashen verwenden
 
 ## Flashen der SD-Karte auf Windows 10
-## balenaEtcher (empfohlen)
+### balenaEtcher (empfohlen)
 
 1. Laden Sie sich [hier](https://www.balena.io/etcher/) den Windows-Installer herunter.
 2. Öffnen Sie die balenaEtcher Anwendung.
@@ -74,7 +74,7 @@ tar xvf kdpndntOS-v.X.Y.Z.tar
 5. Starten Sie den Schreibvorgang.
 6. Warten Sie, bis der Prozess abgeschlossen ist und entfernen Sie die SD-Karte aus Ihrem SD-Kartenslot.
 
-## Win32DiskImager
+### Win32DiskImager
 
 1. Laden Sie sich [hier](http://sourceforge.net/projects/win32diskimager/) den Installer herunter.
 2. Schauen Sie nun nach, welcher Buchstabe Ihrer SD-Karte zugewiesen wurde. Sie können dies im Windows Explorer auf der linken Seite des Fensters überprüfen. Bitte führen Sie die folgenden Schritte nur aus, wenn Sie sich sicher sind.
@@ -94,7 +94,7 @@ tar xvf kdpndntOS-v.X.Y.Z.tar
 
 ## Flashen der SD-Karte auf macOS 
 
-## balenaEtcher (empfohlen)
+### balenaEtcher (empfohlen)
 
 1. Laden Sie sich [hier](https://www.balena.io/etcher/) den macOS-Installer herunter. 
 2. Öffnen Sie die balenaEtcher Anwendung.
@@ -133,8 +133,10 @@ oder
 ```
 /home/Ihr_Nutzername/Downloads/Image.img
 ```
-Dieser Vorgang kann, abhängig von der Größe des verwendeten Images, bis zu 15 Minuten dauern. Sie können den Fortschritt überprüfen indem Sie die Tastenkombination __Strg+t__  im Terminal anwenden. 
-* Sollten Fehlermeldungen ausgegeben werden, führen Sie das jeweilige Kommando aus, und führen Sie den Schreibvorgang unter __8.__ erneut aus.
+Dieser Vorgang kann, abhängig von der Größe des verwendeten Images, bis zu 15 Minuten dauern. Sie können den Fortschritt überprüfen indem Sie die Tastenkombination __Strg+t__  im Terminal anwenden.  
+
+* Sollten Fehlermeldungen ausgegeben werden, führen Sie das jeweilige Kommando aus, und führen Sie den Schreibvorgang unter __6.__ erneut aus.  
+
 * Falls Sie 
 ```
 dd:/dev/rdiskX: Resource busy
@@ -142,13 +144,15 @@ dd:/dev/rdiskX: Resource busy
 als Fehlermeldung zurückerhalten, müssen Sie das Speichermedium aushängen: 
 ```
 sudo diskutil unmountDisk /dev/diskX
-```
+```  
+
 * Falls Sie 
 ```
 dd: bs:  illegal numeric value
 ``` 
 als Fehlermeldung zurückerhalten, müssen Sie die *block size* von 
-`bs=1m` auf `bs=1M` umändern.
+`bs=1m` auf `bs=1M` umändern.  
+
 * Falls Sie 
 ```
 dd: /dev/rdiskX: Operation not permitted
@@ -156,7 +160,8 @@ dd: /dev/rdiskX: Operation not permitted
 als Fehlermeldung zurückerhalten, müssen Siedem Terminal Zugriff auf externe Speichermedien gewähren. Diese Einstellung finden Sie unter 
 ```
 System Preferences -> Security & Privacy -> Privacy -> Files and Folders -> Give removable Volumes access to Terminal
-```
+```  
+
 * Falls Sie 
 ```
 dd: /dev/rdiskX: Permission denied
@@ -164,15 +169,16 @@ dd: /dev/rdiskX: Permission denied
 als Fehlermeldung zurückerhalten, erlaubt die Partitionstabelle der SD-Karte keine Schreibvorgänge durch MacOS. Sie können diesen Fehler jedoch durch das Löschen der Partitionstabelle beheben: 
 ```
 sudo diskutil partitionDisk /dev/diskX 1 MBR "Free Space" "%noformat%" 100%
-```
-1. Ist der Schreibvorgang beendet können Sie das Medium auswerfen: 
+```  
+
+7. Ist der Schreibvorgang beendet können Sie das Medium auswerfen: 
 ```
 sudo diskutil eject /dev/rdiskX
 ```
 
 ## Flashen der SD-Karte auf einer Linux-Distribution
 
-## balenaEtcher (empfohlen)
+### balenaEtcher (empfohlen)
 
 1. Laden Sie sich [hier](https://www.balena.io/etcher/) den Installer herunter oder verwenden Sie den Package-Manager Ihrer Distribution.
 2. Öffnen Sie die balenaEtcher Anwendung.

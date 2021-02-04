@@ -2,5 +2,4 @@
 
 * [Home](/)
 * [Guide](guide.md)
-* [Test](test.md)
 * [Wie flashe ich meine SD-Karte?](flashing.md)
