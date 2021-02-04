@@ -29,3 +29,4 @@ In der Ansicht ist erkennbar, dass sich die Regel auf das Gerät `kodependentOS`
 
 Die Telekom bietet hier sogenannte Templates an, die gängige Ports in der Regel eintragen. Wichtig ist lediglich, dass Sie hier den `Port 80` in der Regel angeben. Sehr hilfreich ist hierbei auch, den `Port 22` für __SSH-Verbindungen__ anzugeben, sofern Sie diese nutzen wollen. Wenn Sie die Portweiterleitung für den `Port 80` eingetragen haben, speichern Sie die Konfiguration. 
 
+## Informationen für Ihre IT-Abteilung
