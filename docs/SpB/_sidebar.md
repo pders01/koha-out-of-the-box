@@ -8,3 +8,5 @@
 * [Zeitschriften](SpB/zeitschriften.md)
 * [Katalogisierung](SpB/katalogisierung.md)
 * [z3950](SpB/z3950.md)
+* [OPAC](SpB/opac.md)
+* [Admin-Oberfläche](SpB/admin.md)
