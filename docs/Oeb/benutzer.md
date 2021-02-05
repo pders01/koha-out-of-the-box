@@ -1,10 +1,16 @@
+<style>
+	img[src$="#shadow-round"] {
+		border-radius: 1%;
+		box-shadow: 1px 10px 8px #121212;
+	}
+</style>
 # Benutzerverwaltung
 Jeder Benutzende einer Bibliothek mit einem Bibliotheksausweis, wird in einem Bibliothekssystem in einer Datenbank hinterlegt. Koha bietet vielseitige Möglichkeiten diese Datensätze anzulegen, zu bearbeiten und verschiedene Einstellungen zu treffen. 
 
 ## Benutzerneuerfassung
 Auf der Startseite von Koha können Sie die Benutzerverwaltung, über die Schaltfläche "Benutzer" oder den Link "Benutzer suchen", öffnen.
 
-![Benutzerverwaltung auf der Startseite](../Images/benutzer_startseite.PNG)
+![Benutzerverwaltung auf der Startseite](../Images/benutzer_startseite.PNG#shadow-round)
 
 Nun kann der Button" "Neuer Benutzer" ausgewählt werden und der Benutzertyp wird von Ihnen festgelegt. Es öffnet sich eine leere Datenmaske mit einigen Feldern. Der Nachname und die Ausweisnummer sind immer Pflichtfelder, welche zwangsläufig ausgefüllt werden müssen. Andere Felder, wie die Adresse oder Angaben zur Person, können zusätzlich ausgefüllt werden. Wenn alle notwendigen Angaben erfasst wurden, kann das Formular über den Button "Speichern, der sich am Anfang der Datenmaske befindet, in der Datenbank gespeichert werden. Im Anschluss wird der Benutzername automatisch von Koha angezeigt.
 

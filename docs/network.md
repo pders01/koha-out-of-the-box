@@ -1,3 +1,10 @@
+<style>
+    img[src$="#shadow-round"] {
+        border-radius: 1%;
+        box-shadow: 1px 10px 8px #121212;
+    }
+</style>
+
 # Wie konfiguriere ich meinen Router oder mein Netzwerk?
 
 In diesem Beispiel erläutern wir Ihnen, wie Sie Ihren Router konfigurieren müssen, wenn Sie keinen internen Ansprechpartner haben, oder das Projekt privat nutzen.  
@@ -14,12 +21,12 @@ Hierdurch können Sie [Requests](https://de.wikipedia.org/w/index.php?title=Clie
 
 Ich zeige Ihnen nun am Beispiel eines Telekom-Anschlusses, wie dies in der Praxis aussehen kann. Hierzu rufe ich die IP-Adresse `192.168.2.1` der Konfigurationsoberflächen in meinem Webbrowser auf. Bedenken Sie, dass diese IP-Adresse je nach Anbieter variieren kann.  
 
-![Hier sehen Sie Startseite](Images/ntw_home.png)  
+![Hier sehen Sie Startseite](Images/ntw_home.png#shadow-round)  
 
 
 Unter dem __Internet__-Reiter der Oberflächen können wir nun auf die Portweiterleitung zugreifen. Wie Sie sehen, ist hier schon eine Regel für die Portweiterleitung definiert.
 
-![Hier sehen Sie den Reiter Internet](Images/ntw_port_activation.png)  
+![Hier sehen Sie den Reiter Internet](Images/ntw_port_activation.png#shadow-round)  
 
 Falls Sie auf diese Einstellungen noch nicht zugreifen können, müssen Sie unter Umständen in den allgemeinen Einstellungen Änderungen zu Ihren Berechtigungen vornehmen. Ich musste bspw. im Interface die Sicherheitseinstellung von __Basic__ auf __Expert__ umändern, um Regeln für die Portweiterleitung definieren zu können.  
 

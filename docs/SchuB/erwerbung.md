@@ -1,3 +1,9 @@
+<style>
+	img[src$="#shadow-round"] {
+		border-radius: 1%;
+		box-shadow: 1px 10px 8px #121212;
+	}
+</style>
 # Erwerbung
 Um in Koha Bestellungen verarbeiten zu können, müssen zuerst einige Einstellungen vorgenommen werden, um den Haushalt in Koha zu erfassen und zu verwalten.
 Der Haushalt setzt sich aus Etats und Konten zusammen. Die oberste Ebene bildet der Etat, dem beliebig viele Konten und Unterkonten zugeordnet werden können. Die Haushaltsstruktur kann mit beliebig vielen Ebenen definiert werden. Sinnvoll ist aber zumeist eine Haushaltsstruktur mit zwei Ebenen, die aus Etat und den dazugehörigen Konten besteht.
@@ -8,17 +14,17 @@ Um in Koha Bestellungen anlegen zu können, muss zuerst ein Etat definiert werde
 ### Etats anlegen
 Die betreffenden Funktionen finden sich ausgehend von der Koha-Startseite bei der Schaltfläche „Erwerbung“.
 
-![Erwerbungsmodul auf Startseite](../Images/EW_home.png)
+![Erwerbungsmodul auf Startseite](../Images/EW_home.png#shadow-round)
  
 Ist zuvor noch kein Etat konfiguriert worden, weist Koha nun darauf hin, dass ein neuer Etat definiert werden muss. Durch einen Klick auf den entsprechenden gelb hervorgehobenen Link gelangt man direkt zur Etatverwaltung. Alternativ kann diese auch links unter *„Administration“ > „Etats“* ausgewählt werden.
  
-![Hinweis Etat definieren](../Images/EW_etat1.png)
+![Hinweis Etat definieren](../Images/EW_etat1.png#shadow-round)
  
 Es sind keine Etats vorhanden. Mit der Schaltfläche **„+ Neuer Etat“** öffnet sich eine Maske, um einen neuen Etat anzulegen.
  
- ![Button neuer Etat](../Images/EW_etat2.png)
+ ![Button neuer Etat](../Images/EW_etat2.png#shadow-round)
  
- ![Maske neuer Etat](../Images/EW_etat3.png)
+ ![Maske neuer Etat](../Images/EW_etat3.png#shadow-round)
  
 Die Pflichtfelder sind rot hinterlegt.
 
@@ -35,11 +41,11 @@ Durch einen Klick auf die Schaltfläche „Speichern“ wird der neue Etat angel
 ## Konten
 Für einen Etat können beliebig viele Konten angelegt werden, die wiederum in Unterkonten unterteilt werden können. Die Funktion findet man beim jeweiligen aktiven Etat unter *„Aktionen“ > „+ Konto hinzufügen“.*
  
- ![Button Konto hinzufügen](../Images/EW_etat4.png)
+ ![Button Konto hinzufügen](../Images/EW_etat4.png#shadow-round)
  
  Es öffnet sich anschließend die Maske zur Erfassung des neuen Kontos.
  
- ![Maske Konten](../Images/EW_konten1.png)
+ ![Maske Konten](../Images/EW_konten1.png#shadow-round)
  
 **Kontocode:** Der Kontocode wird dazu verwendet, noch offene Bestellungen am Ende des Jahres von einem Etat auf den anderen zu übertragen. Er sollte daher keine Jahresangaben enthalten sondern möglichst allgemeingültig sein (z. B. *nicht* ZS2020, sondern nur ZS).
 
@@ -56,69 +62,69 @@ Betrag: Der Betrag kann beliebig gewählt werden, darf die für den Etat eingetr
 
 **Kategorie Statistik 1/2:** Hier können Kategorien von normierten Werten angegeben werden, über die sich beliebige Auswahllisten definieren lassen. , Diese werden unter Administration / Normierte Werte definiert. . Wenn keine Liste verknüpft wird, kann auch eine Freitexteingabe erfolgen. Z.B. Erwerbungsarten, Informationen zum Bestellenden, Statistikklassen für die DBS usw.
 
-![Button neues Konto](../Images/EW_konten2.png)
+![Button neues Konto](../Images/EW_konten2.png#shadow-round)
  
 Unter *Erwerbung > Administration > Konten* kann eine Übersicht aller Konten der jeweiligen Etats angezeigt werden. Die Übersicht liefert eine Übersicht, wie viele Mittel bereits durch offene Bestellungen gebunden, ausgegeben oder noch frei verfügbar sind.
 ### Unterkonten anlegen
 Die Funktion zum Anlegen neuer Unterkonten findet sich unter Erwerbung *> Administration > Konten.* Hier kann für jedes Konto unter „Aktionen“ und „+ neues Unterkonto“ eine beliebige Anzahl Unterkonten angelegt werden. Die Maske wird analog zu der Maske für normale Konten befüllt.
 
-![Button neues Unterkonto](../Images/EW_konten3.png)
+![Button neues Unterkonto](../Images/EW_konten3.png#shadow-round)
  
 ### Etats abschließen
 Meist am Ende des Haushaltsjahres müssen Etats abgeschlossen werden. Zuerst sollte der derzeit aktive Etat auf inaktiv gesetzt werden. Damit wird verhindert, das neue Bestellungen auf Konten in diesem Etat angelegt werden. Zugang und Rechnungsbearbeitung eingehender Bestellungen ist weiterhin möglich.
 
-![Button Etat bearbeiten](../Images/EW_etatzu1.png)
+![Button Etat bearbeiten](../Images/EW_etatzu1.png#shadow-round)
  
 Hierzu wird über Erwerbung > Etats die Etatverwaltung aufgerufen. Nun wird beim betreffenden Etat über „Aktionen“ und „bearbeiten“ die Bearbeitungsmaske aufgerufen.
 
-![Maske Etat bearbeiten](../Images/EW_etatzu2.png)
+![Maske Etat bearbeiten](../Images/EW_etatzu2.png#shadow-round)
  
 Hier muss bei „Etat aktivieren“ der Haken entfernt und auf „Speichern“ geklickt werden. Der Etat ist nun in der Etatverwaltung unter dem Reiter „inaktive Etats“ zu finden.
 
-![Reiter inaktive Etats](../Images/EW_etatzu3.png)
+![Reiter inaktive Etats](../Images/EW_etatzu3.png#shadow-round)
  
 ### Etats kopieren
 Sind bereits (aktive oder inaktive ) Etats vorhanden, können diese kopiert und somit als Vorlage für den neuen Etat verwendet werden. Hierfür muss beim zu kopierenden Etat „Aktionen“ und „kopieren“ ausgewählt werden.
  
- ![Button Etat kopieren](../Images/EW_etatkop1.png)
+ ![Button Etat kopieren](../Images/EW_etatkop1.png#shadow-round)
  
 In der sich öffnenden Maske muss nur noch das Anfangs- und Enddatum sowie die Beschreibung angepasst werden.
 Gibt es Änderungen in der zugewiesenen Etatsumme, kann diese bei „Beiträge ändern um“ durch eine Angabe in % erhöht oder reduziert werden.
 
-![Maske Etat kopieren](../Images/EW_etatkop2.png)
+![Maske Etat kopieren](../Images/EW_etatkop2.png#shadow-round)
  
 ### Bestellungen umbuchen
 Noch offene Bestellungen können automatisch von einem Etat in das nächste Jahr übernommen werden. Voraussetzung hierfür ist, dass die Kontencodes der Konten der jeweiligen Etats übereinstimmen.
 In der Etatverwaltung muss beim alten Etat unter „Aktionen“ auf „schließen“ geklickt werden.
 
-![Button Etat schließen](../Images/EW_etatbs1.png)
+![Button Etat schließen](../Images/EW_etatbs1.png#shadow-round)
  
 Sind noch offene Bestellungen vorhanden, wird eine Übersicht der Bestellungen gegliedert nach den einzelnen Konten angezeigt. Diese können nun, sofern es im neuen Etat Konten mit denselben Kontocodes gibt, auf einen im Dropdown-Menü auszuwählenden neuen Etat umgebucht werden.
 Es gibt die Möglichkeit, verbliebene Mittel auf den neuen Etat umzubuchen. Dies sollte nur angehakt werden, wenn die Mittel aus dem alten Jahr auch wirklich im neuen Jahr zur Verfügung stehen.
 
-![nicht zugegangene Bestellungen übertragen](../Images/EW_etatbs2.png)
+![nicht zugegangene Bestellungen übertragen](../Images/EW_etatbs2.png#shadow-round)
  
 Mit „nicht zugegangene Bestellungen umbuchen“ wird der Vorgang begonnen, es wird allerdings noch einmal eine Bestätigung des Vorgangs verlangt, die mit „OK“ bestätigt werden muss. Können alle offenen Bestellungen umgebucht werden, steht die Summe der gebundenen Mittel im Ausgangsetat anschließend auf Null und die Mittel sind im neuen Etat gebunden.
  
-![Bestätigung nicht zugegangene Bestellungen](../Images/EW_etatbs3.png)
+![Bestätigung nicht zugegangene Bestellungen](../Images/EW_etatbs3.png#shadow-round)
 
 ## Lieferanten
 
 Um Bestellungen anlegen zu können, muss mindestens ein Lieferant in Koha angelegt werden. Die Funktion hierfür findet man auf der Startseite der Erwerbung.
 
-![Übersicht Erwerbungsmodul](../Images/EW_Liefuebers.png)
+![Übersicht Erwerbungsmodul](../Images/EW_Liefuebers.png#shadow-round)
  
 Die Schaltfläche *„Neuer Lieferant“* öffnet eine Erfassungsmaske, die in 3 Bereiche unterteilt ist: *Lieferantendetails, Kontaktdetails und Bestellinformationen.*
 ### Lieferantendetails
 
-![Lieferantendetails](../Images/EW_liefdetails.png)
+![Lieferantendetails](../Images/EW_liefdetails.png#shadow-round)
  
 Im Feld Lieferantendetails werden allgemeine Informationen zum Lieferanten erfasst. Nur der Name ist ein Pflichtfeld, es sollten allerdings möglichst viele Informationen erfasst werden, um diese bei Bedarf schnell zur Hand zu haben.
  
 ### Kontaktdetails
 In den Kontaktdetails werden einzelne Personen erfasst, die als Ansprechperson zu Erwerbungsfragen dienen. Hier kann auch angegeben werden, welche Funktion die Person besitzt.
 
-![Kontaktdetails](../Images/EW_kontaktdetails.png)
+![Kontaktdetails](../Images/EW_kontaktdetails.png#shadow-round)
  
 **Primärer Erwerbungskontakt**: Ansprechperson für Monografien 
 
@@ -133,18 +139,17 @@ In den Kontaktdetails werden einzelne Personen erfasst, die als Ansprechperson z
 ### Bestellinformationen
 Im letzten Abschnitt werden Informationen zu den Bestellungen eingetragen. Nur bei aktiven Lieferanten können neue Bestellungen eingetragen werden.
 
-![Bestellinformationen](../Images/EW_bestellinfos.png)
+![Bestellinformationen](../Images/EW_bestellinfos.png#shadow-round)
  
 Hier kann außerdem die Währung, der MWSt-Satz, eventuelle Rabatte und Angaben zur ungefähren Lieferzeit angegeben werden.
 
 ### Lieferanten suchen
 Die so angelegten Lieferanten können im Erwerbungsmodul ganz oben über den Suchschlitz  durchsucht werden:
 
-![Suchschlitz Lieferantensuche](../Images/EW_liefsuche.png)
+![Suchschlitz Lieferantensuche](../Images/EW_liefsuche.png#shadow-round)
 
 Alternativ kann auch der Suchschlitz unter *„Bestellungen verwalten“* verwendet werden.
 
-![Bestellungen suchen](../Images/EW_bestellungensuche.png)
+![Bestellungen suchen](../Images/EW_bestellungensuche.png#shadow-round)
  
 Wenn die Suche nach Lieferant ohne Eingabe eines Suchbegriffs abgeschickt wird, wird die komplette Liste aller erfassten Lieferanten angezeigt.
-

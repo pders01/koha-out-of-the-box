@@ -1,18 +1,24 @@
+<style>
+	img[src$="#shadow-round"] {
+		border-radius: 1%;
+		box-shadow: 1px 10px 8px #121212;
+	}
+</style>
 # Erwerbung - Zeitschriften
 ## Neues Abonnement anlegen
 Für die Verwaltung von Zeitschriften gibt es auf der Startseite von Koha den gleichnamigen Unterpunkt:
 
-![Übersicht Zeitschriften](../Images/EW_zsuebers.png)
+![Übersicht Zeitschriften](../Images/EW_zsuebers.png#shadow-round)
 
  
 Um ein neues Abonnement anzulegen, muss auf die Schaltfläche *„Neues Abonnement“* geklickt werden.
 
-![Neues Abonnement](../Images/EW_zsaboneu.png)
+![Neues Abonnement](../Images/EW_zsaboneu.png#shadow-round)
 
  
 Es öffnet sich eine Maske, in der die Abo-Details eingetragen werden müssen.
 
-![Maske Abo-Details](../Images/EW_zsabodetails.png)
+![Maske Abo-Details](../Images/EW_zsabodetails.png#shadow-round)
 
  
 **Lieferant**: Hier muss die Lieferantennummer eingetragen werden. Mit der Schaltfläche „Lieferant suchen“ kann auch nach dem Namen gesucht werden.
@@ -29,7 +35,7 @@ Es öffnet sich eine Maske, in der die Abo-Details eingetragen werden müssen.
 **Gnadenfrist**: Nach diesem Zeitraum wird der Status eines erwarteten Heftes auf „verspätet“ gesetzt.
 **Anzahl angezeigter Hefte im Intranet/OPAC**: Die Anzahl der zuletzt eingegangenen Hefte, die angezeigt werden sollen. Standardeinstellung ist 3 Hefte.
 
-![Abonnement-Details](../Images/EW_zsabomaske.png)
+![Abonnement-Details](../Images/EW_zsabomaske.png#shadow-round)
 
  
 **1. Heft**: Erscheinungsdatum des ersteh erwarteten Heftes.
@@ -43,15 +49,14 @@ Durch *„Abonnement speichern“* wird das Abonnement angelegt.
 Wenn neue Zeitschriften mit der Post geliefert werden, können diese nun in Koha eingetragen werden. So kann verfolgt werden, welche Zeitschriften in der Bibliothek vorhanden sind und ggfs. schnell bemerkt werden, wenn Zeitschriften nicht geliefert wurden.
 Bestehende Abonnements können im Zeitschriftenmodul mit der ISSN oder dem Titel gesucht werden. Wird die Suchmaske leer abgeschickt, erhält man eine Liste aller Abonnements.
 
-![Trefferliste Abonnements](../Images/EW_zsaboliste.png)
+![Trefferliste Abonnements](../Images/EW_zsaboliste.png#shadow-round)
 
  
 Durch einen Klick auf die Schaltfläche *„Zeitschriftenzugang“* können neu eingetroffene Zeitschriften im System erfasst werden.
 
-![Zeitschriftenzugang eintragen](../Images/EW_zszugang.png)
+![Zeitschriftenzugang eintragen](../Images/EW_zszugang.png#shadow-round)
 
  
 Es wird automatisch eine Zählung, ein Erscheinungs- und ein Erwartungsdatum eingetragen. Der Status kann nun von „erwartet“ zu „eingetroffen“ geändert werden. Auch weitere Status wie „verspätet“, „vermisst“ oder „reklamiert“ sind bei Bedarf vorhanden. Die darauffolgenden Hefte werden von Koha automatisch nach der vorgegebenen Nummerierung generiert.
 
  
-
