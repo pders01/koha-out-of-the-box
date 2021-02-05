@@ -1,8 +1,15 @@
+<style>
+    img[src$="#shadow-round"] {
+        border-radius: 20px;
+        box-shadow: 1px 10px 16px #222222;
+    }
+</style>
+
 # OPAC
 
 Die Systemparameter zur Bearbeitung des OPAC finden Sie auf der Admin-Oberfläche unter *“Administration“ > „Systemparameter“* auf der Seite OPAC. 
 
-![Einstieg zu Opac Systemparametern ](../Images/OPAC_start.png)
+![Einstieg zu Opac Systemparametern ](../Images/OPAC_start.png#shadow-round)
 
 Hier folgen einige Systemparameter, die wir Ihnen empfehlen würden zu bearbeiten und zusätzlich Informationen zu Möglichkeiten der Individualisierung des Design im OPAC.
 
@@ -11,7 +18,7 @@ Hier folgen einige Systemparameter, die wir Ihnen empfehlen würden zu bearbeite
 **LibraryName**
 
 Hier definieren Sie, welche Bezeichnung in den Tabs des OPAC angezeigt wird. Um den eigenen Bibliotheks- oder Institutionsnamen im OPAC anzuzeigen, müssen Sie diesen im Systemparameter 'LibraryName' als freien Text eintragen. Der Name wird anschließend angezeigt. Lassen Sie diesen Parameter frei, wird hier kein Text angezeigt.
-![LibraryName Systemparameter](../Images/OPAC_libraryName.png)
+![LibraryName Systemparameter](../Images/OPAC_libraryName.png#shadow-round)
 
 **OPACBaseURL**
  
@@ -30,7 +37,7 @@ Für die bessere Funktion von Koha insgesammt würden wir empfehlen, Einstellung
 In Koha gibt es die Option „Im Regal stöbern“, durch die bei einer Volltitelansicht verwandte Werke angezeigt werden. Sie ist standardmäßig aktiviert, verbraucht aber viele Ressourcen des Servers, weshalb sie bei Nutzung des Raspberry Pi deaktiviert werden sollte.
 Die Systemeinstellung dazu finden Sie in der Admin-Oberfläche unter *“Administration“ > „Systemparameter“* und letztlich OPAC. Es gibt zu der Einstellung eine eigene Tabelle mit vier Systemparametern. Um das virtuelle Bücherregal zu deaktivieren reicht es, bei dem ersten Parameter „OPACShelfBrowser“ im Dropdown-Menü die Option „Zeige keine“ auszuwählen.
 
-![Systemparameter OPACShelfBrowser](../Images/OPAC_shelfBrowser.png)
+![Systemparameter OPACShelfBrowser](../Images/OPAC_shelfBrowser.png#shadow-round)
 
 **OpacNoItemTypeImages**
 
@@ -68,7 +75,7 @@ Die hier definierten Stile überschreiben den Code aus 'opaclayoutstylesheet' un
 Dieser Parameter funktionieert in der Nutzung wie das eben beschriebene OPACUserCSS, wobei hier der im Koha-OPAC verwendete JavaScript Code beeinflusst wird. Jegliches JavaScript oder JQuery, das hier eingefügt wird, ist auf allen Seiten des OPAC integriert. 
 Hierdurch können interaktive Aspekte von Koha Beeinflusst werden, etwa kann das Login-Fenster für Nutzer angepasst werden.
 
-![Systemparameter OPACUserJS ](../Images/OPAC_userJS.png)
+![Systemparameter OPACUserJS ](../Images/OPAC_userJS.png#shadow-round)
 
 In dem Code auf der Abbildung wird beispielsweise das Login-Fenster angepasst, dass anstelle von ‚Login‘ und ‚Passwort‘ die Begriffe ‚Card Number‘ und ‚Pin‘ angezeigt werden. 
 Beispiele für JQuery-Snippets, die in dieser Systemstelle verwendet wurden, finden Sie in der Koha Community [JQuery Library](http://wiki.koha-community.org/wiki/JQuery_Library)
