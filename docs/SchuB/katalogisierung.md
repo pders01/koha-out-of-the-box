@@ -41,6 +41,7 @@ Sind Sie mit dem Datensatz zufrieden, können Sie die Übernahme mit der Schaltf
 ## Vereinfachte Katalogisierung mit Hilfe eines importierten Frameworks
 Alternativ zur Datenübernahme mit Z39.50 kann die Katalogisierung auch wesentlich erleichtert werden, indem ein sogenanntes „bibliographic framework“ importiert wird, das auf die essentiellen MARC Felder reduziert wurde. Somit wird die Erfassungsmaske in Koha wesentlich überschaubarer und ist einfacher zu nutzen.
 Eine solche vorgefertigte Datei finden Sie <a href="https://pders01.github.io/Koha_out_of_the_box/schulbib_framework.ods" download>hier</a>.
+
 Die Datennsätze müssen dann per Hand angelegt werden, und können nicht bereits vollständig übernommen werden. Aufgrund des verminderten Umfangs sollte dies allerdings nur wenig Zeit in Anspruch nehmen.
 
 <!--[schulbib_framework.ods](https://pders01.github.io/Koha_out_of_the_box/schulbib_framework.ods)
