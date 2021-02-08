@@ -1,5 +1,4 @@
 
-</style>
 # Wie erstelle ich einen A Record für meine Domain?
 
 In diesem Beispiel erläutern wir, wie Sie einen [A Record](https://de.wikipedia.org/w/index.php?title=A_Resource_Record&oldid=175014183) bei Ihrem [Registrar](https://de.wikipedia.org/w/index.php?title=Domain_Name_Registrar&oldid=169813280) anlegen, damit Ihre [Domain](https://de.wikipedia.org/w/index.php?title=Domain_(Internet)&oldid=207898687) auf die IP-Adresse Ihres Servers verweist.
