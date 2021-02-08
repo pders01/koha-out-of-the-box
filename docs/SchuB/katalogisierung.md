@@ -12,7 +12,7 @@ So liegt beispielsweise für einen Buchtitel im Bestand jeweils nur ein Datensat
 
 Sowohl der Titeldatensatz als auch der Exemplardatensatz nutzen ein Datenformat, das vorschreibt welche Felder angegeben werden können und wie diese ausgefüllt werden sollen. Dieses Datenformat heißt MARC (machine-readable cataloging). Wie der Name verrät, ermöglicht es dass die Daten von allen Bibliothekssystem korrekt interpretiert werden. Den sogenannten **MARC Feldern** werden jeweils eine Nummer und eventuellen untergeordneten Feldern ein Buchstabe zur Identifikation zugeordnet.
 
-### Übernahme des Titeldatensatzes mit Z39.50
+## Übernahme des Titeldatensatzes mit Z39.50
 Im Unterpunkt "Katalogisierung" von Koha finden Sie die Import Funktion von Z39.50.
 
 <!-- ![Bild vom Import Button](../Images/import_button.png) -->
@@ -40,9 +40,12 @@ Sind Sie mit dem Datensatz zufrieden, können Sie die Übernahme mit der Schaltf
 
 ## Vereinfachte Katalogisierung mit Hilfe eines importierten Frameworks
 Alternativ zur Datenübernahme mit Z39.50 kann die Katalogisierung auch wesentlich erleichtert werden, indem ein sogenanntes „bibliographic framework“ importiert wird, das auf die essentiellen MARC Felder reduziert wurde. Somit wird die Erfassungsmaske in Koha wesentlich überschaubarer und ist einfacher zu nutzen.
-Eine solche vorgefertigte Datei finden Sie hier: [schulbib_framework.ods](https://pders01.github.io/Koha_out_of_the_box/schulbib_framework.ods)
+Eine solche vorgefertigte Datei finden Sie <a href="https://pders01.github.io/Koha_out_of_the_box/schulbib_framework.ods" download>hier</a>.
+Die Datennsätze müssen dann per Hand angelegt werden, und können nicht bereits vollständig übernommen werden. Aufgrund des verminderten Umfangs sollte dies allerdings nur wenig Zeit in Anspruch nehmen.
+
+<!--[schulbib_framework.ods](https://pders01.github.io/Koha_out_of_the_box/schulbib_framework.ods)
 <a href="schulbib_framework.ods" download>Click to Download</a>
-<a href="https://pders01.github.io/Koha_out_of_the_box/schulbib_framework.ods" download>Click to Download</a>
+<a href="https://pders01.github.io/Koha_out_of_the_box/schulbib_framework.ods" download>Click to Download</a> -->
 
 ### Einrichtung des Frameworks
 Nachdem Sie die oben verlinkte Datei heruntergeladen haben, fahren Sie wie folgt fort.
@@ -53,11 +56,12 @@ In der Koha Administration finden Sie im Unterbereich "Katalog" die Möglichkeit
 
 <img src="https://pders01.github.io/Koha_out_of_the_box/Images/katalog_marc_fw.PNG" alt="Bibliografischen MARC-Framework" width="1450">
 
-Hier kann man zum einen die bestehenden Frameworks bearbeiten, zum anderen aber auch neue Frameworks hinzufügen, worauf wir uns konzentrieren werden. 
+Hier besteht neben der Bearbeitung der bestehenden Frameworks auch die Option, ein neues anzulegen, welche wir nutzen werden. 
 
-<img src="https://pders01.github.io/Koha_out_of_the_box/Images/neues_fw.PNG" alt="Neues Framework hinzufügen" width="1450">
+<img src="https://pders01.github.io/Koha_out_of_the_box/Images/neues_fw.PNG" 
+alt="Neues Framework hinzufügen" width="1450">
 
-Das neue Framework kann nach Belieben benannt werden. In diesem Beispiel wurde stellvertretend "NEU" als Kurzform und "Neues Framework" genutzt. Unter dem Namen, den Sie hier wählen, finden Sie das Framework später wenn Sie einen neuen Titeldatensatz anlegen möchten.
+Das neue Framework kann nach Belieben benannt werden. In diesem Beispiel wurde stellvertretend "NEU" als Kurzform und "Neues Framework" als voller Titel genutzt. Unter dem Namen, den Sie hier wählen, finden Sie das Framework später wenn Sie einen neuen Titeldatensatz anlegen möchten.
 
 <img src="https://pders01.github.io/Koha_out_of_the_box/Images/neues_fw_edit.PNG" alt="Neues Framework benennen" width="1450">
 
@@ -65,10 +69,24 @@ Nachdem Sie den Namen des neuen Frameworks bestätigt haben, wird dieses in der 
 
 <img src="https://pders01.github.io/Koha_out_of_the_box/Images/aktionen_fw.PNG" alt="Neues Framework hinzufügen" width="1450">
 
-Unter "Aktionen" können die Frameworks bearbeitet werden. Hier könnten Sie bei Bedarf auch die ungenutzten Frameworks löschen, um möglcihe Verwechslungen zu vermeiden. Allerdings ist hierbei zu beachten dass die Löschung endgültig ist und die Frameworks verloren gehen.
+Unter "Aktionen" können die Frameworks bearbeitet werden. Hier könnten Sie bei Bedarf auch die ungenutzten Frameworks löschen, um mögliche Verwechslungen zu vermeiden. Allerdings ist hierbei zu beachten, dass die Löschung endgültig ist und die bestehenden Frameworks verloren gehen.
 
-Wählen Sie unter den Aktionen des neuen Frameworks "Import" aus um die Datei, die sie zuvor heruntergeladen haben, hochzuladen. Ist dieser Vorgang erfoglreich, öffnet sich das Framework automatisch.
+Wählen Sie unter den Aktionen des neuen Frameworks "Import" aus, um die Datei, die sie zuvor heruntergeladen haben, hochzuladen. Ist dieser Vorgang erfoglreich, öffnet sich das Framework automatisch.
 
+<img src="https://pders01.github.io/Koha_out_of_the_box/Images/uebersicht_fw.PNG" alt="Übersicht des neuen Frameworks" width="1450">
+
+An diesem Punkt ist das Framework betriebsbereit und kann wie in **Erstellen eines Titeldatensatz mit dem importierten Framework** beschrieben genutzt werden. Es folgen einige zusätzliche Informationen, die nur relevant sind falls Sie sich genauer mit der Bearbeitung eines Frameworks befassen möchten.
+
+In der Übersicht sind die MARC Felder des Frameworks zu sehen, die jeweils noch eigene Unterfelder haben. Unter "Aktionen" können diese angezeigt werden.
+
+<img src="https://pders01.github.io/Koha_out_of_the_box/Images/titel_fw.PNG" alt="Sturuktur des MARC Feldes 'Titel'" width="1450">
+
+Unter "Bedingungen" ist hier schon ein wichtige Eigenschaft der Unterfelder zu erkennen: "Teilfeld ignoriert" bedeutet, dass dieses bei der Erstellung und Bearbeitung des Titeldatensatzes nicht auftaucht. Weniger Unterfelder ist ein wichtiger Faktor um den Datensatz übersichtlicher zu strukturieren. Unter "Bearbeiten" kann unter anderem angepasst werden, ob das Unterfeld ignoriert wird oder nicht.
+
+<img src="https://pders01.github.io/Koha_out_of_the_box/Images/titel_unterfelder_fw.PNG" alt="Unterfelder des MARC Feldes 'Titel'" width="1450">
+
+Soll das Unterfeld genutzt werden, muss in den Basiskonfigurationen angepasst werden in welchem Reiter es angezeigt werden soll. Standardmäßig sollte hier "0" genutzt werden, um das Unterfeld anzuzeigen. Eine weitere wichtige Basiskonfiguration, die angepasst werden kann, ist ob es sich um ein Pflichtfeld handelt oder nicht. Des weiteren kann auch der Titel geändert werden, sollte dieser nicht selbsterklärend genug sein.
+Unter "Weitere Optionen" findet man die Normwerte. Diese können, wie in der **Konfiguration** erleutert, angelegt werden und hier als Auswahloptionen für das Feld festgelegt werden. Dies ist eine weitere Option um die Erstellung eines Titeldatensatzes zu erleichtern.
 
 ## Erstellen eines Exemplardatensatzes
 
