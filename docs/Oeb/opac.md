@@ -2,7 +2,7 @@
 
 # OPAC
 
-Die Systemparameter zur Bearbeitung des OPAC finden Sie auf der Admin-Oberfläche unter *“Administration“ > „Systemparameter“* auf der Seite OPAC. 
+Die Systemparameter zur Bearbeitung des OPAC finden Sie auf der Admin-Oberfläche unter *“Administration“ > „Systemparameter“* auf der Seite OPAC.   
 
 ![Einstieg zu Opac Systemparametern ](../Images/OPAC_start.PNG)
 
@@ -12,7 +12,8 @@ Hier folgen einige Systemparameter, die wir Ihnen empfehlen würden zu bearbeite
 
 **LibraryName**
 
-Hier definieren Sie, welche Bezeichnung in den Tabs des OPAC angezeigt wird. Um den eigenen Bibliotheks- oder Institutionsnamen im OPAC anzuzeigen, müssen Sie diesen im Systemparameter 'LibraryName' als freien Text eintragen. Der Name wird anschließend angezeigt. Lassen Sie diesen Parameter frei, wird hier kein Text angezeigt.
+Hier definieren Sie, welche Bezeichnung in den Tabs des OPAC angezeigt wird. Um den eigenen Bibliotheks- oder Institutionsnamen im OPAC anzuzeigen, müssen Sie diesen im Systemparameter 'LibraryName' als freien Text eintragen. Der Name wird anschließend angezeigt. Lassen Sie diesen Parameter frei, wird hier kein Text angezeigt.  
+
 ![LibraryName Systemparameter](../Images/OPAC_libraryName.PNG)
 
 **OPACBaseURL**
@@ -30,7 +31,7 @@ Für die bessere Funktion von Koha insgesammt würden wir empfehlen, Einstellung
 **OPACShelfBrowser**
 
 In Koha gibt es die Option „Im Regal stöbern“, durch die bei einer Volltitelansicht verwandte Werke angezeigt werden. Sie ist standardmäßig aktiviert, verbraucht aber viele Ressourcen des Servers, weshalb sie bei Nutzung des Raspberry Pi deaktiviert werden sollte.
-Die Systemeinstellung dazu finden Sie in der Admin-Oberfläche unter *“Administration“ > „Systemparameter“* und letztlich OPAC. Es gibt zu der Einstellung eine eigene Tabelle mit vier Systemparametern. Um das virtuelle Bücherregal zu deaktivieren reicht es, bei dem ersten Parameter „OPACShelfBrowser“ im Dropdown-Menü die Option „Zeige keine“ auszuwählen.
+Die Systemeinstellung dazu finden Sie in der Admin-Oberfläche unter *“Administration“ > „Systemparameter“* und letztlich OPAC. Es gibt zu der Einstellung eine eigene Tabelle mit vier Systemparametern. Um das virtuelle Bücherregal zu deaktivieren reicht es, bei dem ersten Parameter „OPACShelfBrowser“ im Dropdown-Menü die Option „Zeige keine“ auszuwählen.  
 
 ![Systemparameter OPACShelfBrowser](../Images/OPAC_shelfBrowser.PNG)
 
@@ -68,7 +69,7 @@ Die hier definierten Stile überschreiben den Code aus 'opaclayoutstylesheet' un
 **OPACUserJS**
 
 Dieser Parameter funktionieert in der Nutzung wie das eben beschriebene OPACUserCSS, wobei hier der im Koha-OPAC verwendete JavaScript Code beeinflusst wird. Jegliches JavaScript oder JQuery, das hier eingefügt wird, ist auf allen Seiten des OPAC integriert. 
-Hierdurch können interaktive Aspekte von Koha Beeinflusst werden, etwa kann das Login-Fenster für Nutzer angepasst werden.
+Hierdurch können interaktive Aspekte von Koha Beeinflusst werden, etwa kann das Login-Fenster für Nutzer angepasst werden.  
 
 ![Systemparameter OPACUserJS ](../Images/OPAC_userJS.PNG)
 

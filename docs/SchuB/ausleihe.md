@@ -3,18 +3,24 @@
 Wie für Bibliotheksinformationssysteme üblich, besitzt auch koha eine **Ausleih-Oberfläche**, welche den Umgang mit Leihverkehr möglichst effizient löst und für den schnellstmöglichen Ablauf einer Ausleihe an Bibliotheksnutzende sorgt. Um zu umgehen, die Ausleih-Seite mit jeder Ausleihe (oder Rückgabe) neu öffnen zu müssen, empfiehlt es sich, die Seite stets in einer Registerkarte offen zu haben.
 
 ## Funktionsweise der Ausleihe
-Die Seite ist so aufgebaut, dass ihr Gebrauch möglichst wenig Interaktion mit dem Computer erfordert: ist am Eingabefeld in der Administrationsoberfläche „Ausleihe“ ausgewählt, so wird bei einer Eingabe nach einem Namen oder einer Ausweisnummer in den Benutzendendatensätzen gesucht. Wird Name oder Nummer von Hand in das Feld eingetippt, so kann die Autovervollständigung die Suche nach der Person erleichtern.
-![Screenshot der Ausleihansicht bei eingetragener Nutzerin](../Images/aw_ausleihe_nutzerin_ausgewählt.PNG)
-Ist die korrekte Person in der Ausleihe ausgewählt, so öffnet sich eine Personenansicht, in welcher in einem neuen Eingabefeld Barcodes eingegeben werden können.
-![Screenshot der Ausleihansicht bei Eingabe des Exemplarbarcodes](../Images/aw_ausleihe_exemplarbarcode_eingabe.PNG)
-Nach der Eingabe des jeweiligen Codes wird das Medium im Idealfall sofort auf die Person verbucht. Wenn die Ausleihe am Exemplar oder am Nutzendenkonto scheitern sollte, wird Ihnen beim Versuch der Ausleihe Auskunft über den Fehler gegeben. Unter bestimmten Voraussetzungen kann es auch sein, dass Sie eine Ausleihe zunächst einmal autorisieren müssen, etwa wenn das Gebührenlimit der Person überschritten wurde oder wenn eine Ausleihbeschränkung vorliegt. Nach jeder erfolgreichen oder nicht erfolgreichen Ausleihe können Sie sofort weitere Codes eingeben, sodass schnell mehrere Medien hintereinander ausgeliehen werden können.
+Die Seite ist so aufgebaut, dass ihr Gebrauch möglichst wenig Interaktion mit dem Computer erfordert: ist am Eingabefeld in der Administrationsoberfläche „Ausleihe“ ausgewählt, so wird bei einer Eingabe nach einem Namen oder einer Ausweisnummer in den Benutzendendatensätzen gesucht. Wird Name oder Nummer von Hand in das Feld eingetippt, so kann die Autovervollständigung die Suche nach der Person erleichtern.  
+
+![Screenshot der Ausleihansicht bei eingetragener Nutzerin](../Images/aw_ausleihe_nutzerin_ausgewählt.PNG)  
+
+Ist die korrekte Person in der Ausleihe ausgewählt, so öffnet sich eine Personenansicht, in welcher in einem neuen Eingabefeld Barcodes eingegeben werden können.  
+
+![Screenshot der Ausleihansicht bei Eingabe des Exemplarbarcodes](../Images/aw_ausleihe_exemplarbarcode_eingabe.PNG)  
+
+Nach der Eingabe des jeweiligen Codes wird das Medium im Idealfall sofort auf die Person verbucht. Wenn die Ausleihe am Exemplar oder am Nutzendenkonto scheitern sollte, wird Ihnen beim Versuch der Ausleihe Auskunft über den Fehler gegeben. Unter bestimmten Voraussetzungen kann es auch sein, dass Sie eine Ausleihe zunächst einmal autorisieren müssen, etwa wenn das Gebührenlimit der Person überschritten wurde oder wenn eine Ausleihbeschränkung vorliegt. Nach jeder erfolgreichen oder nicht erfolgreichen Ausleihe können Sie sofort weitere Codes eingeben, sodass schnell mehrere Medien hintereinander ausgeliehen werden können.  
+
 ![Screenshot der Ausleihansicht bei einer erfolgreichen Ausleihe](../Images/aw_ausleihe_fertig.PNG)
 
 ### Fälligkeitsdatum festlegen
 Zu jeder einzelnen Ausleihe kann ein statisches Fälligkeitsdatum festgelegt werden, welches die eigentliche Leihfrist überschreibt. Dies kann man unter dem Exemplarcode-Eingabefeld finden, wenn man die Ausleih-Parameter ausklappt und bei Bedarf auch für die ganze Sitzung und somit alle weiteren AUsleihen speichern.
 
 ## Rückgabe
-Rückgaben können in koha bestätigt werden, indem in der Ausleih-Oberfläche unter dem allgemeinen koha-Eingabefeld „Rückgabe“ ausgewählt wird und darin der Exemplarcode des zurückkehrenden Mediums eingegeben wird. Eine solche Rückgabe öffnet für weitere Rückgaben die Rückgabe-Oberfläche, wodurch mehrere Rückgaben nahtlos hintereinander getätigt werden können. Eine neue Ausleihe kann dann wieder über das allgemeine koha-Eingabefeld im Header begonnen werden.
+Rückgaben können in koha bestätigt werden, indem in der Ausleih-Oberfläche unter dem allgemeinen koha-Eingabefeld „Rückgabe“ ausgewählt wird und darin der Exemplarcode des zurückkehrenden Mediums eingegeben wird. Eine solche Rückgabe öffnet für weitere Rückgaben die Rückgabe-Oberfläche, wodurch mehrere Rückgaben nahtlos hintereinander getätigt werden können. Eine neue Ausleihe kann dann wieder über das allgemeine koha-Eingabefeld im Header begonnen werden.  
+
 ![Screenshot der Ausleihansicht bei Rückgabe](../Images/aw_rueckgabe_default.PNG)
 
 ## Verlängern
