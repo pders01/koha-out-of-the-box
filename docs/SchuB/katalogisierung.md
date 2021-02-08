@@ -32,7 +32,7 @@ Sollte an Ihren Rechner ein Barcode Scanner angeschlossen sein, können Sie dies
 Nach einer erfolgreichen Suche sollte ein oder mehrere Ergebnisse vorliegen. Im Fall von mehreren Ergebnissen wählen Sie bitte den vollständigsten Datensatz, sprich der Datensatz mit den meisten Angaben in der Tabelle. Besonders sollte auf die Übereinstimmung der ISBN geachtet werden.
 Haben Sie einen Datensatz ausgewählt, können Sie diesen unter „Aktionen“ importieren.
 
-Nach dem erfolgreichen Import sollte Ihnen eine Übersicht des Datensatzes angezeigt werden, den Sie auf Vollständigkeit überprüfen können. Zusätzlich müssen Sie eigenhändig die Angabe zum „Koha-Medientyp“ machen. Diese finden sie unter dem Reiter "9", im MARC Feld 942. Wählen Sie den Medientyp, der Ihrem vorliegenden Medium entspricht.
+Nach dem erfolgreichen Import sollte Ihnen eine Übersicht des Datensatzes angezeigt werden, den Sie auf Vollständigkeit überprüfen können. Zusätzlich müssen Sie eigenhändig die Angabe zum „Koha-Medientyp“ machen. Diese finden sie unter dem Reiter "9", im MARC Feld 942 - c. Wählen Sie den Medientyp, der Ihrem vorliegenden Medium entspricht.
 
 <img src="https://pders01.github.io/Koha_out_of_the_box/Images/koha_medientyp.PNG" alt="Bild des Reiter 9 mit dem MARC Feld 942" width="1450">
 
@@ -66,7 +66,7 @@ Das neue Framework kann nach Belieben benannt werden. In diesem Beispiel wurde s
 
 <img src="https://pders01.github.io/Koha_out_of_the_box/Images/neues_fw_edit.PNG" alt="Neues Framework benennen" width="1450">
 
-Nachdem Sie den Namen des neuen Frameworks bestätigt haben, wird dieses in der Übersicht der Frameworks angezeigt.
+Nachdem Sie den Namen des neuen Frameworks bestätigt haben, wird dieses in der Übersicht angezeigt.
 
 <img src="https://pders01.github.io/Koha_out_of_the_box/Images/aktionen_fw.PNG" alt="Neues Framework hinzufügen" width="1450">
 
