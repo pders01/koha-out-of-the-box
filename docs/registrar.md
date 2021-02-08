@@ -1,10 +1,4 @@
 
-    img[src$="#shadow-round"] {
-        border-radius: 20px;
-        box-shadow: 1px 10px 16px #222222;
-        max-width: 50%;
-        max-height: auto;
-    }
 </style>
 # Wie erstelle ich einen A Record für meine Domain?
 
