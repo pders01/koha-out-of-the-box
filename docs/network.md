@@ -16,7 +16,7 @@ Hierdurch können Sie [Requests](https://de.wikipedia.org/w/index.php?title=Clie
 
 Ich zeige Ihnen nun am Beispiel eines Telekom-Anschlusses, wie dies in der Praxis aussehen kann. Hierzu rufe ich die IP-Adresse `192.168.2.1` der Konfigurationsoberflächen in meinem Webbrowser auf. Bedenken Sie, dass diese IP-Adresse je nach Anbieter variieren kann.  
 
-![Hier sehen Sie Startseite](Images/ntw_home.PNG#shadow-round)  
+![Hier sehen Sie Startseite](Images/ntw_home.PNG)  
 
 
 Unter dem __Internet__-Reiter der Oberflächen können wir nun auf die Portweiterleitung zugreifen. Wie Sie sehen, ist hier schon eine Regel für die Portweiterleitung definiert.
