@@ -1,9 +1,4 @@
-<style>
-	img[src$="#shadow-round"] {
-		border-radius: 20px;
-		box-shadow: 1px 10px 16px #222222;
-	}
-</style>
+
 # Katalogisierung
 Der Begriff Katalogisierung beschreibt den Prozess der Erfassung von beschreibenden Metadaten zu den jeweiligen Medien der Bibliothek. Jedes in den Bestand eingehende Medium muss im Bibliothekssystem erfasst werden, um später in der Recherche im Katalog auffindbar zu sein. Der öffentliche Online Katalog wird auch als OPAC (Online Public Access Catalogue) bezeichnet .
 Um eine erfolgreiche Recherche zu gewährleisten, muss bei der Erfassung der Daten – der Katalogisierung – ein vorgegebener Standard eingehalten werden.
@@ -22,25 +17,25 @@ Sowohl der Titeldatensatz als auch der Exemplardatensatz nutzen ein Datenformat,
 Im Unterpunkt "Katalogisierung" von Koha finden Sie die Import Funktion von Z39.50.
 
 <!-- ![Bild vom Import Button](../Images/import_button.png) -->
-<img src="https://pders01.github.io/Koha_out_of_the_box/Images/import_button.png#shadow-round" alt="Bild von Import Button" width="1450">
+<img src="https://pders01.github.io/Koha_out_of_the_box/Images/import_button.PNG" alt="Bild von Import Button" width="1450">
 
 Der Button öffnet ein separates Fenster mit der Suchmaske des Tools.
 
 <!--[Bild der Suchmaske](../Images/z3950_suchmaske.png) -->
-<img src="https://pders01.github.io/Koha_out_of_the_box/Images/z3950_suchmaske.png#shadow-round" alt="Bild der Suchmaske" width="1450">
+<img src="https://pders01.github.io/Koha_out_of_the_box/Images/z3950_suchmaske.PNG" alt="Bild der Suchmaske" width="1450">
 
 Hier können verschiedene Suchkriterien eingegeben werden, um in mehreren Suchzielen zu recherchieren. Die potentiellen Suchziele müssen zuvor in Koha konfiguriert worden sein (s. Z39.50).
 Sollte an Ihren Rechner ein Barcode Scanner angeschlossen sein, können Sie diesen nutzen, um die ISBN des Mediums zu scannen und automatisch in die Suchmaske einzutragen.
 
 <!--![Bild der Ergebnisliste](../Images/z3950_ergebnisliste.png) -->
-<img src="https://pders01.github.io/Koha_out_of_the_box/Images/z3950_ergebnisliste.png#shadow-round" alt="Bild der Ergebnisliste" width="1450">
+<img src="https://pders01.github.io/Koha_out_of_the_box/Images/z3950_ergebnisliste.PNG" alt="Bild der Ergebnisliste" width="1450">
 
 Nach einer erfolgreichen Suche sollte ein oder mehrere Ergebnisse vorliegen. Im Fall von mehreren Ergebnissen wählen Sie bitte den vollständigsten Datensatz, sprich der Datensatz mit den meisten Angaben in der Tabelle. Besonders sollte auf die Übereinstimmung der ISBN geachtet werden.
 Haben Sie einen Datensatz ausgewählt, können Sie diesen unter „Aktionen“ importieren.
 
 Nach dem erfolgreichen Import sollte Ihnen eine Übersicht des Datensatzes angezeigt werden, den Sie auf Vollständigkeit überprüfen können. Zusätzlich müssen Sie eigenhändig die Angabe zum „Koha-Medientyp“ machen. Diese finden sie unter dem Reiter "9", im MARC Feld 942. Wählen Sie den Medientyp, der Ihrem vorliegenden Medium entspricht.
 
-<img src="https://pders01.github.io/Koha_out_of_the_box/Images/koha_medientyp.png#shadow-round" alt="Bild des Reiter 9 mit dem MARC Feld 942" width="1450">
+<img src="https://pders01.github.io/Koha_out_of_the_box/Images/koha_medientyp.PNG" alt="Bild des Reiter 9 mit dem MARC Feld 942" width="1450">
 
 Sind Sie mit dem Datensatz zufrieden, können Sie die Übernahme mit der Schaltfläche „Speichern“ abschließen.
 
@@ -48,11 +43,11 @@ Sind Sie mit dem Datensatz zufrieden, können Sie die Übernahme mit der Schaltf
 
 Sowohl nach dem manuellen Anlegen eines Titeldatensatzes als auch nach der Übernahme mit Hilfe von Z39.50 öffnet sich automatisch die Maske zur Erstellung eines Exemplardatensatzes.
 
-<img src="https://pders01.github.io/Koha_out_of_the_box/Images/exemplar_maske.png#shadow-round" alt="Maske zur Erstellung eines Exemplars" width="1450">
+<img src="https://pders01.github.io/Koha_out_of_the_box/Images/exemplar_maske.PNG" alt="Maske zur Erstellung eines Exemplars" width="1450">
 
 Alternativ kann ein bestehender Titeldatensatz ausgewählt werden um ein Exemplar hinzugefügt werden.
 
-<img src="https://pders01.github.io/Koha_out_of_the_box/Images/titel_exemplar_neu.png#shadow-round" alt="Titeldatensatz mit Option zum Hinzufügen eines neuen Exemplars" width="1450">
+<img src="https://pders01.github.io/Koha_out_of_the_box/Images/titel_exemplar_neu.PNG" alt="Titeldatensatz mit Option zum Hinzufügen eines neuen Exemplars" width="1450">
 
 #### MARC Pflichtfelder
 Die Felder des Exemplardatensatzes müssen manuell mit den richtigen Informationen ausgefüllt werden. Um den Aufwand möglich gering zu halten, kann man sich auf ein Minimum konzentrieren.

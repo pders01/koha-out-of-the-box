@@ -1,4 +1,4 @@
-<style>
+
     img[src$="#shadow-round"] {
         border-radius: 20px;
         box-shadow: 1px 10px 16px #222222;
@@ -18,11 +18,11 @@ Ein A Record ordnet einem [DNS](https://de.wikipedia.org/w/index.php?title=Domai
 
 Freenom ist ein Registrar, bei dem Sie kostenfrei eine Domain beziehen können. 
 
-![Freenoms Hauptseite](Images/reg_home.png#shadow-round)
+![Freenoms Hauptseite](Images/reg_home.PNG)
 
 ### Einen A Record anlegen  
 
-![Freenoms DNS Konfiguration](Images/reg_dns_short_censored.png#shadow-round)
+![Freenoms DNS Konfiguration](Images/reg_dns_short_censored.PNG)
 
 Wie Sie sehen, ist das Anlegen eines A Records recht einfach. Sie geben 
 * lediglich die [Subdomains](https://de.wikipedia.org/w/index.php?title=Domain&oldid=206039678) an,

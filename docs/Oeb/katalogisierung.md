@@ -1,9 +1,4 @@
-<style>
-	img[src$="#shadow-round"] {
-		border-radius: 20px;
-		box-shadow: 1px 10px 16px #222222;
-	}
-</style>
+
 # Katalogisierung
 Der Begriff Katalogisierung beschreibt den Prozess der Erfassung von beschreibenden Metadaten zu den jeweiligen Medien der Bibliothek. Jedes in den Bestand eingehende Medium muss im Bibliothekssystem erfasst werden, um später in der Recherche im Katalog auffindbar zu sein. Der öffentliche Online Katalog wird auch als OPAC bezeichnet (Online Public Access Catalogue).
 Um eine erfolgreiche Recherche zu gewährleisten, muss bei der Erfassung der Daten – der Katalogisierung – ein vorgegebener Standard eingehalten werden.
@@ -17,15 +12,15 @@ So liegt beispielsweise für einen Buchtitel im Bestand jeweils nur ein Datensat
 ### Importieren des Titeldatensatzes
 Im Unterpunkt "Katalogisierung" von Koha finden Sie die Import Funktion von Z39.50.
 
-![Bild vom Import Button](../Images/import_button.png#shadow-round)
+![Bild vom Import Button](../Images/import_button.PNG)
 
 Der Button öffnet ein separates Fenster mit der Suchmaske des Tools.
 
-![Bild der Suchmaske](../Images/z3950_suchmaske.png#shadow-round)
+![Bild der Suchmaske](../Images/z3950_suchmaske.PNG)
 
 Hier können verschiedene Suchkriterien eingegeben werden, um in mehreren Suchzielen zu recherchieren. Die potentiellen Suchziele müssen zuvor in Koha konfiguriert worden sein (s. Z39.50).
 Sollte an Ihren Rechner ein Barcode Scanner angeschlossen sein, können Sie diesen nutzen, um die ISBN des Mediums zu scannen und automatisch in die Suchmaske einzutragen.
 
-![Bild der Ergebnisliste](../Images/z3950_ergebnisliste.png#shadow-round)
+![Bild der Ergebnisliste](../Images/z3950_ergebnisliste.PNG)
 
 Nach einer erfolgreichen Suche sollte ein oder mehrere Ergebnisse vorliegen. Im Fall von mehreren Ergebnissen wählen Sie bitte den vollständigsten Datensatz, sprich der Datensatz mit den meisten Angaben in der Tabelle.

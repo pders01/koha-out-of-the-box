@@ -1,4 +1,3 @@
-img[src$="#network"] {
-    border-radius: 25%;
-    height: 1px;
+img {
+    border-radius: 20px;
 }

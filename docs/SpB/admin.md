@@ -1,16 +1,10 @@
 
-<style>
-    img[src$="#shadow-round"] {
-        border-radius: 20px;
-        box-shadow: 1px 10px 16px #222222;
-    }
-</style>
 
 # Admin-Oberfläche
 
 Die Systemparameter zur bearbeitung der Admin-Oberfläche finden Sie auf der Admin-Oberfläche unter *„Administration* > „Systemparameter“* auf der Seite Dienstoberfläche. 
 
-![Übersicht Systemparameter Dienstoberfläche](../Images/admin_start.png#shadow-round)
+![Übersicht Systemparameter Dienstoberfläche](../Images/admin_start.PNG)
 
 Bei der Aufsetzung Kohas sollte Sie zunächst den folgenden zwei Schritten folgen.
 
