@@ -6,7 +6,9 @@ Das Thema Datenschutz spielt für die Arbeit in Bibliotheken eine große Rolle, 
 Grundsätzlich kann nur dazu geraten werden, sich mit allen Fragen und Anliegen rund um dieses Thema mit dem zuständigen Datenschutzbeauftragen in Verbindung zu setzen. Dieser ist am besten vertraut mit den individuellen Bestimmungen, die ihre Einrichtung hinsichtlich des Datenschutzes erfüllen muss.
 
 ## Datenschutzerklärung
-Um sich rechtlich abzusichern, kann vor der Nutzung der Bibliothek das Ausfüllen einer Datenschutzerklärung gemäß der DSGVO verlangt werden. Hier wird beschrieben, welche Daten zu welchen Zwecken gespeichert werden sollen, sowie die Rechte der unterschreibenden Person aufgeführt. 
+Um sich rechtlich abzusichern, kann vor der Nutzung der Bibliothek das Ausfüllen einer Datenschutzerklärung gemäß der DSGVO verlangt werden. Hier wird beschrieben, welche Daten zu welchen Zwecken gespeichert werden sollen, sowie die Rechte der unterschreibenden Person aufgeführt. Kinder und Jugendliche unter 16 Jahren benötigen die Einwilligung der Erziehungsberechtigten.
+
+
 Der Deutsche Bibliotheksverband (dbv) bietet als Hilfestellung eine Mustervorlage für eine solche Datenschutzerklärung zum Download an, die als Vorlage für eine auf die eigene Bibliothek zugeschnittene Erklärung genutzt werden kann. Den Download finden sie unter folgendem Link: [Mustervorlage Datenschutzerklärung](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj23t2moN3uAhWR0eAKHUTfC6kQFjAAegQIARAC&url=https%3A%2F%2Fwww.bibliotheksverband.de%2Ffileadmin%2Fuser_upload%2FKommissionen%2FKom_Recht%2FPublikationen_Benutzung%2FAnlage-Datenschutz-fuer-Ihre-Benutzungsordnung-Muster-HM.docx&usg=AOvVaw1uvDuey8cEKCQWYeQ8RqYF "Mustervorlage Datenschutzerklärung")
  
 ## Systemparameter
