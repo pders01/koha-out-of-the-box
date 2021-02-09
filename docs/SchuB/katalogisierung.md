@@ -142,7 +142,9 @@ p | Barcode | Der Barcode Ihres Mediums dient zur einfach Ausleihe und Rückgabe
 ## Systematik und Signatur
 
 ### Systematik 
-Ordnungssystem der Bibliothek, das die verschiedenen Themenbereiche und Gruppierungen abbildet
+Mit „Systematik“ bezeichnen Bibliotheken ihr Ordnungssystem, dass die verschiedenen Themenbereiche und Gruppierungen des Bestandes abbildet. Diese kann bei Bedarf auf den Bestand angepasst werden, oft werden aber auch einfach vorgefertigte Systematiken genutzt. Für Schulbibliotheken ist eine vereinfachte Form einer komplexeren Systematik entwickelt worden, die <a href="http://www.sfb-online.de/wiki/index.php?title=Hauptseite">hier</a> verfügbar ist.
+
+Die thematische Unterteilung, wie beispielsweise für die Sachgruppen, ist bereits auf der obersten Ebene nutzbar. So können Bücher aus dem Sachbereich Biologie unter "Bio" klassifiziert werden. Sollten allerdings in diesem Sachbereich besonders viele Bücher vorliegen, die besser 
 
 ### Signatur
 Verkürzte Angabe der Systematik für den Buchrücken, oft mit Kurzform des Autoren Nachnamens um eine alphabetische Anordnung im Regal zu ermöglichen
