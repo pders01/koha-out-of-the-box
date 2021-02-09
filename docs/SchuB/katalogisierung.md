@@ -141,11 +141,13 @@ p | Barcode | Der Barcode Ihres Mediums dient zur einfach Ausleihe und Rückgabe
 
 ## Systematik und Signatur
 
-### Systematik 
-Mit „Systematik“ bezeichnen Bibliotheken ihr Ordnungssystem, dass die verschiedenen Themenbereiche und Gruppierungen des Bestandes abbildet. Diese kann bei Bedarf auf den Bestand angepasst werden, oft werden aber auch einfach vorgefertigte Systematiken genutzt. Für Schulbibliotheken ist eine vereinfachte Form einer komplexeren Systematik entwickelt worden, die <a href="http://www.sfb-online.de/wiki/index.php?title=Hauptseite">hier</a> verfügbar ist.
+Mit **Systematik** bezeichnen Bibliotheken ihr Ordnungssystem, dass die verschiedenen Themenbereiche und Gruppierungen des Bestandes abbildet. Diese kann bei Bedarf auf den Bestand angepasst werden, oft werden aber auch einfach vorgefertigte Systematiken genutzt. Für Schulbibliotheken ist eine vereinfachte Form einer komplexeren Systematik entwickelt worden, die <a href="http://www.sfb-online.de/wiki/index.php?title=Hauptseite">hier</a> verfügbar ist.
 
-Die thematische Unterteilung, wie beispielsweise für die Sachgruppen, ist bereits auf der obersten Ebene nutzbar. So können Bücher aus dem Sachbereich Biologie unter "Bio" klassifiziert werden. Sollten allerdings in diesem Sachbereich besonders viele Bücher vorliegen, die besser 
+Die thematische Unterteilung, wie beispielsweise für die Sachgruppen, ist bereits auf der obersten Ebene nutzbar. So können Bücher aus dem Sachbereich Biologie unter "Bio" klassifiziert werden. Sollten allerdings in diesem Sachbereich besonders viele Bücher vorliegen, die besser erschlossen werden müssen, können auch die Unterkategorien von "Bio" genutzt werden, wie beispielsweise "Biophysik" oder "Evolution". Auch diese Bereiche haben Unterkategorien, die bei Bedarf genutzt werden könnten. Dies ist in einer Schulbibliothek allerdings unwahrscheinlich, außer es liegt ein ungewöhnlich großer Bestand vor.
 
-### Signatur
-Verkürzte Angabe der Systematik für den Buchrücken, oft mit Kurzform des Autoren Nachnamens um eine alphabetische Anordnung im Regal zu ermöglichen
+Die verschiedenen Bereiche der Klassifikation werden dann ebenfalls gemeinsam im Regal angeordnet. Hierbei wird nach der sogenannten **Signatur** sortiert. Die Signatur findet sich meistens auf einem Sticker auf dem Rücken des Mediums, sodass sie im Regal zu erkennen ist. Hier kann auch gerne mit verschieden farbigen Stickern gearbeitet werden, um das Sortieren und Finden der Medien im Regal zu erleichtern. Um innerhalb vom Sachbereich, beispielsweise Biologie, eine definitive Sortierung zu haben, wird meistens eine Kurzform des Autors in die Signatur aufgenommen und alphabetisch nach dieser sortiert. Die Signatur besteht also aus einer Kombination von Klassifikation udn Autor und würde bei einem Biologie Buch von Sabine Freund beispielsweise "Bio Fre" lauten.
+
+Die Signatur wird bei der Erstellung des Exemplardatensatzes im MARC Feld **o - Signatur** eingetragen. Oft wird dieses Feld automatisch gefüllt, dieser Eintrag kann aber einfach gelöscht und durch die Signatur Ihrer Wahl ersetzt werden.
+
+
 
