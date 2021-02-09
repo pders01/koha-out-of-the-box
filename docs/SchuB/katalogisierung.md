@@ -32,7 +32,7 @@ Sollte an Ihren Rechner ein Barcode Scanner angeschlossen sein, können Sie dies
 Nach einer erfolgreichen Suche sollte ein oder mehrere Ergebnisse vorliegen. Im Fall von mehreren Ergebnissen wählen Sie bitte den vollständigsten Datensatz, sprich der Datensatz mit den meisten Angaben in der Tabelle. Besonders sollte auf die Übereinstimmung der ISBN geachtet werden.
 Haben Sie einen Datensatz ausgewählt, können Sie diesen unter „Aktionen“ importieren.
 
-Nach dem erfolgreichen Import sollte Ihnen eine Übersicht des Datensatzes angezeigt werden, den Sie auf Vollständigkeit überprüfen können. Zusätzlich müssen Sie eigenhändig die Angabe zum „Koha-Medientyp“ machen. Diese finden sie unter dem Reiter "9", im MARC Feld 942. Wählen Sie den Medientyp, der Ihrem vorliegenden Medium entspricht.
+Nach dem erfolgreichen Import sollte Ihnen eine Übersicht des Datensatzes angezeigt werden, den Sie auf Vollständigkeit überprüfen können. Zusätzlich müssen Sie eigenhändig die Angabe zum „Koha-Medientyp“ machen. Diese finden sie unter dem Reiter "9", im MARC Feld 942 - c. Wählen Sie den Medientyp, der Ihrem vorliegenden Medium entspricht.
 
 <img src="https://pders01.github.io/Koha_out_of_the_box/Images/koha_medientyp.PNG" alt="Bild des Reiter 9 mit dem MARC Feld 942" width="1450">
 
@@ -66,7 +66,7 @@ Das neue Framework kann nach Belieben benannt werden. In diesem Beispiel wurde s
 
 <img src="https://pders01.github.io/Koha_out_of_the_box/Images/neues_fw_edit.PNG" alt="Neues Framework benennen" width="1450">
 
-Nachdem Sie den Namen des neuen Frameworks bestätigt haben, wird dieses in der Übersicht der Frameworks angezeigt.
+Nachdem Sie den Namen des neuen Frameworks bestätigt haben, wird dieses in der Übersicht angezeigt.
 
 <img src="https://pders01.github.io/Koha_out_of_the_box/Images/aktionen_fw.PNG" alt="Neues Framework hinzufügen" width="1450">
 
@@ -88,6 +88,25 @@ Unter "Bedingungen" ist hier schon ein wichtige Eigenschaft der Unterfelder zu e
 
 Soll das Unterfeld genutzt werden, muss in den Basiskonfigurationen angepasst werden in welchem Reiter es angezeigt werden soll. Standardmäßig sollte hier "0" genutzt werden, um das Unterfeld anzuzeigen. Eine weitere wichtige Basiskonfiguration, die angepasst werden kann, ist ob es sich um ein Pflichtfeld handelt oder nicht. Des weiteren kann auch der Titel geändert werden, sollte dieser nicht selbsterklärend genug sein.
 Unter "Weitere Optionen" findet man die Normwerte. Diese können, wie in der **Konfiguration** erleutert, angelegt werden und hier als Auswahloptionen für das Feld festgelegt werden. Dies ist eine weitere Option um die Erstellung eines Titeldatensatzes zu erleichtern.
+
+### Erstellen eines Titeldatensatz mit dem importierten Framework
+
+Die folgende Tabelle erläutert alle Felder, die das bearbeitete Framework standardmäßig für einen Titeldatensatz anbietet. Nicht alle von ihnen müssen zwingend ausgefüllt werden, vollständige Angaben sind allerdings immer zubevorzugen. Die wesentlichen Pflichtfelder, die jeder Datensatz beinhalten muss, sind in der Tabelle mit einem Sternchen markiert. Des weiteren verlinkt die Feldnummer auf eine genauere Erläuterung, deren Komplexität allerdings oft über das hinausgeht, was von Schulbibliotheken benötigt wird.
+
+MARC Feld | Unterfeld | Erläuterung
+--------- | ----------- | -----------
+<a href="https://koha-wiki.thulb.uni- jena.de/erschliessung/katalogisierung/handbu echer/020-internationale- standardbuchnummer-isbn/">020</a> | a | **ISBN (ohne Bindestriche)**: In diesem Feld wird die ISBN des Mediums eingetragen, im normalen Format ohne Bindestriche. Dies kann mit einem Handscanner automatisiert werden.
+<a href="https://koha-wiki.thulb.uni- jena.de/erschliessung/katalogisierung/handbu echer/041-sprachcode/">041*</a>  | a | **Sprachcode**: Hier wird die Sprache des Mediums dem ISO 639.2 entsprechend in Kurzform angegeben. Für deutsch wird **„ger“** verwendet, für englisch **„eng“**. Weitere Sprachcodes finden Sie <a href="http://www.gbv.de/bibliotheken/verbundbibliotheken/02Verbund/01Erschliessung/02Richtlinien/02KatRichtRDA/anhaenge/anhang-sprachcodes">hier</a>.
+<a href="https://koha-wiki.thulb.uni- jena.de/erschliessung/katalogisierung/handbu echer/100-haupteintragung-personenname/">100*</a>  | a | **Person als geistiger Schöpfer**: Einfach gesagt wird hier der **Autor** des Werkes im Format **Nachname, Vorname** angegeben.
+<a href="https://koha-wiki.thulb.uni- jena.de/erschliessung/katalogisierung/handbu echer/245-haupttitel-titelzusatz- verantwortlichkeitsangabe/">245*</a> | a | **Titel**: Der Name des Mediums, beispielsweise der Buchtitel.
+<a href="https://koha-wiki.thulb.uni- jena.de/erschliessung/katalogisierung/handbu echer/245-haupttitel-titelzusatz- verantwortlichkeitsangabe/">245</a> | b | **Titelzusatz**: Sollte das Medium einen zweiten Titel, den sogenannten **Untertitel**, besitzen, kann dieser in diesem Feld angegeben werden.
+<a href="https://koha-wiki.thulb.uni- jena.de/erschliessung/katalogisierung/handbu echer/250-ausgabebezeichnung/">250</a> | a | **Ausgabebezeichnung**: Hier handelt es sich in der Regel um die **Auflage** eines Buches. Diese zu vermerken ist hauptsächlich relevant, falls es zu unterschieden zwischen den verschiedenen Auflagen kommen kann, beispielswiese bei Schulbüchern.
+<a href="https://koha-wiki.thulb.uni- jena.de/erschliessung/katalogisierung/handbu echer/264-veroeffentlichungsangabe/">264</a> | a | **Erscheinungsort**: Diese Angabe ist bei Büchern meist auf der Titelseite zu finden und hängt vom Standort des Verlages ab.
+<a href="https://koha-wiki.thulb.uni- jena.de/erschliessung/katalogisierung/handbu echer/264-veroeffentlichungsangabe/">264</a>  | b* | **Name des Verlags**: Auch diese Angabe ist, wenn nicht auf dem Buchrücken, auf der Titelseite zu finden.
+<a href="https://koha-wiki.thulb.uni- jena.de/erschliessung/katalogisierung/handbu echer/264-veroeffentlichungsangabe/">264</a>  | c* | **Erscheinungsjahr**: Hierbei bezieht man sich auf die vorliegende Ausgabe und nicht zwingend auf die Ersterscheinung. Auch diese Angabe ist auf der Titelseite zu finden.
+<a href="https://koha-wiki.thulb.uni- jena.de/erschliessung/katalogisierung/handbu echer/300-physische-beschreibung/">300</a>  | a | **Physische Beschreibung**: Bei Büchern wird hier die Seitenzahl angegeben.
+<a href="https://koha-wiki.thulb.uni- jena.de/erschliessung/katalogisierung/handbu echer/337-medientyp/">337*</a>  | a | **Medientyp**: Hier wird eine von drei wesentlichen Optionen angegeben. Das Medium ist entweder **ohne Hilfsmittel zu benutzen** (beispielsweise ein Buch), oder es handelt sich um ein **audio** oder **video** Medium.
+<a href="https://koha-wiki.thulb.uni- jena.de/erschliessung/katalogisierung/handbu echer/500-allgemeine-fussnote/">500</a> | a | **Allgemeine Fußnote**: Dies ist ein freies Feld, das für jegliche Anmerkungen genutzt werden kann.
 
 ## Erstellen eines Exemplardatensatzes
 
