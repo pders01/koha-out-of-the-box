@@ -1,16 +1,18 @@
-#Datenschutz
+# Datenschutz
 
-##Allgemeines
+## Allgemeines
 
-Das Thema Datenschutz spielt für die Arbeit in Bibliotheken grundsätzlich eine große Rolle, da für die tägliche Arbeit viele personenbezogene Daten gespeichert und verarbeitet werden müssen.
+Das Thema Datenschutz spielt für die Arbeit in Bibliotheken eine große Rolle, da für die tägliche Arbeit viele personenbezogene Daten gespeichert und verarbeitet werden müssen.
 Grundsätzlich kann nur dazu geraten werden, sich mit allen Fragen und Anliegen rund um dieses Thema mit dem zuständigen Datenschutzbeauftragen in Verbindung zu setzen. Dieser ist am besten vertraut mit den individuellen Bestimmungen, die ihre Einrichtung hinsichtlich des Datenschutzes erfüllen muss.
-##Datenschutzerklärung
+
+## Datenschutzerklärung
 Um sich rechtlich abzusichern, kann vor der Nutzung der Bibliothek das Ausfüllen einer Datenschutzerklärung gemäß der DSGVO verlangt werden. Hier wird beschrieben, welche Daten zu welchen Zwecken gespeichert werden sollen, sowie die Rechte der unterschreibenden Person aufgeführt. 
 Der Deutsche Bibliotheksverband (dbv) bietet als Hilfestellung eine Mustervorlage für eine solche Datenschutzerklärung zum Download an, die als Vorlage für eine auf die eigene Bibliothek zugeschnittene Erklärung genutzt werden kann. Den Download finden sie unter folgendem Link: [Mustervorlage Datenschutzerklärung](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj23t2moN3uAhWR0eAKHUTfC6kQFjAAegQIARAC&url=https%3A%2F%2Fwww.bibliotheksverband.de%2Ffileadmin%2Fuser_upload%2FKommissionen%2FKom_Recht%2FPublikationen_Benutzung%2FAnlage-Datenschutz-fuer-Ihre-Benutzungsordnung-Muster-HM.docx&usg=AOvVaw1uvDuey8cEKCQWYeQ8RqYF "Mustervorlage Datenschutzerklärung")
  
-##Systemparameter
+## Systemparameter
 Koha bietet diverse Systemparameter, die sich mit dem Thema Datenschutz auseinandersetzen. 
 Diese finden sich ausgehend von der Koha-Startseite unter *Administration* und anschließend unter *Globale Systemparameter*.
+
 ![Globale Systemparameter](../Images/DS_parameter.png)
  
 Links wird anschließend der Reiter *Benutzer* ausgewählt. Hier findet sich eine Unterüberschrift mit dem Titel *Datenschutz*.
