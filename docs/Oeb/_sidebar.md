@@ -10,3 +10,4 @@
 * [z3950](Oeb/z3950.md)
 * [OPAC](Oeb/opac.md)
 * [Admin-Oberfläche](Oeb/admin.md)
+* [Datenschutz](Oeb/datenschutz.md)
