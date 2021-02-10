@@ -2,6 +2,7 @@
 
 * [Home](/)
 * [Guide](guide.md)
+* [Wie erstelle ich eine Koha-Instanz](configuring.md)
 * [Was benötige ich an Materialien?](parts.md)
 * [Wie flashe ich meine SD-Karte?](flashing.md)
 * [Wie konfiguriere ich mein Netzwerk?](network.md)
