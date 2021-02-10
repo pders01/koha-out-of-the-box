@@ -4,8 +4,8 @@ Im Folgenden erläutern wir, wie Sie vorgehen müssen, um Ihren eigenen Koha-Ser
 
 ## Raspberry Pi oder X86_64?
 
-Sie müssen nun entscheiden, ob Sie Ihre Koha-Instanz auf einem Raspberry Pi hosten wollen.
-Alternativ können Sie Ihre Koha-Instanz auch auf einem normalen Rechner oder Ihrem betrieblichen Server hosten.
+Sie müssen nun entscheiden, ob Sie Ihre Koha-Instanz auf einem Raspberry Pi hosten wollen.\
+Alternativ können Sie Ihre Koha-Instanz auch auf einem normalen Rechner oder Ihrem betrieblichen Server hosten.\
 Die Anwendung der Tools unterscheidet sich in beiden Fällen nur geringfügig.
 
 ### Raspberry Pi

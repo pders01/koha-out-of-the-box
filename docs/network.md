@@ -14,7 +14,8 @@ Hierdurch können Sie [Requests](https://de.wikipedia.org/w/index.php?title=Clie
 
 ### Beispiel Telekom 
 
-Ich zeige Ihnen nun am Beispiel eines Telekom-Anschlusses, wie dies in der Praxis aussehen kann. Hierzu rufe ich die IP-Adresse `192.168.2.1` der Konfigurationsoberflächen in meinem Webbrowser auf. Bedenken Sie, dass diese IP-Adresse je nach Anbieter variieren kann.  
+Ich zeige Ihnen nun am Beispiel eines Telekom-Anschlusses, wie dies in der Praxis aussehen kann. Hierzu rufe ich die IP-Adresse `192.168.2.1` der Konfigurationsoberflächen in meinem Webbrowser auf.\
+Bedenken Sie, dass diese IP-Adresse je nach Anbieter variieren kann.  
 
 ![Hier sehen Sie Startseite](Images/ntw_home.PNG)  
 
@@ -32,3 +33,32 @@ In der Ansicht ist erkennbar, dass sich die Regel auf das Gerät `kodependentOS`
 Die Telekom bietet hier sogenannte Templates an, die gängige Ports in der Regel eintragen. Wichtig ist lediglich, dass Sie hier den `Port 80` in der Regel angeben. Sehr hilfreich ist hierbei auch, den `Port 22` für __SSH-Verbindungen__ anzugeben, sofern Sie diese nutzen wollen. Wenn Sie die Portweiterleitung für den `Port 80` eingetragen haben, speichern Sie die Konfiguration. 
 
 ## Informationen für Ihre IT-Abteilung
+
+Wichtig sind hierbei:
+
+### Öffentliche IP-Adresse des Servers
+
+Sie können einfach dieses Skript ausführen, und sehen anschließend die IP-Adresse Ihres Servers im Terminal.
+
+```
+sh ~/Koha_out_of_the_box/modular_installation/public_ip.sh
+```
+
+### Ports
+
+* `Port 80` für den OPAC und die interne Nutzeroberfläche.
+* `Port 22` für die SSH-Schnittstelle (optional).
+
+### Koha-Instanz
+
+Wenn Sie eine Koha-Instanz erstellen, werden Sie nach einem Namen für diese Instanz gefragt.\
+Diesen sollten Sie sich notieren, da hieraus die Subdomains im A Record generiert werden.\
+
+Sollten Sie Ihre Instanz bspw. __library__ genannt haben, würden die Domains so aussehen: 
+
+```
+library.domain.com          # library für den OPAC
+library-intra.domain.com    # library-intra für die Administrationsoberfläche
+```
+
+Hier ist __.domain.com__ einfach nur ein Platzhalter für die Domain Ihrer Einrichtung, o. Ä..

@@ -1,8 +1,8 @@
 
 # Was benötige ich an Materialien?
 
-Wenn Sie Koha auf dem Raspberry Pi nutzen möchten, benötigen Sie natürlich einen Raspberry Pi.
-Je nachdem, wo Sie den Raspberry Pi erwerben, benötigen Sie darüber hinaus noch zusätzliches Zubehör.
+Wenn Sie Koha auf dem Raspberry Pi nutzen möchten, benötigen Sie natürlich einen Raspberry Pi.\
+Je nachdem, wo Sie den Raspberry Pi erwerben, benötigen Sie darüber hinaus noch zusätzliches Zubehör.\
 Hier eine Materialliste, die die nötigen Komponenten enthält:
 
 * [Raspberry Pi 4B, 8GB ~ 80€](https://www.amazon.de/-/en/Raspberry-Replacement-Single-Computer-W125768684/dp/B0899VXM8F/ref=sr_1_3?crid=1CEEC07X9J82F&dchild=1&keywords=raspberry+pi+4b+8gb&qid=1602680305&sprefix=raspberry+%2Caps%2C221&sr=8-3)
