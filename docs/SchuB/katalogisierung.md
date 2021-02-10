@@ -149,5 +149,10 @@ Die verschiedenen Bereiche der Klassifikation werden dann ebenfalls gemeinsam im
 
 Die Signatur wird bei der Erstellung des Exemplardatensatzes im MARC Feld **o - Signatur** eingetragen. Oft wird dieses Feld automatisch gefüllt, dieser Eintrag kann aber einfach gelöscht und durch die Signatur Ihrer Wahl ersetzt werden.
 
+## Weitere Informationsquellen
 
-
+* <a href="https://zefanjas.de/koha-installation-schule-bibliografische-framework/">Zefanjas: Open Source, Web, Education: Das bibliografische Framework</a>
+* <a href="https://zefanjas.de/teil-4-katalogisierung-wie-man-koha-installiert-und-fuer-schulen-einrichtet/">Zefanjas: Open Source, Web, Education: Buchaufnahme</a>
+* <a href="https://schulbibliotheken-berlin-brandenburg.de/2015/12/systematik-fuer-schulbibliotheken-ein-vorschlag-5/">Arbeitsgemeinschaft Schulbibliotheken Berlin-Brandenburg e.V.: Systematik für Schulbibliotheken - ein Vorschlag</a>
+* <a href="https://koha-wiki.thulb.uni-jena.de/erschliessung/katalogisierung/">Koha-Wiki der ThULB Jena: Katalogisierung</a>
+* <a href="https://wiki.bsz-bw.de/pages/viewpage.action?pageId=17565617&preview=/17565617/3454470/16-11_Katalogisierung_Handbuch_ohne_Verbund_V1.pdf">Bibliotheksservice-Zentrum Baden-Württemberg: Koha Handbücher / Handbuch Katalogisierung ohne Verbund</a>
