@@ -2,7 +2,7 @@
 
 Im Folgenden erläutern wir, wie Sie vorgehen müssen, um Ihren eigenen Koha-Server zum Laufen zu bringen.
 
-## Raspberry Pi oder X86_64?
+## Raspberry Pi oder x86_64?
 
 Sie müssen nun entscheiden, ob Sie Ihre Koha-Instanz auf einem Raspberry Pi hosten wollen.\
 Alternativ können Sie Ihre Koha-Instanz auch auf einem normalen Rechner oder Ihrem betrieblichen Server hosten.\
@@ -26,7 +26,8 @@ Sie benötigen mindestens:
 Wenn Sie über die benötigte Hardware verfügen, können Sie mit dem Flashen der SDHC/SDXC-Karte beginnen. 
 Instruktionen finden Sie unter [Wie flashe ich meine SD-Karte?](https://pders01.github.io/Koha_out_of_the_box/#/flashing).
 
-Nach dem Flashen des Betriebssystems können Sie nun den Raspberry Pi booten, und Ihre Koha-Instanz aufsetzen. 
+Nach dem Flashen des Betriebssystems können Sie nun den Raspberry Pi booten, und Ihre Koha-Instanz aufsetzen.\
+Eine Anleitung hierzu finden Sie unter [Wie konfiguriere ich eine Koha-Instanz?](https://pders01.github.io/Koha_out_of_the_box/#/configuring).
 
-### X86_64 
+### x86_64 
 
