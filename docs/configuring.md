@@ -7,12 +7,45 @@ Im Folgenden erläutern wir Ihnen, wie Sie das Installationstool nutzen, um eine
 
 Nachdem Sie entweder einen USB-Stick oder eine SD-Karte mit KodependentOS geflasht haben, booten Sie nun das entsprechende Medium.
 
+### x86_64
+
+Wenn Sie einen Desktop-PC oder einen Server verwenden, müssen Sie sich zunächst ein Linux-Image herunterladen.
+
+* [Debian 10 'buster'](https://www.debian.org/distrib/) (empfohlen)
+* [Debian 11 'bullseye'](https://www.debian.org/releases/bullseye/) wurde noch nicht getestet, funktioniert aber vermutlich auch.
+
+#### Besonderheiten bei x86_64
+
+Sobald Sie die Installation des Debian-Basissystems abgeschlossen haben, müssen Sie zunächst das Skript `kdpndntOS.sh`\
+ausführen. Da Sie kein vorbereitetes Image verwenden, benötigen Sie zunächst das Tool `git`. Hierzu müssen Sie zunächst die\
+Paketquellen updaten und `git` anschließend installieren.
+
+```
+apt update
+apt install git
+```
+
+Anschließend klonen Sie das Projekt-Repository von der Plattform __GitHub__.
+
+```
+git clone https://github.com/pders01/Koha_out_of_the_box.git
+```
+
+Nun wechseln wir in das Projekt-Verzeichnis und führen das zuvor genannte Skript aus.
+
+```
+cd Koha_out_of_the_box/
+sudo ./kdpndntOS.sh         # Führen Sie dieses Skript mit administrativen Rechten aus!
+```
+
+Nun können Sie sich an der Anleitung ab dem Punkt __Ausführen des Installationstools__ orientieren. \
+Den Punkt __Öffnen eines Terminals in iceWM__ können Sie überspringen. 
+
+
 ### Raspberry Pi
 
 Beim Raspberry Pi müssen Sie lediglich die SD-Karte in die dafür vorgesehene Öffnung schieben.\
 Achten Sie hierbei darauf, dass die Kontakte der Karte nach oben zeigen.
-
-### x86_64
 
 ## Was nun?
 
@@ -130,3 +163,4 @@ sollten Sie nun in der Lage sein die administrative Oberfläche unter `IHRNAME-i
 
 * __IHRNAME__ entspricht hierbei dem Namen, den Sie im vorherigen Schritt für Ihre Bibliothek angegeben haben.
 * __IHREDOMAIN__ entspricht der Domain, die Sie im vorherigen Schritt angegeben haben. 
+
