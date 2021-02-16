@@ -9,6 +9,8 @@
 * [Katalogisierung](SpB/katalogisierung.md)
 * [z3950](SpB/z3950.md)
 * [OPAC](SpB/opac.md)
+* [OPAC-Nutzung](SpB/opac_nutzung.md)
 * [Admin-Oberfläche](SpB/admin.md)
 * [Datenschutz](SpB/datenschutz.md)
+* [Glossar](SpB/glossar.md]
 * [Home](/)
