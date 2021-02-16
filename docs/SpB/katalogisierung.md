@@ -1,26 +1,55 @@
+# Katalogisierung (Spezialbibliotheken/kleine ÖBs)
 
-# Katalogisierung
-Der Begriff Katalogisierung beschreibt den Prozess der Erfassung von beschreibenden Metadaten zu den jeweiligen Medien der Bibliothek. Jedes in den Bestand eingehende Medium muss im Bibliothekssystem erfasst werden, um später in der Recherche im Katalog auffindbar zu sein. Der öffentliche Online Katalog wird auch als OPAC bezeichnet (Online Public Access Catalogue).
-Um eine erfolgreiche Recherche zu gewährleisten, muss bei der Erfassung der Daten – der Katalogisierung – ein vorgegebener Standard eingehalten werden.
+## Titeldatensätze
 
-## Katalogisieren mit Z39.50
+### Manuelle Erstellung
 
-### Titel- und Exemplardatensätze
-Im Prozess der Katalogisierung muss zwischen zwei wichtigen Begrifflichkeiten differenziert werden: Beim Import mit dem Tool Z39.50 wird ein **Titeldatensatz** mit den allgemeinen Metadaten des Objektes erstellt. Für den Katalog muss allerdings noch ein sogenannter **Exemplardatensatz** angelegt werden, das direkt mit einem einzelnen Objekt im Bestand korrespondiert. 
-So liegt beispielsweise für einen Buchtitel im Bestand jeweils nur ein Datensatz vor, sollten aber mehrere Ausgaben desselben Buches vorhanden sein erhält jede ihren eigenen Exemplardatensatz, der auch Daten enthalten kann, die einzigartige Merkmale der jeweiligen Ausgabe beschreiben. Zu diesen Merkmalen können u.a. der Standort in der Bibliothek oder Beschädigungen gehören.
+Koha bietet standardmäßig verschiedene Frameworks für die Erstellung von Titeldatensätzen an die verschiedene MARC Felder beinhalten. Diese sind teilweise für verschiedene Medien angepasst, oder auch einfach nur stark reduziert, wie beispielsweise für die „Schnellaufnahme“. Diese Frameworks sollten dem RDA Regelwerk entsprechend ausgefüllt werden.
 
-### Importieren des Titeldatensatzes
-Im Unterpunkt "Katalogisierung" von Koha finden Sie die Import Funktion von Z39.50.
+<img src="https://pders01.github.io/Koha_out_of_the_box/Images/neuer_titel.PNG" alt="Button zum Anlegen eines neuen Titels" width="1450">
 
-![Bild vom Import Button](../Images/import_button.PNG)
+In der Administration von Koha können diese unter *Katalog > Bibliographisches MARC-Framework* bearbeitet und individuellen Bedürfnissen angepasst werden. Hierfür müssen die einzelnen Unterfelder bearbeitet werden.
 
-Der Button öffnet ein separates Fenster mit der Suchmaske des Tools.
+<img src="https://pders01.github.io/Koha_out_of_the_box/Images/aktionen_fw.PNG" alt="Neues Framework hinzufügen" width="1450">
 
-![Bild der Suchmaske](../Images/z3950_suchmaske.PNG)
+Hier kann unter anderem angegeben werden welche Felder beim Anlegen eines Titeldatensatzes verpflichtend sind und in welchen Arbeitsumfeldern von Koha sie angezeigt werden. Unter den weiteren Optionen können Normdaten als Auswahlmöglichkeit für das Unterfeld ausgewählt werden, die zuvor unter *Administration > Katalog > Normdatentypen* angelegt werden müssen.
 
-Hier können verschiedene Suchkriterien eingegeben werden, um in mehreren Suchzielen zu recherchieren. Die potentiellen Suchziele müssen zuvor in Koha konfiguriert worden sein (s. Z39.50).
-Sollte an Ihren Rechner ein Barcode Scanner angeschlossen sein, können Sie diesen nutzen, um die ISBN des Mediums zu scannen und automatisch in die Suchmaske einzutragen.
+<img src="https://pders01.github.io/Koha_out_of_the_box/Images/uebersicht_fw.PNG" alt="Übersicht des neuen Frameworks" width="1450">
 
-![Bild der Ergebnisliste](../Images/z3950_ergebnisliste.PNG)
+<img src="https://pders01.github.io/Koha_out_of_the_box/Images/titel_unterfelder_fw.PNG" alt="Unterfelder des MARC Feldes 'Titel'" width="1450">
 
-Nach einer erfolgreichen Suche sollte ein oder mehrere Ergebnisse vorliegen. Im Fall von mehreren Ergebnissen wählen Sie bitte den vollständigsten Datensatz, sprich der Datensatz mit den meisten Angaben in der Tabelle.
+### Datensatzübernahme mit Z39.50
+
+<img src="https://pders01.github.io/Koha_out_of_the_box/Images/import_button.PNG" alt="Bild von Import Button" width="1450">
+
+Nachdem Z39.50 wie in ** erklärt mit der Fremddatenquelle Ihrer Wahl eingerichtet wurde, kann diese genutzt werden, um Titeldatensätze zu importieren. 
+In der Suchmaske können verschieden Suchkriterien und Suchziele angegeben werden. Die Suchziele hängen davon ab, welche Fremddatenquellen für Z39.50 konfiguriert wurden. Die ISBN kann automatisch eingefügt werden, falls Sie einen Handscanner verwenden.
+
+<img src="https://pders01.github.io/Koha_out_of_the_box/Images/z3950_ergebnisliste.PNG" alt="Bild der Ergebnisliste" width="1450">
+
+Sie werden meistens mehrere Suchergebnisse bekommen, aus denen Sie einen Datensatz für den Import wählen müssen. Hierfür sollte der vollständigste Datensatz gewählt werden. Um die Vollständigkeit zu überprüfen kann unter Aktionen die MARC Ansicht gewählt werden. Unter Aktionen kann auch der Import durchgeführt werden.
+
+<img src="https://pders01.github.io/Koha_out_of_the_box/Images/z3950_suchmaske.PNG" alt="Bild der Suchmaske" width="1450">
+
+Standardmäßig ist in Koha das Pflichtfeld 942-c Koha-Medientyp im Reiter 9 bestimmt, dass ausgefüllt werden muss bevor der Datensatz gespeichert werden kann. In den Einstellungen zum MARC-Framework kann dies bearbeitet werden.
+
+<img src="https://pders01.github.io/Koha_out_of_the_box/Images/koha_medientyp.PNG" alt="Bild des Reiter 9 mit dem MARC Feld 942" width="1450">
+
+## Exemplarverwaltung
+
+Nach der Erstellung eines Titeldatensatzes öffnet sich automatisch die Exemplarmaske. Alternativ kann diese auch in einem bestehenden Titeldatensatz des Katalogs aufgerufen werden, um ein bestehendes Exemplar zu bearbeiten oder ein Neues hinzuzufügen. 
+
+<img src="https://pders01.github.io/Koha_out_of_the_box/Images/titel_exemplar_neu.PNG" alt="Titeldatensatz mit Option zum Hinzufügen eines neuen Exemplars" width="1450">
+
+In den *Administration > Globale Systemparameter > Katalogisierung > Datensatzstruktur* findet sich die Einstellung "autoBarcode", die festlegt in welchem Format die automatischen Barcodes generiert werden. Wenn hier eine Option gewählt ist, muss im Exemplardatensatz nur in das Feld Barcode geklickt werden. 
+
+<img src="https://pders01.github.io/Koha_out_of_the_box/Images/exemplar_maske.PNG" alt="Maske zur Erstellung eines Exemplars" width="1450">
+
+Auch hier können die genormten Auswahlmöglichkeiten unter *Administration > Katalog > Normdatentypen* bearbeitet werden.
+
+Sobald der Exemplardatensatz erstellt wurde, kann das Medium an Nutzer ausgeliehen werden. Für Optionen zur Etikettierung von Medien finden Sie <a href="https://wiki.bsz-bw.de/pages/viewpage.action?pageId=17565617&preview=/17565617/3454474/18-11_Etikettendruck.pdf">hier</a> Informationen.
+
+## Weitere Informationsquellen
+
+* <a href="https://koha-wiki.thulb.uni-jena.de/erschliessung/katalogisierung/">Koha-Wiki der ThULB Jena: Katalogisierung (Ausführliche Informationen zu den einzelnen MARC Feldern und dem RDA-Regelwerk)</a>
+* <a href="https://wiki.bsz-bw.de/pages/viewpage.action?pageId=17565617&preview=/17565617/3454470/16-11_Katalogisierung_Handbuch_ohne_Verbund_V1.pdf">Bibliotheksservice-Zentrum Baden-Württemberg: Koha Handbücher / Handbuch Katalogisierung ohne Verbund</a>
