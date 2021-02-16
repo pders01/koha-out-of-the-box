@@ -13,7 +13,7 @@ Angezeigt werden die Felder „Titel“ und „Lieferant“. Durch einen Klick a
 
 ### Neue Bestellung anlegen
 Um eine neue Bestellung anlegen zu können, muss im ersten Schritt nach dem Lieferanten gesucht werden, bei dem die Medien bestellt werden sollen (s. auch Lieferanten suchen).
-Hier findet sich anschließend die Schaltfläche *„neue Bestellung“*.
+Hier findet sich anschließend die Schaltfläche „neue Bestellung“.
  
 ![Button Neue Bestellung](../Images/EW_bsneu.PNG)
 
@@ -27,16 +27,17 @@ Verpflichtend ist beim Anlegen der Bestellung ein eindeutiger **Name** für die 
 **Lieferant**: Dieser kann in dieser Maske bei Bedarf noch einmal angepasst werden.
 **Interne Notiz/Lieferantennotiz**: wird in allen Schritten der Erwerbungsbearbeitung angezeigt, nur die Lieferantennotiz wird auf den PDF-Bestellscheinen mit ausgegeben.
 **Standing Order**: Wird eine Bestellung als Standing Order markiert, wird diese bei Erhalt der Lieferung *nicht* geschlossen, es können somit jederzeit weitere Rechnungen zur Bestellung hinzugefügt werden.
-*„Exemplare erzeugen bei“* legt fest, ob im Erwerbungsprozess bei Bestellung oder bei Zugang Exemplare angelegt werden sollen. Alternativ kann man auch ganz auf die Erzeugung von Exemplaren verzichten (z.B. bei elektronischen Ressourcen), in dem man „bei Katalogisierung“ wählt. Die Voreinstellung für diesen Wert wird aus den Systemparametern gezogen.
+**„Exemplare erzeugen bei“**: Dies legt fest, in welchem Bearbeitungsschritt Exemplare in Koha angelegt werden sollen, bereits jetzt im Erwerbungsprozess oder erst beim Eintreffen der Medien. Alternativ kann auch ganz auf die Erzeugung von Exemplaren verzichtet werden (z.B. bei elektronischen Ressourcen), indem man „bei Katalogisierung“ wählt.
+
 Mit „Speichern“ wird die Bestellung gespeichert und die folgende Übersicht angezeigt:
 
 ![Übersicht angelegte Bestellung](../Images/EW_bsuebers.PNG)
  
-Der Korb kann mit *„Korb bearbeiten“* bei Bedarf noch einmal angepasst werden. Mit *„diese Bestellung löschen“* kann der angelegte Bestellkorb gelöscht werden.
+Der Korb kann mit „Korb bearbeiten“ bei Bedarf noch einmal angepasst werden. Mit „diese Bestellung löschen“ kann der angelegte Bestellkorb gelöscht werden.
 
 ### Bestellposten anlegen
 
-Mit *„Neuer Bestellposten“* können nun Medien zur Bestellung hinzugefügt werden. 
+Mit „Neuer Bestellposten“ können nun Medien zur Bestellung hinzugefügt werden. 
 
 ![Neuer Bestellposten](../Images/EW_bsbestellposten.PNG)
 
@@ -73,21 +74,20 @@ Hier sollte man darauf achten, ob es sich bei dem vorliegenden Medium um E-Book 
  
 *Karten-Ansicht einer elektronischen Ressource*
 Ist der gewünschte Titel in der korrekten Form gefunden, können die Informationen mit „bestellen“ übernommen werden.
-Das sich nun öffnende Bestellformular ist in 4 Teile unterteilt: Der Bestellkopf, die Angaben aus dem Katalog, die Angaben für das Exemplar (wenn in der Konfiguration, bzw. im Bestellkorb, eingestellt ist, dass Exemplare bereits bei der Bestellung angelegt werden) und die Buchungsdetails.
-Am Ende des Abschnitts „Exemplar“ kann mit *„Exemplar hinzufügen“* ein neues Exemplar generiert werden. Sollen mehrere Exemplare erworben werden, kann dies über den Button „mehrere Exemplare hinzufügen“ erfolgen.
+Es öffnet sich nun ein Bestellformular. Es beinhaltet den Bestellkopf, die ermittelten Angaben aus dem Katalog, Angaben für das Exemplar und die Buchungsdetails.
+Am Ende des Abschnitts „Exemplar“ kann mit „Exemplar hinzufügen“ ein neues Exemplar generiert werden. Sollen mehrere Exemplare erworben werden, kann dies über den Button „mehrere Exemplare hinzufügen“ erfolgen.
 
 ![Exemplare hinzufügen](../Images/EW_exadd.PNG)
  
-Im Abschnitt *„Buchungsdetails“* wird dadurch automatisch das Pflichtfeld „Anzahl“ aktualisiert.
+Im Abschnitt „Buchungsdetails“ wird dadurch automatisch das Pflichtfeld „Anzahl“ aktualisiert.
 
 ![Maske Buchungsdetails](../Images/EW_buchungsdetails.PNG)
   
-Im Feld Konto wird das zu belastende Konto ausgewählt. In den Buchungsdetails wird der Preis eingetragen (Feld *Lieferantenpreis*). Dieser muss ggfs. extern noch einmal recherchiert werden. MWSt-Rate und Rabatt werden aus dem Lieferantendatensatz gezogen und können an dieser Stelle geändert werden. Der Gesamtpreis aller Exemplare mit Rabatten wird automatisch berechnet und eingetragen.
-Nach Abspeichern der Bestellung können auf diesen Bestellkopf weitere Bestellposten (Bestelltitel) angelegt werden.
+Im Feld "Konto" wird das zu belastende Konto ausgewählt. Im Abschnitt "Buchungsdetails" wird der Preis eingetragen (Feld *Lieferantenpreis*). Dieser muss ggfs. extern noch einmal recherchiert werden. MWSt-Rate und Rabatt werden aus dem Lieferantendatensatz gezogen und können an dieser Stelle geändert werden. Der Gesamtpreis aller Exemplare mit Rabatten wird automatisch berechnet und eingetragen.
+Nach Abspeichern der Bestellung, können auf diesen Bestellkopf weitere Bestellposten (Bestelltitel) angelegt werden.
 In der nachfolgend angezeigten Übersicht kann die angelegte Bestellung geändert und auch storniert werden. Mit „Bestellung stornieren“ werden der Bestellposten und das Exemplar storniert, mit „Bestellung stornieren und Titelsatz löschen“ wird zusätzlich der Titel aus dem System entfernt.
 
 ![Posten Übersicht](../Images/EW_posten.PNG)
-
  
 
 ### Bestellungen abschließen und verschicken
@@ -96,6 +96,7 @@ Wurden alle gewünschten Bestellposten angelegt, kann der Korb im Bestellkopf ge
 
 ![Bestellkopf schließen](../Images/EW_bsclose.PNG)
 
+Muss die Bestellung nur im System verzeichnet und nicht als PDF gedruckt werden, sind die folgenden Schritte nach Schließen des Korbs optional.
  
 Für den PDF-Druck muss die Bestellung einer Bestellgruppe zugeordnet werden.
 Ist der Korb geschlossen, wird zum Lieferanten gewechselt.
@@ -104,19 +105,16 @@ Hier besteht die Möglichkeit, die Bestellung einer Bestellgruppe zuzuordnen, we
 ![Bestellgruppe](../Images/EW_bsgruppe.PNG)
 
  
-Über den Button *“Neue Bestellgruppe“* kann eine neue Bestellgruppe angelegt werden. Alle Bestellungen, die in dem geschlossenen Korb liegen, werden hier angezeigt.
+Über den Button “Neue Bestellgruppe“ kann eine neue Bestellgruppe angelegt werden. Alle Bestellungen, die in dem geschlossenen Korb liegen, werden hier angezeigt.
 
 ![Neue Bestellgruppe](../Images/EW_bsgruppeneu.PNG)
  
-Die Bestellungen im Feld *„Ungruppierte Bestellungen“* müssen mit der Maus per Drag-and-Drop in das Feld Bestellungen in dieser Gruppe gezogen werden. Nach dem Abspeichern können die Bestellungen als PDF exportiert und ggf. gedruckt werden. 
+Die Bestellungen im grauen Feld „Ungruppierte Bestellungen“ müssen mit der Maus per *Drag-and-Drop* in das linke graue Feld "Bestellungen in dieser Gruppe" gezogen werden. Nach dem Abspeichern können die Bestellungen als PDF exportiert und ggf. gedruckt werden. 
 
 ![PDF-Druck von Bestellungen](../Images/EW_bspdf.PNG)
 
- 
- Werden diese Funktionen nicht genutzt, ist die Verwendung von Bestellgruppen nicht erforderlich und rein optional.
-
 ### Lieferung und Rechnungsbearbeitung
-Ist die Lieferung eingetroffen, muss zunächst der betreffende Lieferant gesucht werden (s. hierfür *Lieferant suchen*).
+Ist die Lieferung eingetroffen, muss zunächst der betreffende Lieferant gesucht werden (s. hierfür den Abschnitt *Lieferant suchen*).
 
 ![Offene Bestellung suchen](../Images/EW_bsoffen.PNG)
 
@@ -136,7 +134,7 @@ Mit „Zugang“ kann das Eintreffen einer Bestellung bestätigt werden.
 ![Exemplarzugang](../Images/EW_bsexzugang.PNG)
 
  
-Es öffnet sich die Maske *„Exemplarzugang“*. Hier muss im Feld „Gelieferte Anzahl“ die gelieferte Menge angegeben werden. Links im Bereich „Exemplare“ finden sich die ggfs. bei der Bestellung angelegten Exemplare, die mit „Bearbeiten“ noch einmal überarbeitet werden können.
+Es öffnet sich die Maske „Exemplarzugang“. Hier muss im Feld „Gelieferte Anzahl“ die gelieferte Menge angegeben werden. Links im Bereich „Exemplare“ finden sich die ggfs. bei der Bestellung angelegten Exemplare, die mit „Bearbeiten“ noch einmal überarbeitet werden können.
 In dieser Übersicht ist es möglich, das zu belastende Konto sowie MWSt.-Rate oder Kosten zu ändern. 
-Nach dem Speichern werden die gelieferten Medien unter *„Bereits zugegangen“* angezeigt.
-Über den Button *“Lieferung abschließen“* werden alle Informationen zur Rechnung aufgelistet. Die Rechnungsdetails können hier erneut bearbeitet werden.
+Nach dem Speichern werden die gelieferten Medien unter „Bereits zugegangen“ angezeigt.
+Über den Button “Lieferung abschließen“ werden alle Informationen zur Rechnung aufgelistet. Die Rechnungsdetails können hier erneut bearbeitet werden.

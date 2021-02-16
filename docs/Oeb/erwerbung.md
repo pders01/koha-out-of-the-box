@@ -1,7 +1,9 @@
 
 # Erwerbung
 Um in Koha Bestellungen verarbeiten zu können, müssen zuerst einige Einstellungen vorgenommen werden, um den Haushalt in Koha zu erfassen und zu verwalten.
-Der Haushalt setzt sich aus Etats und Konten zusammen. Die oberste Ebene bildet der Etat, dem beliebig viele Konten und Unterkonten zugeordnet werden können. Die Haushaltsstruktur kann mit beliebig vielen Ebenen definiert werden. Sinnvoll ist aber zumeist eine Haushaltsstruktur mit zwei Ebenen, die aus Etat und den dazugehörigen Konten besteht.
+Der Haushalt besteht setzt sich aus Etats und zugehörigen Konten zusammen. Einem Etat können beliebig viele Konten und Unterkonten zugeordnet werden. Grundsätzlich kann der Haushalt nach Belieben untergliedert werden, jedoch ist eine Unterteilung in zwei Ebenen, in Etat und die dazugehörigen Konten, empfehlenswert.
+
+
 ## Etats
 Der Etat bildet die oberste Stufe der Haushaltsstruktur. Meist bezieht sich dieser auf eine Zeitspanne, beispielsweise ein Jahr.
 
@@ -15,7 +17,7 @@ Ist zuvor noch kein Etat konfiguriert worden, weist Koha nun darauf hin, dass ei
  
 ![Hinweis Etat definieren](../Images/EW_etat1.PNG)
  
-Es sind keine Etats vorhanden. Mit der Schaltfläche **„+ Neuer Etat“** öffnet sich eine Maske, um einen neuen Etat anzulegen.
+Es sind keine Etats vorhanden. Mit der Schaltfläche „Neuer Etat“ öffnet sich eine Maske, um einen neuen Etat anzulegen.
  
  ![Button neuer Etat](../Images/EW_etat2.PNG)
  
@@ -30,11 +32,12 @@ Die Pflichtfelder sind rot hinterlegt.
 **Gesamtsumme:** Die insgesamt verfügbaren Mittel.
 
 **Etat aktivieren** muss unbedingt angehakt werden, damit auf den betreffenden Etat Bestellungen getätigt werden können. 
-Der Etat kann auch über das Haushaltsjahr hinaus Gültigkeit haben und aktiv bleiben. Die Bestellungen, die in einem vorangegangenen Haushaltsjahr bestellt wurden, können so immer noch bearbeitet werden. Umgekehrt kann auch ein Etat für das Folgejahr vor der eigentlichen Laufzeit aktiviert werde, so dass Bestellungen, die erst im nächsten Jahr geliefert werden, bereits auf den neuen Etat gebucht werden können.
+Ein Etat kann auch über das Haushaltsjahr hinaus seine Gültigkeit behalten und aktiv bleiben. So können Bestellungen, die im vorangegangenen Haushaltsjahr bestellt wurden, immer noch bearbeitet werden. Es kann auch ein Etat für das Folgejahr vor der eigentlichen Laufzeit aktiviert werden, sodass Bestellungen, die im alten Jahr getätigt aber erst im neuen Jahr geliefert werden, bereits auf den neuen Etat gebucht werden können.
+
 Durch einen Klick auf die Schaltfläche „Speichern“ wird der neue Etat angelegt und erscheint anschließend in der Etatverwaltung.
  
 ## Konten
-Für einen Etat können beliebig viele Konten angelegt werden, die wiederum in Unterkonten unterteilt werden können. Die Funktion findet man beim jeweiligen aktiven Etat unter *„Aktionen“ > „+ Konto hinzufügen“.*
+Für einen Etat können beliebig viele Konten angelegt werden, die wiederum in Unterkonten unterteilt werden können. Die Funktion findet man beim jeweiligen aktiven Etat unter *"Aktionen“ > „Konto hinzufügen"*.
  
  ![Button Konto hinzufügen](../Images/EW_etat4.PNG)
  
@@ -47,7 +50,7 @@ Für einen Etat können beliebig viele Konten angelegt werden, die wiederum in U
 **Kontoname:** Der Kontoname gibt den geplanten Verwendungszweck des Kontos an.
 Betrag: Der Betrag kann beliebig gewählt werden, darf die für den Etat eingetragene Summe bzw. die nach Anlegen anderer Konten noch verfügbaren Mittel nicht überschreiten.
 
-**Warnung bei % / Warnung bei Summe:** Dies bezieht sich auf die Summe aus gebundenen und ausgegebenen Mitteln für das jeweilige Konto. Übersteigt diese Summe den hier angegebenen Wert, wird eine Warnmeldung erzeugt, die aber übergangen werden kann. Es ist möglich, Konten zu überziehen.
+**Warnung bei % / Warnung bei Summe:** Diese Funktion prüft die gebundenen und ausgegebenen Mittel für das jeweilige Konto. Übersteigt diese Summe den hier angegebenen Wert, wird eine Warnmeldung erzeugt, die aber übersprungen werden kann. Es ist auch möglich, Konten zu überziehen.
 
 **Besitzer / Benutzer / Bibliothek:** Mit diesen Feldern kann festgelegt werden, wer das Konto verwenden kann.  
 
@@ -55,18 +58,18 @@ Betrag: Der Betrag kann beliebig gewählt werden, darf die für den Etat eingetr
 
 **Hinweise:** Hier kann optional definiert werden, wozu das Konto verwendet werden soll.
 
-**Kategorie Statistik 1/2:** Hier können Kategorien von normierten Werten angegeben werden, über die sich beliebige Auswahllisten definieren lassen. , Diese werden unter Administration / Normierte Werte definiert. . Wenn keine Liste verknüpft wird, kann auch eine Freitexteingabe erfolgen. Z.B. Erwerbungsarten, Informationen zum Bestellenden, Statistikklassen für die DBS usw.
+**Kategorie Statistik 1/2:** Hier können Kategorien von normierten Werten angegeben werden, die für die Erstellung von Statistiken relevant sind. Diese können unter Administration - normierte Werte definiert werden.
 
 ![Button neues Konto](../Images/EW_konten2.PNG)
  
-Unter *Erwerbung > Administration > Konten* kann eine Übersicht aller Konten der jeweiligen Etats angezeigt werden. Die Übersicht liefert eine Übersicht, wie viele Mittel bereits durch offene Bestellungen gebunden, ausgegeben oder noch frei verfügbar sind.
+Unter *"Erwerbung" > "Administration" > "Konten"* kann eine Übersicht aller Konten der jeweiligen Etats angezeigt werden. Die Übersicht liefert eine Übersicht, wie viele Mittel bereits durch offene Bestellungen gebunden, ausgegeben oder noch frei verfügbar sind.
 ### Unterkonten anlegen
-Die Funktion zum Anlegen neuer Unterkonten findet sich unter Erwerbung *> Administration > Konten.* Hier kann für jedes Konto unter „Aktionen“ und „+ neues Unterkonto“ eine beliebige Anzahl Unterkonten angelegt werden. Die Maske wird analog zu der Maske für normale Konten befüllt.
+Die Funktion zum Anlegen neuer Unterkonten findet sich unter *Erwerbung > Administration > Konten.* Hier kann für jedes Konto unter „Aktionen“ und „neues Unterkonto“ eine beliebige Anzahl Unterkonten angelegt werden. Die Maske wird analog zu der Maske für normale Konten befüllt.
 
 ![Button neues Unterkonto](../Images/EW_konten3.PNG)
  
 ### Etats abschließen
-Meist am Ende des Haushaltsjahres müssen Etats abgeschlossen werden. Zuerst sollte der derzeit aktive Etat auf inaktiv gesetzt werden. Damit wird verhindert, das neue Bestellungen auf Konten in diesem Etat angelegt werden. Zugang und Rechnungsbearbeitung eingehender Bestellungen ist weiterhin möglich.
+Meist am Ende des Haushaltsjahres müssen Etats abgeschlossen werden. Zuerst sollte der derzeit aktive Etat auf inaktiv gesetzt werden. So wird verhindert, dass irrtümlich neue Bestellungen auf Konten in diesem Etat angelegt werden. Die Bearbeitung von Lieferungen und die Rechnungsbearbeitung ist auch bei inaktiven Etats weiterhin möglich.
 
 ![Button Etat bearbeiten](../Images/EW_etatzu1.PNG)
  
@@ -99,6 +102,6 @@ Es gibt die Möglichkeit, verbliebene Mittel auf den neuen Etat umzubuchen. Dies
 
 ![nicht zugegangene Bestellungen übertragen](../Images/EW_etatbs2.PNG)
  
-Mit „nicht zugegangene Bestellungen umbuchen“ wird der Vorgang begonnen, es wird allerdings noch einmal eine Bestätigung des Vorgangs verlangt, die mit „OK“ bestätigt werden muss. Können alle offenen Bestellungen umgebucht werden, steht die Summe der gebundenen Mittel im Ausgangsetat anschließend auf Null und die Mittel sind im neuen Etat gebunden.
+Mit „nicht zugegangene Bestellungen umbuchen“ wird der Vorgang begonnen, es wird allerdings noch einmal eine Bestätigung des Vorgangs verlangt, die mit „OK“ bestätigt werden muss. Können alle offenen Bestellungen korrekt umgebucht werden, steht die Summe der gebundenen Mittel im Ausgangsetat auf Null und die Mittel sind im neuen Etat gebunden.
  
 ![Bestätigung nicht zugegangene Bestellungen](../Images/EW_etatbs3.PNG)
