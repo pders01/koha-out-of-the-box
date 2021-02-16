@@ -31,3 +31,8 @@ Eine Anleitung hierzu finden Sie unter [Wie konfiguriere ich eine Koha-Instanz?]
 
 ### x86_64 
 
+Wenn Sie sich für einen Desktop-PC oder einen Server entscheiden, können Sie unter [Wie konfiguriere ich eine Koha-Instanz](https://pders01.github.io/Koha_out_of_the_box/#/configuring) im Unterpunkt __x86_64__ nachschauen, welche Linux-Distributionen offiziell unterstützt werden und welche zusätzlichen Schritte Sie für das Aufsetzen des Systems durchführen müssen.  
+
+Das Flashen eines USB-Sticks mit Debian wird in dieser Dokumentation nicht extra aufgeführt. Hierfür können Sie sich an den Schritten unter [Wie flashe ich meine SD-Karte?](https://pders01.github.io/Koha_out_of_the_box/#/flashing) orientieren. Es gibt, bis auf seltene Ausnahmen, keine Unterschiede zwischen dem Flashen von USB-Sticks und SD-Karten.  
+
+Sie können sich alternativ auch an [dieser Anleitung](https://linuxmint-installation-guide.readthedocs.io/de/latest/burn.html#:~:text=Sie%20auf%20Schreiben.-,In%20Windows%2C%20Mac%20OS%20oder%20anderen%20Linux%2DDistributionen,und%20f%C3%BChren%20Sie%20es%20aus.&text=Klicken%20Sie%20auf%20Select%20image,Klicken%20Sie%20auf%20Flash!.) orientieren.

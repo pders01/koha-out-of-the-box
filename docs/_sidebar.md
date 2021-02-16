@@ -1,7 +1,7 @@
 <!-- docs/_sidebar.md -->
 
 * [Home](/)
-* [Guide](guide.md)
+* [Anleitung für Neueinsteiger](guide.md)
 * [Wie erstelle ich eine Koha-Instanz?](configuring.md)
 * [Was benötige ich an Materialien?](parts.md)
 * [Wie flashe ich meine SD-Karte?](flashing.md)

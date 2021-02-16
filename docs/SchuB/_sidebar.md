@@ -1,5 +1,6 @@
 <!-- docs/SchuB/_sidebar.md -->
 
+* [Home](/)
 * [Übersicht](/SchuB/uebersicht.md)
 * [Katalogisierung](SchuB/katalogisierung.md)
 * [Ausleihe](SchuB/ausleihe.md)

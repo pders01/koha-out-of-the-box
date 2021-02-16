@@ -1,5 +1,6 @@
 <!-- docs/Oeb/_sidebar.md -->
 
+* [Home](/)
 * [Übersicht](/Oeb/uebersicht.md)
 * [Ausleihe](Oeb/ausleihe.md)
 * [Benutzerverwaltung](Oeb/benutzer.md)

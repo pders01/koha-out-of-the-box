@@ -1,5 +1,6 @@
 <!-- docs/SpB/_sidebar.md -->
 
+* [Home](/)
 * [Übersicht](/SpB/uebersicht.md)
 * [Ausleihe](SpB/ausleihe.md)
 * [Benutzerverwaltung](SpB/benutzer.md)

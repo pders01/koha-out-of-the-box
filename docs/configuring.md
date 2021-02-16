@@ -16,8 +16,8 @@ Wenn Sie einen Desktop-PC oder einen Server verwenden, müssen Sie sich zunächs
 
 #### Besonderheiten bei x86_64
 
-Sobald Sie die Installation des Debian-Basissystems abgeschlossen haben, müssen Sie zunächst das Skript `kdpndntOS.sh`\
-ausführen. Da Sie kein vorbereitetes Image verwenden, benötigen Sie zunächst das Tool `git`. Hierzu müssen Sie zunächst die\
+Sobald Sie die Installation des Debian-Basissystems abgeschlossen haben, müssen Sie zunächst das Skript `kdpndntOS.sh`
+ausführen. Da Sie kein vorbereitetes Image verwenden, benötigen Sie zunächst das Tool `git`. Hierzu müssen Sie zunächst die
 Paketquellen updaten und `git` anschließend installieren.
 
 ```
