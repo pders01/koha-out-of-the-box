@@ -1,6 +1,5 @@
 <!-- docs/Oeb/_sidebar.md -->
 
-* [Home](/)
 * [Übersicht](/Oeb/uebersicht.md)
 * [Ausleihe](Oeb/ausleihe.md)
 * [Benutzerverwaltung](Oeb/benutzer.md)
@@ -12,3 +11,4 @@
 * [OPAC](Oeb/opac.md)
 * [Admin-Oberfläche](Oeb/admin.md)
 * [Datenschutz](Oeb/datenschutz.md)
+* [Home](/)

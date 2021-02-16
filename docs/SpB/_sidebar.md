@@ -1,6 +1,5 @@
 <!-- docs/SpB/_sidebar.md -->
 
-* [Home](/)
 * [Übersicht](/SpB/uebersicht.md)
 * [Ausleihe](SpB/ausleihe.md)
 * [Benutzerverwaltung](SpB/benutzer.md)
@@ -12,3 +11,4 @@
 * [OPAC](SpB/opac.md)
 * [Admin-Oberfläche](SpB/admin.md)
 * [Datenschutz](SpB/datenschutz.md)
+* [Home](/)
