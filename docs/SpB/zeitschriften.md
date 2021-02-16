@@ -71,4 +71,8 @@ Durch einen Klick auf die Schaltfläche „Zeitschriftenzugang“ können neu ei
  
 Es wird automatisch eine Zählung, ein Erscheinungs- und ein Erwartungsdatum eingetragen. Der Status kann nun von „erwartet“ zu „eingetroffen“ geändert werden. Auch weitere Status wie „verspätet“, „vermisst“ oder „reklamiert“ sind bei Bedarf vorhanden. Die darauffolgenden Hefte werden von Koha automatisch nach der vorgegebenen Nummerierung generiert.
 
+## Weitere Informationsquellen
+* <a href="https://koha-wiki.thulb.uni-jena.de/zeitschriftenverwaltung/">Koha-Wiki der ThULB Jena: Zeitschriftenverwaltung</a>
+* <a href="https://koha-community.org/manual/18.11/en/html/serials.html">Koha Manual – Serials (derzeit nur auf Englisch verfügbar)</a>
+* <a href="https://wiki.bsz-bw.de/pages/viewpage.action?pageId=17565617&preview=/17565617/19827231/18-11_Workflows_Erwerbung.pdf">Bibliotheksservice-Zentrum Baden-Württemberg: Koha Handbücher / Workflows Erwerbung</a>
  
