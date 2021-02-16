@@ -11,3 +11,4 @@
 * [OPAC](SpB/opac.md)
 * [Admin-Oberfläche](SpB/admin.md)
 * [Datenschutz](SpB/datenschutz.md)
+* [Home](/)
