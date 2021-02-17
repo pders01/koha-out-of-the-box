@@ -9,6 +9,7 @@
 * [Zeitschriften](SchuB/zeitschriften.md)
 * [z3950](SchuB/z3950.md)
 * [OPAC](SpB/opac.md)
+* [OPAC-Nutzung](SchuB/opac_nutzung.md)
 * [Admin-Oberfläche](SpB/admin.md)
 * [Datenschutz](SpB/datenschutz.md)
 * [Zusätzliche Informationsquellen](SchuB/quellen_schub.md)

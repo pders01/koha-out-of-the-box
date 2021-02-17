@@ -105,3 +105,9 @@ Es gibt die Möglichkeit, verbliebene Mittel auf den neuen Etat umzubuchen. Dies
 Mit „nicht zugegangene Bestellungen umbuchen“ wird der Vorgang begonnen, es wird allerdings noch einmal eine Bestätigung des Vorgangs verlangt, die mit „OK“ bestätigt werden muss. Können alle offenen Bestellungen korrekt umgebucht werden, steht die Summe der gebundenen Mittel im Ausgangsetat auf Null und die Mittel sind im neuen Etat gebunden.
  
 ![Bestätigung nicht zugegangene Bestellungen](../Images/EW_etatbs3.PNG)
+
+
+## Weitere Informationsquellen
+* <a href="https://koha-wiki.thulb.uni-jena.de/erwerbung/etats-konten/">Koha-Wiki der ThULB Jena: Erwerbung – Etats und Konten</a>
+* <a href="https://koha-wiki.thulb.uni-jena.de/erwerbung/lieferantenverwaltung/">Koha-Wiki der ThULB Jena: Erwerbung – Lieferantenverwaltung</a>
+* <a href="https://wiki.bsz-bw.de/pages/viewpage.action?pageId=17565617&preview=/17565617/3454470/16-11_Katalogisierung_Handbuch_ohne_Verbund_V1.pdf">Bibliotheksservice-Zentrum Baden-Württemberg: Koha Handbücher / Handbuch Erwerbung</a>

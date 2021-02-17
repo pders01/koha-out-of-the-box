@@ -138,3 +138,8 @@ Es öffnet sich die Maske „Exemplarzugang“. Hier muss im Feld „Gelieferte 
 In dieser Übersicht ist es möglich, das zu belastende Konto sowie MWSt.-Rate oder Kosten zu ändern. 
 Nach dem Speichern werden die gelieferten Medien unter „Bereits zugegangen“ angezeigt.
 Über den Button “Lieferung abschließen“ werden alle Informationen zur Rechnung aufgelistet. Die Rechnungsdetails können hier erneut bearbeitet werden.
+
+## Weitere Informationsquellen
+* <a href="https://koha-wiki.thulb.uni-jena.de/erwerbung/bestellvorgang/">Koha-Wiki der ThULB Jena: Bestellvorgang</a>
+* <a href="https://wiki.bsz-bw.de/pages/viewpage.action?pageId=17565617&preview=/17565617/4886877/18-11_Erwerbung.pdf">Bibliotheksservice-Zentrum Baden-Württemberg: Koha Handbücher / Handbuch Erwerbung</a>
+* <a href="https://wiki.bsz-bw.de/pages/viewpage.action?pageId=17565617&preview=/17565617/19827231/18-11_Workflows_Erwerbung.pdf">Bibliotheksservice-Zentrum Baden-Württemberg: Koha Handbücher / Workflows Erwerbung</a>
