@@ -1,5 +1,5 @@
 Der **Online Public Access Catalog (OPAC)** ist die Oberfläche der Bibliothek aus Perspektive der Nutzenden und kann zwar über die Verwaltungsoberfläche konfiguriert werden, existiert aber als Webseite unabhängig von dieser. Es handelt sich um eine Web-Oberfläche, welche in erster Linie den Nutzenden einer Bibliothek dazu dient, außerhalb der Bibliothek auf eigenen Geräten den Bestand zu durchsuchen. Darüber hinaus bietet der OPAC den Nutzenden viele Funktionen, für welche diese ansonsten die Bibliothek in Person besuchen und ihre Anliegen den Verantwortlichen mitteilen müssten.
-Diese Seite behandelt die Möglichkeiten, die Nutzende durch einen OPAC haben. Um mehr zur Konfiguration des OPACs zu erfahren, lesen Sie die Seite [OPAC](SpB/opac.md).
+Diese Seite behandelt die Möglichkeiten, die Nutzende durch einen OPAC haben. Um mehr zur Konfiguration des OPACs zu erfahren, lesen Sie die Seite [OPAC](SchuB/opac.md).
 
 # Suche
 
@@ -13,7 +13,7 @@ Die Titelansicht gibt alle Informationen zu einem Titel an, Informationen zu den
 
 ## Vormerken
 
-Diese Aktion erlaubt es den Nutzenden, ein bestimmtes oder ein unbestimmtes Exemplar dieses Titels vorzumerken, wenn zurzeit kein Exemplar zur Ausleihe verfügbar ist. Nachdem „Vormerken“ angeklickt wird, muss auf der nächsten Seite die Vormerkung auf die angemeldete Person bestätigt werden. Mehr zum Thema Vormerkungen finden Sie auf der Seite [Ausleihe](SpB/ausleihe.md).
+Diese Aktion erlaubt es den Nutzenden, ein bestimmtes oder ein unbestimmtes Exemplar dieses Titels vorzumerken, wenn zurzeit kein Exemplar zur Ausleihe verfügbar ist. Nachdem „Vormerken“ angeklickt wird, muss auf der nächsten Seite die Vormerkung auf die angemeldete Person bestätigt werden. Mehr zum Thema Vormerkungen finden Sie auf der Seite [Ausleihe](SchuB/ausleihe.md).
 
 ## Druck
 
