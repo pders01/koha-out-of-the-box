@@ -169,5 +169,5 @@ Die standardmäßigen Anmeldedaten sind:
 
 
 * Nutzername:	koha_IHRNAME
-* Passwort:	Inhalt der Datei kpw.txt	# Sie können diese Datei mit catkpw.txt` oder einem grafischen Texteditor einsehen.
+* Passwort:	Inhalt der Datei kpw.txt	# Sie können diese Datei mit cat ~/Koha_out_of_the_box/kpw.txt` oder einem grafischen Texteditor einsehen.
 
