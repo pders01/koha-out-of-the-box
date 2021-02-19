@@ -164,3 +164,10 @@ sollten Sie nun in der Lage sein die administrative Oberfläche unter `IHRNAME-i
 * __IHRNAME__ entspricht hierbei dem Namen, den Sie im vorherigen Schritt für Ihre Bibliothek angegeben haben.
 * __IHREDOMAIN__ entspricht der Domain, die Sie im vorherigen Schritt angegeben haben. 
 
+Wenn Sie die Oberfläche des Intranets aufrufen, sehen Sie eine Eingabemaske.
+Die standardmäßigen Anmeldedaten sind:
+
+
+* Nutzername:	koha_IHRNAME
+* Passwort:	Inhalt der Datei kpw.txt	# Sie können diese Datei mit catkpw.txt` oder einem grafischen Texteditor einsehen.
+
