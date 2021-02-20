@@ -1,4 +1,16 @@
-# Katalogisierung (Spezialbibliotheken/kleine ÖBs)
+# Katalogisierung
+
+Hier finden Sie eine Übersicht zu den verschiedenen Funktionsbereichen von Katalogisierung in Koha und wie Sie diese best möglich navigieren. Sollten Sie mehr Informationen zu den Grundlagen der Katalogisierung benötigen, finden Sie diese unter <a href="https://pders01.github.io/Koha_out_of_the_box/SchuB/katalogisierung">Katalogisierung in Schulbibliotheken</a>.
+
+## Konfiguration
+
+Unter Administration > Systemparamter > Katalogisierung müssen einige Parameter angepasst werden:
+
+* Benutzeroberfläche: advancedMARCeditor = "**Zeige**" die Beschreibungstext von Feldern und Unterfeldern im MARC-Editor.
+
+* Datensatzstruktur: autoBarcode = Barcodes werden "**inkrementelle EAN-13-Barcodes**" (hier kann bei Bedarf auch ein anderes Barcode Format gewählt werden)
+
+Die meisten der Parameter sind selbsterklärend oder können mit Hilfe des <a href="https://koha-community.org/manual/20.11/de/html/systempreferences.html#cataloging">Koha Manuals</a> nachgelesen werden, falls weitere individuelle Anpassungen für die Bibliothek gewünscht sind.
 
 ## Titeldatensätze
 
@@ -31,7 +43,7 @@ Sie werden meistens mehrere Suchergebnisse bekommen, aus denen Sie einen Datensa
 
 <img src="https://pders01.github.io/Koha_out_of_the_box/Images/z3950_suchmaske.PNG" alt="Bild der Suchmaske" width="1450">
 
-Standardmäßig ist in Koha das Pflichtfeld 942-c Koha-Medientyp im Reiter 9 bestimmt, dass ausgefüllt werden muss bevor der Datensatz gespeichert werden kann. In den Einstellungen zum MARC-Framework kann dies bearbeitet werden.
+Standardmäßig ist in Koha das MARC-Feld 942-c Koha-Medientyp Reiter 9 als Pflichtfeld bestimmt, dass ausgefüllt werden muss bevor der Datensatz gespeichert werden kann. In den Einstellungen zum MARC-Framework kann dies bearbeitet werden.
 
 <img src="https://pders01.github.io/Koha_out_of_the_box/Images/koha_medientyp.PNG" alt="Bild des Reiter 9 mit dem MARC Feld 942" width="1450">
 

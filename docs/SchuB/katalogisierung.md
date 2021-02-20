@@ -2,6 +2,14 @@
 Der Begriff Katalogisierung beschreibt den Prozess der Erfassung von beschreibenden Metadaten zu den jeweiligen Medien der Bibliothek. Jedes in den Bestand eingehende Medium muss im Bibliothekssystem erfasst werden, um später in der Recherche im Katalog auffindbar zu sein. Der öffentliche Online Katalog wird auch als OPAC (Online Public Access Catalogue) bezeichnet .
 Um eine erfolgreiche Recherche zu gewährleisten, muss bei der Erfassung der Daten – der Katalogisierung – ein vorgegebener Standard eingehalten werden.
 
+## Konfiguration
+
+Unter Administration > Systemparamter > Katalogisierung müssen einige Parameter angepasst werden:
+
+* Benutzeroberfläche: advancedMARCeditor = "**Zeige**" die Beschreibungstext von Feldern und Unterfeldern im MARC-Editor.
+
+* Datensatzstruktur: autoBarcode = Barcodes werden "**inkrementelle EAN-13-Barcodes**" (hier kann bei Bedarf auch ein anderes Barcode Format gewählt werden)
+
 ## Titel- und Exemplardatensätze
 Im Prozess der Katalogisierung muss zwischen zwei wichtigen Begrifflichkeiten differenziert werden: Zuerst erstellen Sie einen sogenannten **Titeldatensatz**, der die beschreibenden Metadaten des Objektes enthält. 
 
