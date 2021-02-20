@@ -22,9 +22,15 @@ Einer Kategorie können neue Werte hinzugefügt werden, die später beispielswei
 
 <img src="https://pders01.github.io/Koha_out_of_the_box/Images/uebersicht_normierter_wert.PNG" alt="Kategorie eines normierten Wertes" width="1450">
 
+*Übersicht einer neuen Kategorie*
+
 <img src="https://pders01.github.io/Koha_out_of_the_box/Images/neuer_normierter_wert.PNG" alt="Neuer normierter Weg" width="1450">
 
+*Hinzufügen eines neuen Normierten Wertes*
+
 <img src="https://pders01.github.io/Koha_out_of_the_box/Images/normierte_werte_marc.PNG" alt="Auswahl des normierten Wert im MARC Framework" width="1450">
+
+*Auswahl der Kategorie als Auswahlmöglichkeit in einem MARC Unterfeld*
 
 
 ## Titeldatensätze
