@@ -26,7 +26,7 @@ In der Administration von Koha können diese unter *Katalog > Bibliographisches 
 
 <img src="https://pders01.github.io/Koha_out_of_the_box/Images/aktionen_fw.PNG" alt="Neues Framework hinzufügen" width="1450">
 
-Hier kann unter anderem angegeben werden welche Felder beim Anlegen eines Titeldatensatzes verpflichtend sind und in welchen Arbeitsumfeldern von Koha sie angezeigt werden. Unter den weiteren Optionen können Normdaten als Auswahlmöglichkeit für das Unterfeld ausgewählt werden, die zuvor unter *Administration > Katalog > Normdatentypen* angelegt werden müssen.
+Hier kann unter anderem angegeben werden welche Felder beim Anlegen eines Titeldatensatzes verpflichtend sind und in welchen Arbeitsumfeldern von Koha sie angezeigt werden. Unter den weiteren Optionen können Normierte Werte als Auswahlmöglichkeit für das Unterfeld ausgewählt werden, die zuvor unter *Administration > Basisparameter > Normierte Werte* angelegt werden müssen.
 
 <img src="https://pders01.github.io/Koha_out_of_the_box/Images/uebersicht_fw.PNG" alt="Übersicht des neuen Frameworks" width="1450">
 
@@ -59,7 +59,7 @@ In den *Administration > Globale Systemparameter > Katalogisierung > Datensatzst
 
 <img src="https://pders01.github.io/Koha_out_of_the_box/Images/exemplar_maske.PNG" alt="Maske zur Erstellung eines Exemplars" width="1450">
 
-Auch hier können die genormten Auswahlmöglichkeiten unter *Administration > Katalog > Normdatentypen* bearbeitet werden.
+Auch hier können die genormten Auswahlmöglichkeiten unter *Administration > Basisparameter > Normierte Werte* bearbeitet werden.
 
 Sobald der Exemplardatensatz erstellt wurde, kann das Medium an Nutzer ausgeliehen werden. Für Optionen zur Etikettierung von Medien finden Sie <a href="https://wiki.bsz-bw.de/pages/viewpage.action?pageId=17565617&preview=/17565617/3454474/18-11_Etikettendruck.pdf">hier</a> Informationen.
 
