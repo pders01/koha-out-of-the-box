@@ -6,7 +6,7 @@ Hier finden Sie eine Übersicht zu den verschiedenen Funktionsbereichen von Kata
 
 ### Globale Systemparameter
 
-Unter Administration > Systemparamter > Katalogisierung müssen einige Parameter angepasst werden:
+Unter *Administration > Systemparamter > Katalogisierung* müssen einige Parameter angepasst werden:
 
 * Benutzeroberfläche: advancedMARCeditor = "**Zeige**" die Beschreibungstext von Feldern und Unterfeldern im MARC-Editor.
 
@@ -16,17 +16,19 @@ Die meisten der Parameter sind selbsterklärend oder können mit Hilfe des <a hr
 
 ### Normierte Werte
 
-Für verschiedene Verwendungszwecke, die im Folgenden noch erläutert werden, können in Koha sogenannte Normierte Werte genutzt werden. Diese können unter **Administration > Basisparameter > Normierte Werte** verwaltet werden. Diese werden jeweils einer Kategorie zugeordnet. Die bereits bestehenden Kategorien können bearbeitet werden, es können allerdings auch neue angelegt werden.
+Für verschiedene Verwendungszwecke, die im Folgenden noch erläutert werden, können in Koha sogenannte Normierte Werte genutzt werden. Diese können unter *Administration > Basisparameter > Normierte Werte* verwaltet werden. Diese werden jeweils einer Kategorie zugeordnet. Die bereits bestehenden Kategorien können bearbeitet werden, es können allerdings auch neue angelegt werden.
 
 <img src="https://pders01.github.io/Koha_out_of_the_box/Images/neuen_wert_anlegen.PNG" alt="Bearbeiten oder hinzufügen einer Kategorie von normierten Werte" width="1450">
 
+Einer Kategorie können neue Werte hinzugefügt werden, die später beispielsweise die Auswahlmöglichkeiten in einem MARC-Feld (s. **Manuelle Erstellung**) nutzbar sind.
 
+<img src="https://pders01.github.io/Koha_out_of_the_box/Images/uebersicht_normierter_wert.PNG" alt="Kategorie eines normierten Wertes" width="1450">
 
 <img src="https://pders01.github.io/Koha_out_of_the_box/Images/neuer_normierter_wert.PNG" alt="Neuer normierter Weg" width="1450">
 
 <img src="https://pders01.github.io/Koha_out_of_the_box/Images/normierte_werte_marc.PNG" alt="Auswahl des normierten Wert im MARC Framework" width="1450">
 
-<img src="https://pders01.github.io/Koha_out_of_the_box/Images/uebersicht_normierter_wert.PNG" alt="Kategorie eines normierten Wertes" width="1450">
+
 
 ## Titeldatensätze
 

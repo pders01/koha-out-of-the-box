@@ -10,6 +10,20 @@ Unter Administration > Systemparamter > Katalogisierung müssen einige Parameter
 
 * Datensatzstruktur: autoBarcode = Barcodes werden "**inkrementelle EAN-13-Barcodes**" (hier kann bei Bedarf auch ein anderes Barcode Format gewählt werden)
 
+### Normierte Werte
+
+Für verschiedene Verwendungszwecke, die im Folgenden noch erläutert werden, können in Koha sogenannte Normierte Werte genutzt werden. Diese können unter *Administration > Basisparameter > Normierte Werte* verwaltet werden. Diese werden jeweils einer Kategorie zugeordnet. Die bereits bestehenden Kategorien können bearbeitet werden, es können allerdings auch neue angelegt werden.
+
+<img src="https://pders01.github.io/Koha_out_of_the_box/Images/neuen_wert_anlegen.PNG" alt="Bearbeiten oder hinzufügen einer Kategorie von normierten Werte" width="1450">
+
+Einer Kategorie können neue Werte hinzugefügt werden, die später beispielsweise die Auswahlmöglichkeiten in einem MARC-Feld (s. **Einrichtung des Frameworks**) nutzbar sind.
+
+<img src="https://pders01.github.io/Koha_out_of_the_box/Images/uebersicht_normierter_wert.PNG" alt="Kategorie eines normierten Wertes" width="1450">
+
+<img src="https://pders01.github.io/Koha_out_of_the_box/Images/neuer_normierter_wert.PNG" alt="Neuer normierter Weg" width="1450">
+
+<img src="https://pders01.github.io/Koha_out_of_the_box/Images/normierte_werte_marc.PNG" alt="Auswahl des normierten Wert im MARC Framework" width="1450">
+
 ## Titel- und Exemplardatensätze
 Im Prozess der Katalogisierung muss zwischen zwei wichtigen Begrifflichkeiten differenziert werden: Zuerst erstellen Sie einen sogenannten **Titeldatensatz**, der die beschreibenden Metadaten des Objektes enthält. 
 
