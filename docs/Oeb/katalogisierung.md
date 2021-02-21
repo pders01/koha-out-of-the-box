@@ -87,3 +87,4 @@ Sobald der Exemplardatensatz erstellt wurde, kann das Medium an Nutzer ausgelieh
 
 * <a href="https://koha-wiki.thulb.uni-jena.de/erschliessung/katalogisierung/">Koha-Wiki der ThULB Jena: Katalogisierung (Ausführliche Informationen zu den einzelnen MARC Feldern und dem RDA-Regelwerk)</a>
 * <a href="https://wiki.bsz-bw.de/pages/viewpage.action?pageId=17565617&preview=/17565617/3454470/16-11_Katalogisierung_Handbuch_ohne_Verbund_V1.pdf">Bibliotheksservice-Zentrum Baden-Württemberg: Koha Handbücher / Handbuch Katalogisierung ohne Verbund</a>
+* <a href="https://koha-community.org/manual/20.11/de/html/systempreferences.html#cataloging">The Koha Community: Koha Manual (Ausführung der Globalensystemparameter der Katalogisierung)</a>
