@@ -1,5 +1,6 @@
 <!-- docs/SchuB/_sidebar.md -->
 
+* [Home](/)
 * [Übersicht](/SchuB/uebersicht.md)
 * [Katalogisierung](SchuB/katalogisierung.md)
 * [Ausleihe](SchuB/ausleihe.md)
@@ -13,4 +14,4 @@
 * [Admin-Oberfläche](SpB/admin.md)
 * [Datenschutz](SpB/datenschutz.md)
 * [Zusätzliche Informationsquellen](SchuB/quellen_schub.md)
-* [Home](/)
+* [Glossar](SchuB/glossar.md)
