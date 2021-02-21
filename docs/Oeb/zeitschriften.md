@@ -1,7 +1,8 @@
 # Erwerbung - Zeitschriften
 
-Koha bietet umfangreiche Möglichkeiten, um Zeitschriften und Zeitungen zu erfassen und zu verwalten. Ein weiterer Vorteil ist, dass der Bestand somit auch für interessierte Benutzer im OPAC ersichtlich ist.
-Das Koha Zeitschriftenmodul ist ebenfalls hilfreich, um einen Überblick zu haben, ob abonnierte Hefte pünktlich eintreffen oder möglicherweise eine Reklamation bei Fehlen eines Heftes notwendig ist. Das Koha-Zeitschriftenmodul findet sich unter dem gleichnamigen Punkt auf der Koha-Startseite.
+Koha bietet umfangreiche Möglichkeiten, um Zeitschriften und Zeitungen zu erfassen und zu verwalten. Ein Vorteil hiervon ist, dass der Bestand somit sowohl für die Angestellten der Bibliothek als auch für interessierte Benutzer im OPAC ersichtlich ist.
+
+Das Koha Zeitschriftenmodul ist hilfreich, um kontinuierlich einen Überblick zu haben, ob abonnierte Hefte pünktlich eintreffen oder möglicherweise eine Reklamation bei Fehlen eines Heftes notwendig ist. Das Koha-Zeitschriftenmodul findet sich unter dem gleichnamigen Punkt auf der Koha-Startseite.
 
 ![Übersicht Zeitschriften](../Images/EW_zsuebers.PNG)
 
