@@ -4,7 +4,7 @@ Um eine erfolgreiche Recherche zu gewährleisten, muss bei der Erfassung der Dat
 
 ## Konfiguration
 
-Unter *Administration > Systemparamter > Katalogisierung* müssen einige Parameter angepasst werden:
+Unter *Administration > Systemparamter > Katalogisierung* müssen zu Beginn einige Parameter angepasst werden:
 
 * Benutzeroberfläche: advancedMARCeditor = "**Zeige**" die Beschreibungstext von Feldern und Unterfeldern im MARC-Editor.
 
