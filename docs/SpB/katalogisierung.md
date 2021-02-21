@@ -1,6 +1,41 @@
-# Katalogisierung (Spezialbibliotheken/kleine ÖBs)
+# Katalogisierung
+
+Hier finden Sie eine Übersicht zu den verschiedenen Funktionsbereichen von Katalogisierung in Koha und wie Sie diese best möglich navigieren. Sollten Sie mehr Informationen zu den Grundlagen der Katalogisierung benötigen, finden Sie diese unter <a href="https://pders01.github.io/Koha_out_of_the_box/SchuB/katalogisierung">Katalogisierung in Schulbibliotheken</a>.
+
+## Konfiguration
+
+Unter *Administration > Systemparamter > Katalogisierung* müssen einige Parameter angepasst werden:
+
+* Benutzeroberfläche: advancedMARCeditor = "**Zeige**" die Beschreibungstext von Feldern und Unterfeldern im MARC-Editor.
+
+* Datensatzstruktur: autoBarcode = Barcodes werden "**inkrementelle EAN-13-Barcodes**" (hier kann bei Bedarf auch ein anderes Barcode Format gewählt werden)
+
+Die meisten der Parameter sind selbsterklärend oder können mit Hilfe des <a href="https://koha-community.org/manual/20.11/de/html/systempreferences.html#cataloging">Koha Manuals</a> nachgelesen werden, falls weitere individuelle Anpassungen für die Bibliothek gewünscht sind.
+
+### Normierte Werte
+
+Für verschiedene Verwendungszwecke, die im Folgenden noch erläutert werden, können in Koha sogenannte Normierte Werte genutzt werden. Diese können unter *Administration > Basisparameter > Normierte Werte* verwaltet werden. Diese werden jeweils einer Kategorie zugeordnet. Die bereits bestehenden Kategorien können bearbeitet werden, es können allerdings auch neue angelegt werden.
+
+<img src="https://pders01.github.io/Koha_out_of_the_box/Images/neuen_wert_anlegen.PNG" alt="Bearbeiten oder hinzufügen einer Kategorie von normierten Werte" width="1450">
+
+Einer Kategorie können neue Werte hinzugefügt werden, die später beispielsweise die Auswahlmöglichkeiten in einem MARC-Feld (s. **Manuelle Erstellung**) nutzbar sind.
+
+<img src="https://pders01.github.io/Koha_out_of_the_box/Images/uebersicht_normierter_wert.PNG" alt="Kategorie eines normierten Wertes" width="1450">
+
+*Übersicht einer neuen Kategorie*
+
+<img src="https://pders01.github.io/Koha_out_of_the_box/Images/neuer_normierter_wert.PNG" alt="Neuer normierter Weg" width="1450">
+
+*Hinzufügen eines neuen Normierten Wertes*
+
+<img src="https://pders01.github.io/Koha_out_of_the_box/Images/normierte_werte_marc.PNG" alt="Auswahl des normierten Wert im MARC Framework" width="1450">
+
+*Auswahl der Kategorie als Auswahlmöglichkeit in einem MARC Unterfeld*
+
 
 ## Titeldatensätze
+
+In Spezialbibliotheken kann es oft vorkommen, dass die Medien aus den jeweiligen Spezialgebieten der Bibliothek eventuell nicht in den Datenbanken der Fremddatenquelle enthalten sind oder es sich um Graue Literatur handelt die jenseits vom traditionellen Verlagswesen veröffentlicht wurde und deswegen manuell erstellt werden müssen.
 
 ### Manuelle Erstellung
 
@@ -12,7 +47,7 @@ In der Administration von Koha können diese unter *Katalog > Bibliographisches 
 
 <img src="https://pders01.github.io/Koha_out_of_the_box/Images/aktionen_fw.PNG" alt="Neues Framework hinzufügen" width="1450">
 
-Hier kann unter anderem angegeben werden welche Felder beim Anlegen eines Titeldatensatzes verpflichtend sind und in welchen Arbeitsumfeldern von Koha sie angezeigt werden. Unter den weiteren Optionen können Normdaten als Auswahlmöglichkeit für das Unterfeld ausgewählt werden, die zuvor unter *Administration > Katalog > Normdatentypen* angelegt werden müssen.
+Hier kann unter anderem angegeben werden welche Felder beim Anlegen eines Titeldatensatzes verpflichtend sind und in welchen Arbeitsumfeldern von Koha sie angezeigt werden. Unter den weiteren Optionen können Normierte Werte als Auswahlmöglichkeit für das Unterfeld ausgewählt werden, die zuvor unter *Administration > Basisparameter > Normierte Werte* angelegt werden müssen.
 
 <img src="https://pders01.github.io/Koha_out_of_the_box/Images/uebersicht_fw.PNG" alt="Übersicht des neuen Frameworks" width="1450">
 
@@ -31,7 +66,7 @@ Sie werden meistens mehrere Suchergebnisse bekommen, aus denen Sie einen Datensa
 
 <img src="https://pders01.github.io/Koha_out_of_the_box/Images/z3950_suchmaske.PNG" alt="Bild der Suchmaske" width="1450">
 
-Standardmäßig ist in Koha das Pflichtfeld 942-c Koha-Medientyp im Reiter 9 bestimmt, dass ausgefüllt werden muss bevor der Datensatz gespeichert werden kann. In den Einstellungen zum MARC-Framework kann dies bearbeitet werden.
+Standardmäßig ist in Koha das MARC-Feld 942-c Koha-Medientyp Reiter 9 als Pflichtfeld bestimmt, dass ausgefüllt werden muss bevor der Datensatz gespeichert werden kann. In den Einstellungen zum MARC-Framework kann dies bearbeitet werden.
 
 <img src="https://pders01.github.io/Koha_out_of_the_box/Images/koha_medientyp.PNG" alt="Bild des Reiter 9 mit dem MARC Feld 942" width="1450">
 
@@ -45,7 +80,7 @@ In den *Administration > Globale Systemparameter > Katalogisierung > Datensatzst
 
 <img src="https://pders01.github.io/Koha_out_of_the_box/Images/exemplar_maske.PNG" alt="Maske zur Erstellung eines Exemplars" width="1450">
 
-Auch hier können die genormten Auswahlmöglichkeiten unter *Administration > Katalog > Normdatentypen* bearbeitet werden.
+Auch hier können die genormten Auswahlmöglichkeiten unter *Administration > Basisparameter > Normierte Werte* bearbeitet werden.
 
 Sobald der Exemplardatensatz erstellt wurde, kann das Medium an Nutzer ausgeliehen werden. Für Optionen zur Etikettierung von Medien finden Sie <a href="https://wiki.bsz-bw.de/pages/viewpage.action?pageId=17565617&preview=/17565617/3454474/18-11_Etikettendruck.pdf">hier</a> Informationen.
 

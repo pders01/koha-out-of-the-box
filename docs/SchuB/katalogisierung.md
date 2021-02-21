@@ -2,6 +2,34 @@
 Der Begriff Katalogisierung beschreibt den Prozess der Erfassung von beschreibenden Metadaten zu den jeweiligen Medien der Bibliothek. Jedes in den Bestand eingehende Medium muss im Bibliothekssystem erfasst werden, um später in der Recherche im Katalog auffindbar zu sein. Der öffentliche Online Katalog wird auch als OPAC (Online Public Access Catalogue) bezeichnet .
 Um eine erfolgreiche Recherche zu gewährleisten, muss bei der Erfassung der Daten – der Katalogisierung – ein vorgegebener Standard eingehalten werden.
 
+## Konfiguration
+
+Unter *Administration > Systemparamter > Katalogisierung* müssen einige Parameter angepasst werden:
+
+* Benutzeroberfläche: advancedMARCeditor = "**Zeige**" die Beschreibungstext von Feldern und Unterfeldern im MARC-Editor.
+
+* Datensatzstruktur: autoBarcode = Barcodes werden "**inkrementelle EAN-13-Barcodes**" (hier kann bei Bedarf auch ein anderes Barcode Format gewählt werden)
+
+### Normierte Werte
+
+Für verschiedene Verwendungszwecke, die im Folgenden noch erläutert werden, können in Koha sogenannte Normierte Werte genutzt werden. Diese können unter *Administration > Basisparameter > Normierte Werte* verwaltet werden. Diese werden jeweils einer Kategorie zugeordnet. Die bereits bestehenden Kategorien können bearbeitet werden, es können allerdings auch neue angelegt werden.
+
+<img src="https://pders01.github.io/Koha_out_of_the_box/Images/neuen_wert_anlegen.PNG" alt="Bearbeiten oder hinzufügen einer Kategorie von normierten Werte" width="1450">
+
+Einer Kategorie können neue Werte hinzugefügt werden, die später beispielsweise die Auswahlmöglichkeiten in einem MARC-Feld (s. **Einrichtung des Frameworks**) nutzbar sind.
+
+<img src="https://pders01.github.io/Koha_out_of_the_box/Images/uebersicht_normierter_wert.PNG" alt="Kategorie eines normierten Wertes" width="1450">
+
+*Übersicht einer neuen Kategorie*
+
+<img src="https://pders01.github.io/Koha_out_of_the_box/Images/neuer_normierter_wert.PNG" alt="Neuer normierter Weg" width="1450">
+
+*Hinzufügen eines neuen Normierten Wertes*
+
+<img src="https://pders01.github.io/Koha_out_of_the_box/Images/normierte_werte_marc.PNG" alt="Auswahl des normierten Wert im MARC Framework" width="1450">
+
+*Auswahl der Kategorie als Auswahlmöglichkeit in einem MARC Unterfeld*
+
 ## Titel- und Exemplardatensätze
 Im Prozess der Katalogisierung muss zwischen zwei wichtigen Begrifflichkeiten differenziert werden: Zuerst erstellen Sie einen sogenannten **Titeldatensatz**, der die beschreibenden Metadaten des Objektes enthält. 
 
@@ -87,7 +115,7 @@ Unter "Bedingungen" ist hier schon ein wichtige Eigenschaft der Unterfelder zu e
 <img src="https://pders01.github.io/Koha_out_of_the_box/Images/titel_unterfelder_fw.PNG" alt="Unterfelder des MARC Feldes 'Titel'" width="1450">
 
 Soll das Unterfeld genutzt werden, muss in den Basiskonfigurationen angepasst werden in welchem Reiter es angezeigt werden soll. Standardmäßig sollte hier "0" genutzt werden, um das Unterfeld anzuzeigen. Eine weitere wichtige Basiskonfiguration, die angepasst werden kann, ist ob es sich um ein Pflichtfeld handelt oder nicht. Des weiteren kann auch der Titel geändert werden, sollte dieser nicht selbsterklärend genug sein.
-Unter "Weitere Optionen" findet man die Normwerte. Diese können, wie in der **Konfiguration** erleutert, angelegt werden und hier als Auswahloptionen für das Feld festgelegt werden. Dies ist eine weitere Option um die Erstellung eines Titeldatensatzes zu erleichtern.
+Unter "Weitere Optionen" findet man die Normierten Werte. Diese können, wie in der **Konfiguration** erleutert, angelegt werden und hier als Auswahloptionen für das Feld festgelegt werden. Dies ist eine weitere Option um die Erstellung eines Titeldatensatzes zu erleichtern.
 
 ### Erstellen eines Titeldatensatz mit dem importierten Framework
 
