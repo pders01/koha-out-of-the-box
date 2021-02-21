@@ -101,7 +101,7 @@ Nachdem der Zugang mehrerer Hefte bestätigt wurde, haben die Hefte den Status �
 Um Hefte eines Abonnements zu bearbeiten, muss zunächst die Heftübersicht aufgerufen werden. Hierfür wird das Abonnement gesucht und anschließend unter „Aktionen“ die Heftübersicht ausgewählt.
  
 
-![Button Heftübersicht](../Images/EW_zsheftuebersicht.PNG)
+![Button Heftübersicht](../Images/EW_zsheftuerbersicht.PNG)
 
 In der Heftübersicht sind die angelegten Hefte des jeweiligen Abonnements aufgeführt. Hierbei steht das aktuellste Heft an oberster Stelle. 
  
