@@ -1,13 +1,13 @@
 <!-- docs/SchuB/_sidebar.md -->
 
 * [Übersicht](/SchuB/uebersicht.md)
-* [Katalogisierung](SchuB/katalogisierung.md)
+* [Katalogisierung](SchuB/katalogisierung/)
+	* [Z39.50-Konfiguration](SchuB/katalogisierung/z3950.md)
 * [Ausleihe](SchuB/ausleihe.md)
 * [Benutzerverwaltung](SchuB/benutzer.md)
-* [Erwerbung - Allgemeines](SchuB/erwerbung.md)
-* [Erwerbung - Bestellungen/Rechnungen](SchuB/bestellungen.md)
+* [Erwerbung](SchuB/erwerbung/)
+	* [Bestellungen und Rechnungen](SchuB/erwerbung/bestellungen.md)
 * [Zeitschriften](SchuB/zeitschriften.md)
-* [z3950](SchuB/z3950.md)
 * [OPAC](SpB/opac/)
 	* [OPAC-Nutzung](SchuB/opac/opac_nutzung.md)
 * [Admin-Oberfläche](SpB/admin.md)
