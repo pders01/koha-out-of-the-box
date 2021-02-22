@@ -1,5 +1,7 @@
 Der **Online Public Access Catalog (OPAC)** ist die Oberfläche der Bibliothek aus Perspektive der Nutzenden und kann zwar über die Verwaltungsoberfläche konfiguriert werden, existiert aber als Webseite unabhängig von dieser. Es handelt sich um eine Web-Oberfläche, welche in erster Linie den Nutzenden einer Bibliothek dazu dient, außerhalb der Bibliothek auf eigenen Geräten den Bestand zu durchsuchen. Darüber hinaus bietet der OPAC den Nutzenden viele Funktionen, für welche diese ansonsten die Bibliothek in Person besuchen und ihre Anliegen den Verantwortlichen mitteilen müssten.
-Diese Seite behandelt die Möglichkeiten, die Nutzende durch einen OPAC haben. Um mehr zur Konfiguration des OPACs zu erfahren, lesen Sie die Seite [OPAC](Oeb/opac.md).
+Diese Seite behandelt die Möglichkeiten, die Nutzende durch einen OPAC haben. Um mehr zur Konfiguration des OPACs zu erfahren, lesen Sie die Seite [OPAC](Oeb/opac/).
+
+Die Informationen auf dieser Seite finden Sie auch in einem <a href="https://pders01.github.io/Koha_out_of_the_box/opac_nutzungsanleitung" download>vorgefertigten Handout</a>, welches Sie an die Nutzenden Ihrer Bibliothek als pdf-Datei oder ausgedruckt weitergeben können.
 
 # Suche
 
