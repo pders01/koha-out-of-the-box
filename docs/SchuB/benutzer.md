@@ -11,7 +11,7 @@ Zunächst öffnen Sie von der Koha-Startseite aus die Kategorie "Werkzeuge".
 
 Nun wählen Sie den Unterpunkt "Benutzer importieren" aus.
 
-!["Benutzer importieren" auswählen](../Images/benutzer_importieren.PNG)
+!["Benutzer importieren" auswählen](../Images/benutzer_importieren_neu.PNG)
 
 Es öffnet sich nun eine Seite, auf der Sie sämtliche Einstellungen bezüglich Ihrer Datei auswählen können. 
 
