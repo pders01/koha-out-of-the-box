@@ -2,7 +2,7 @@
 
 * [Übersicht](/Oeb/uebersicht.md)
 * [Ausleihe](Oeb/ausleihe.md)
-	* [Fernleihe](OeB/fernleihe.md)
+	* [Fernleihe](Oeb/fernleihe.md)
 * [Benutzerverwaltung](Oeb/benutzer.md)
 * [Erwerbung](Oeb/erwerbung/)
 	* [Bestellungen und Rechnungen](Oeb/erwerbung/bestellungen.md)
