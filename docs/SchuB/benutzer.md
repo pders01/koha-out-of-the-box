@@ -32,7 +32,7 @@ Als nächstes gibt es noch zwei Einstellungsoptionen, was das Überschreiben der
 
 Falls Sie beispielsweise während des Wechsels auf das neue Bibliothekssystem bereits Benutzerdatensätze erstellt haben und diese sich nun mit den Daten der CSV-Datei doppeln, so ist es möglich, die vorhandenen Datensätze mit den jetzigen zu überschreiben oder die Datensätze im System bestehen zu lassen. 
 Eine ähnliche Option besteht geneüber den Benutzerattributen, welche alle überschrieben werden können oder nur die, die in der CSV-Datei enthalten sind. 
-Auf der Abbildung sehen Sie welche Werte standardmäßig eingestellt sind. Es wird empfohlen diese weitestgehend zu übernehmen. 
+Auf der Abbildung sehen Sie welche Werte standardmäßig eingestellt sind. Es wird empfohlen diese weitestgehend zu übernehmen. Mit dem Bestätigen des Import-Buttons wird Ihre Auswahl übernommen. 
 
 ## Benutzerneuerfassung
 Auf der Startseite von Koha können Sie die Benutzerverwaltung, über die Schaltfläche "Benutzer" oder den Link "Benutzer suchen", öffnen.
