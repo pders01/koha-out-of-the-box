@@ -3,7 +3,7 @@
 * [Home](/)
 * [Übersicht](/SchuB/uebersicht.md)
 * [Katalogisierung](SchuB/katalogisierung/)
-	* [Z39.50-Konfiguration](SchuB/katalogisierung/z3950.md)
+	* [Z39.50-Konfiguration](SchuB/katalogisierung/z3950_konfiguration.md)
 * [Ausleihe](SchuB/ausleihe.md)
 * [Benutzerverwaltung](SchuB/benutzer.md)
 * [Erwerbung](SchuB/erwerbung/)

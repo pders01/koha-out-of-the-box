@@ -7,7 +7,7 @@
 	* [Bestellungen und Rechnungen](SpB/erwerbung/bestellungen.md)
 * [Zeitschriften](SpB/zeitschriften.md)
 * [Katalogisierung](SpB/katalogisierung/)
-	* [Z39.50-Konfiguration](SpB/katalogisierung/z3950.md)
+	* [Z39.50-Konfiguration](SpB/katalogisierung/z3950_konfiguration.md)
 * [OPAC](SpB/opac/)
 	* [OPAC-Nutzung](SpB/opac/opac_nutzung.md)
 * [Admin-Oberfläche](SpB/admin.md)

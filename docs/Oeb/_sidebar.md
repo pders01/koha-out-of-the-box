@@ -7,7 +7,7 @@
 	* [Bestellungen und Rechnungen](Oeb/erwerbung/bestellungen.md)
 * [Zeitschriften](Oeb/zeitschriften.md)
 * [Katalogisierung](Oeb/katalogisierung/)
-	* [Z39.50-Konfiguration](Oeb/katalogisierung/z3950.md)
+	* [Z39.50-Konfiguration](Oeb/katalogisierung/z3950_konfiguration.md)
 * [OPAC](Oeb/opac/)
 	* [OPAC-Nutzung](Oeb/opac/opac_nutzung.md)
 * [Admin-Oberfläche](Oeb/admin.md)
