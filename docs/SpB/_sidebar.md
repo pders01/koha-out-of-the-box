@@ -2,6 +2,7 @@
 
 * [Übersicht](/SpB/uebersicht.md)
 * [Ausleihe](SpB/ausleihe.md)
+*	* [Fernleihe](SpB/fernleihe.md)
 * [Benutzerverwaltung](SpB/benutzer.md)
 * [Erwerbung](SpB/erwerbung/)
 	* [Bestellungen und Rechnungen](SpB/erwerbung/bestellungen.md)
