@@ -2,6 +2,25 @@
 # Benutzerverwaltung
 Jeder Benutzende einer Bibliothek mit einem Bibliotheksausweis, wird in einem Bibliothekssystem in einer Datenbank hinterlegt. Koha bietet vielseitige Möglichkeiten diese Datensätze anzulegen, zu bearbeiten und verschiedene Einstellungen zu treffen. 
 
+## Import der Benutzerdaten
+Falls Sie schon vor dem Umstieg auf das Bibliothekssystem "Koha" Ihre Benutzerdaten gesondert vorliegen haben, so ist es möglich diese in das System zu importieren. Hierfür sollten die Daten allerdings als **CSV-Datei** vorliegen. 
+
+Zunächst öffnen Sie von der Koha-Startseite aus die Kategorie "Werkzeuge".
+
+![Werkzeuge auf der Startseite](../Images/benutzer_werkzeuge.PNG)
+
+Nun wählen Sie den Unterpunkt "Benutzer importieren" aus.
+
+!["Benutzer importieren" auswählen](../Images/benutzer_importieren.PNG)
+
+Es öffnet sich nun eine Seite, auf der Sie sämtliche Einstellungen bezüglich Ihrer Datei auswählen können. 
+
+!["Benutzer importieren" auswählen](../Images/benutzer_importieren1.PNG)
+
+Zuerst wählen Sie die Datei aus, die Ihre Benutzerdaten enthält. 
+Damit die ausgewählte CSV-Datei optimal verarbeitet werden kann, sollte sie in einem bestimmten Format vorliegen. Die erste Zeile der Datei muss eine Kopfzeile sein, die die verschiedenen Spalten benennt. Außerdem gibt es eine Vorgabe, was die Benennung der Spalten betrifft. Um diese Vorgabe zu erfüllen, können Sie sich auf der rechten Seite eine leere CSV-Datei herunterladen, die die unterschiedlichen Spalten enthält. Diese können Sie mit Ihren individuellen Werten ausfüllen. Die Werte innerhalb der Datei werden durch Kommata voneinander getrennt. 
+
+
 ## Benutzerneuerfassung
 Auf der Startseite von Koha können Sie die Benutzerverwaltung, über die Schaltfläche "Benutzer" oder den Link "Benutzer suchen", öffnen.
 
