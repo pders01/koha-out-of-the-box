@@ -21,7 +21,7 @@ Als nächsten Schritt sollte die bestellte Fernleihe katalogisiert werden. Von d
 ![Datensatzauswahl](../Images/FL_katalogisierung_auswahl.PNG)
 
 Bei der Katalogisierung von Fernleihen sind nur die nötigsten Bestandteile zu erfassen. Diese Informationen befinden sich normalerweise auf dem Leihschein, welcher der Fernleihe mitgeliefert wird. 
-Da die wesentlichen Bestandteile der Katalogisierung unverändert bleiben, wird in diesem Teil der Dokumentation nicht näher darauf eingegangen. Sollten allerdings Fragen bei Ihnen aufkommen, so können sie bei der [Katalogisierung](OeB/katalogisierung/) diese nachschlagen. 
+Da die wesentlichen Bestandteile der Katalogisierung unverändert bleiben, wird in diesem Teil der Dokumentation nicht näher darauf eingegangen. Sollten allerdings Fragen bei Ihnen aufkommen, so können sie bei der [Katalogisierung](Oeb/katalogisierung/) diese nachschlagen. 
 Haben Sie alle wichtigen Bestandteile des Mediums eingetragen, so wechseln Sie den oberen reiter auf die Zahl "9".
 
 ![Felder der Katalogisierung](../Images/FL_katalogisierung_felder.PNG)
