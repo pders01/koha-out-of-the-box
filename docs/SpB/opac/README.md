@@ -49,6 +49,8 @@ Zur Einbindung des Koha-OPACs in Ihre restlichen Web-Angebote können Sie Ihr ei
 Sollen weitere Änderungen an der Nutzeroberfläche des OPAC durchgeführt werden, kann dies über vier verschiedene Parameter getätigt werden. Hierbei muss der Code der Koha-Instanz durch eigenen Code beeinflusst werden, drei der Optionen beeinflussen das Koha-CSS und eines das JavaScript. Es wird dringend davon abgeraten, die vorhandenen Stylesheets in Koha zu verändern, da diese gegebenenfalls mit neueren Versionen der Software inkompatibel sind. Es sollte stattdessen eine der zuvor erwähnten Optionen genutzt werden, um das existierende CSS und JavaScript zu ersetzen oder zu überschreiben.
 Diese vier Optionen finden Sie alle in der Admin-Oberfläche unter *„Administration“ > „Systemeinstellungen“ > „OPAC"*.
 
+Auf diese Systemparameter wird hier nur sehr oberflächlig eingegangen, Sie finden hier keine genaue Anleitung zur Erstellung eines eigenen Code-Snippets oder Templates. Da das Erstellen eines solchen Templates sehr umfassend und zeitaufwendig sein kann, wenn kein Vorwissen vorliegt und insbesondere weil es sich primär um design- nicht aber um funktional notwenige Änderungen handelt, wird das Thema hier nur kurz aufgegriffen. Konkrete Beispiele und Anleitungen zur Erstellung solcher Code-Snippets und Templates finden Sie in der Link-Sammlung am Ende dieser Seite.
+
 **opaclayoutstylesheet**
 
 Diese Einstellung verweist auf die CSS Datei, die das Layout des OPACs bestimmt. Eine solche CSS Datei wird im Zusammenhang mit einem HTML Template bzw. einer HTML Datei genutzt, um das Erscheinungsbild zu formatieren. Im System sind bereits zwei Dateien enthalten, welche genutzt werden können, opac.css, welches die Standardansicht bildet und opac2.css. Alternativ können Sie hier Ihr eigenes CSS-Stylesheet einbinden, Sie müssen aber beachten, dass es hier schnell zu Problemen können kann, da alle Bereiche des OPAC von diesem CSS  beeinflusst sind.
@@ -74,3 +76,19 @@ Hierdurch können interaktive Aspekte von Koha Beeinflusst werden, etwa kann das
 
 In dem Code auf der Abbildung wird beispielsweise das Login-Fenster angepasst, dass anstelle von ‚Login‘ und ‚Passwort‘ die Begriffe ‚Card Number‘ und ‚Pin‘ angezeigt werden. 
 Beispiele für JQuery-Snippets, die in dieser Systemstelle verwendet wurden, finden Sie in der Koha Community [JQuery Library](http://wiki.koha-community.org/wiki/JQuery_Library)
+
+# Weitere Informationsquellen
+
+* <a href="https://koha-community.org/manual/20.11/en/html/opac.html">Koha 20.11 Dokumentation - OPAC (Die offizielle Dokumentation zu Koha Version 20.11. Bisher ist keine deutsche Ausgabe vorhanden.
+)</a>
+
+* <a href="https://wiki.bsz-bw.de/pages/viewpage.action?pageId=17565617&preview=/17565617/3454472/3-18_OPAC-Textbausteine.pdf">Koha OPAC-Handbuch des BSZ(Das Koha-OPAC Handbuch des BSZ, Bibliotheksservice-Zentrum baden-Württemberg. Die Erläuterungen und Abbildungen sind teilweise nicht auf die Koha-Instanz von Koha out of the Box anzuwenden, da hier eine ältere Version Erläutert wird.)</a>
+
+* <a href="http://wiki.koha-community.org/wiki/JQuery_Library">JQuery Library(Eine Liste von verwendeten JQuery Snippets zur OPAC-Anpassung, welche genutzt werden können.)</a>
+
+* <a href="https://wiki.koha-community.org/wiki/HTML_%26_CSS_Library">CSS und HTML Library(Liste von HTML und CSS Code-Snippets, welche zum anpassen des OPACs oder als Inspiration genutzt werden können. Sie finden auch jeweils den verwendeten Systemparameter.)</a>
+
+* <a href="https://wiki.koha-community.org/wiki/CSS_Customizations">CSS Customization(Weitere Informationen zum Erstellen eigener CSS-Templates
+)</a>
+
+* <a href="https://wiki.koha-community.org/wiki/Gallery_of_customized_OPACs">Beispiele angepasster OPAC-Designs(Eine Liste an Beispielen von angepassten Koha OPACs für die Inspiration eigener Designs, wobei diese Beispiele sehr umfassend und kompliziert sind.)</a>
