@@ -5,6 +5,7 @@
 * [Ausleihe](Oeb/ausleihe.md)
 	* [Fernleihe](Oeb/fernleihe.md)
 * [Benutzerverwaltung](Oeb/benutzer.md)
+	* [Benutzerimport](Oeb/benutzerimport.md)
 * [Erwerbung](Oeb/erwerbung/)
 	* [Bestellungen und Rechnungen](Oeb/erwerbung/bestellungen.md)
 * [Zeitschriften](Oeb/zeitschriften.md)
