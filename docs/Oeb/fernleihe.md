@@ -1,6 +1,6 @@
 # Fernleihe
 
-Oftmals tritt der Fall ein, dass Benutzende der Bibliothek ein bestimmtes Medium ausleihen möchten, welches nicht im Bestand der Bibliothek vorhand ist. Allerding kann die Bibliothek nun auf die sogenannte **Fernleihe** zurückgreifen. Dabei bestellt die Bibliothek die gewünschte Ressource bei einer Bibliothek, die diese im Bestand hat und es erfolgt schon bald eine Lieferung dieser. In der Regel findet diese Leihverkehr innerhalb eines Bibliotheksverbundes statt. [Hier](https://bibliotheksportal.de/informationen/bibliothekslandschaft/bibliotheksverbuende/) können Sie sich über die verschiedenen Verbundssysteme in Deutschland informieren. Da die Bestellung der Medien meist über das Online-Portal des jeweiligen Verbundes läuft, wird in dieser Dokumentation nur auf die Handhabung der bestellten Medien, wenn die Bestellung bereits eingrtroffen ist eingegangen.  
+Oftmals tritt der Fall ein, dass Benutzende der Bibliothek ein bestimmtes Medium ausleihen möchten, welches nicht im Bestand der Bibliothek vorhanden ist. Allerdings kann die Bibliothek nun auf die sogenannte **Fernleihe** zurückgreifen. Dabei bestellt die Bibliothek die gewünschte Ressource bei einer Bibliothek, die diese im Bestand hat und es erfolgt schon bald eine Lieferung dieser. In der Regel findet dieser Leihverkehr innerhalb eines Bibliotheksverbandes statt. [Hier](https://bibliotheksportal.de/informationen/bibliothekslandschaft/bibliotheksverbuende/) können Sie sich über die verschiedenen Verbundsysteme in Deutschland informieren. Da die Bestellung der Medien meist über das Online-Portal des jeweiligen Verbundes läuft, wird in dieser Dokumentation nur auf die Handhabung der bestellten Medien, wenn die Bestellung bereits eingetroffen ist, eingegangen.  
 
 ## Konfiguration
 
@@ -22,8 +22,14 @@ Als nächsten Schritt sollte die bestellte Fernleihe katalogisiert werden. Von d
 
 Bei der Katalogisierung von Fernleihen sind nur die nötigsten Bestandteile zu erfassen. Diese Informationen befinden sich normalerweise auf dem Leihschein, welcher der Fernleihe mitgeliefert wird. 
 Da die wesentlichen Bestandteile der Katalogisierung unverändert bleiben, wird in diesem Teil der Dokumentation nicht näher darauf eingegangen. Sollten allerdings Fragen bei Ihnen aufkommen, so können sie bei der [Katalogisierung](Oeb/katalogisierung/) diese nachschlagen. 
-Haben Sie alle wichtigen Bestandteile des Mediums eingetragen, so wechseln Sie den oberen reiter auf die Zahl "9".
+Haben Sie alle wichtigen Bestandteile des Mediums eingetragen, so wechseln Sie den oberen Reiter auf die Zahl "9".
 
 ![Felder der Katalogisierung](../Images/FL_katalogisierung_felder.PNG)
 
-In diesem Abschnitt ist es möglich, den zuvor eingestellten Medientyp auf "Fernleihe" zu stellen. Des Weiteren sollte der Signatur-Präfix aus der Abkürzung "Fl" für Fernleihe bestehen. Im Feld zum Suffix der Signatur tragen Sie die Signatur ein, die sich auf dem bestellten Medium befindet. Nun speichern Sie den entstandenen Datensatz mithilfe des Buttons "Speichern" ab. Anschließend sollte es Ihnen möglich sein im Bibliothekssystem nach der Fernleihe zu suchen und diese dem entsprechenden Nutzenden auszuleihen. 
+In diesem Abschnitt ist es möglich, den zuvor eingestellten Medientyp auf "Fernleihe" zu stellen. Des Weiteren sollte das Signatur-Präfix aus der Abkürzung "Fl" für Fernleihe bestehen. Im Feld zum Suffix der Signatur tragen Sie die Signatur ein, die sich auf dem bestellten Medium befindet. Nun speichern Sie den entstandenen Datensatz mithilfe des Buttons "Speichern" ab. Anschließend sollte es Ihnen möglich sein, im Bibliothekssystem nach der Fernleihe zu suchen und diese dem entsprechenden Nutzenden auszuleihen.
+
+## Benutzerkonto eine Fernleihbibliothek
+
+Es besteht die Möglichkeit, dass eine Bibliothek, mit der Ihre Bibliothek Fernleihe betreibt, diese als Benutzerkonto erfasst. 
+Hierbei ist der Name der Organisation verpflichtend anzugeben. Die weiteren Schritte der Erfassung der Bibliothek gleichen denen eines "normalen" Benutzerkontos. Bei Schwierigkeiten können Sie [Hier](Oeb/benutzerverwaltung/) darauf zugreifen. 
+![Benutzerkonto eine Fernleihbibliothek](../Images/FL_benutzerkonto.PNG)
