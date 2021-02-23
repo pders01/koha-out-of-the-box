@@ -8,3 +8,4 @@
 * [Wie flashe ich meine SD-Karte?](flashing.md)
 * [Wie konfiguriere ich mein Netzwerk?](network.md)
 * [Wie verküpfe ich Koha mit einer Domain?](registrar.md)
+* [Welche Auslastungen kann der Raspberry Pi stemmen?](benchmarks.md)

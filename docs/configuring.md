@@ -45,7 +45,44 @@ Den Punkt __Öffnen eines Terminals in iceWM__ können Sie überspringen.
 ### Raspberry Pi
 
 Beim Raspberry Pi müssen Sie lediglich die SD-Karte in die dafür vorgesehene Öffnung schieben.\
-Achten Sie hierbei darauf, dass die Kontakte der Karte nach oben zeigen.
+Achten Sie hierbei darauf, dass die Kontakte der Karte nach oben zeigen.\
+Nun können Sie das USB-C-Kabel in den dafür vorgesehenen Port schieben, und der Pi startet.\
+Wenn Sie einen Monitor, ein HDMI/Micro-HDMI-Kabel und eine Tastatur zur Hand haben, können Sie\
+den Setup-Prozess direkt auf dem Gerät vornehmen. Andernfalls bietet sich der Zugriff über die\
+SSH-Schnittstelle an.
+
+#### Verbindung via SSH
+
+Falls Sie keine Möglichkeit haben Monitor und Eingabegeräte an den Raspberry Pi anzuschließen\
+können Sie über eine Netzwerkschnittstelle mithilfe eines anderen Computers auf das System zugreifen.
+
+##### Windows 10
+
+Nutzen Sie die Tastenkombination `Win + x` um das erweiterte Startmenü aufzurufen und öffnen Sie eine Powershell.
+Nun können Sie die IP-Adresse des Raspberry Pi bspw. über das Web-Interface Ihres Routers ermitteln.
+Sollten Sie auf darauf keinen Zugriff haben, können Sie alternativ auch den [Advanced Ip Scanner](https://www.advanced-ip-scanner.com/?utm_expid=62919999-20._cHMXBX2SFul7hotDoAX2A.0&utm_referrer=https%3A%2F%2Fwww.bing.com%2F) der\
+Firma famatech verwenden. Beachten Sie, dass es sich hierbei nicht um Open-Source-Software handelt.
+
+##### MacOS 
+
+Im Terminal können Sie folgenden Befehl nutzen, um die IP-Adresse des Raspberry Pi zu ermitteln.
+
+```
+arp -a
+```
+
+##### SSH nutzen
+
+Anschließend können Sie mit dem folgenden Befehl eine Verbindung zum Raspberry Pi herstellen. 
+
+```
+ssh pi@IHRE_ERMITTELTE_IP # bspw. 192.168.123.1
+```
+
+Sie werden nun aufgefordert, das Fingerprinting zu erlauben, um Ihr Endgerät eindeutig zu identifizieren.\
+Dieser Aufforderung können Sie mit der Eingabe `yes` nachkommen. Sie befinden sich nun in einer sogenannten\
+Shell-Session, in der Sie den kompletten Setup-Prozess durchführen können. Beachten Sie jedoch, dass Sie\
+innerhalb der Shell-Session keinen grafischen Desktop öffnen können, Stichwort: `startx`. 
 
 ## Was nun?
 
