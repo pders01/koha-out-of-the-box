@@ -4,6 +4,7 @@
 * [Übersicht](/SchuB/uebersicht.md)
 * [Ausleihe](SchuB/ausleihe.md)
 * [Benutzerverwaltung](SchuB/benutzer.md)
+	* [Benutzerimport](SchuB/benutzerimport.md)
 * [Erwerbung](SchuB/erwerbung/)
 	* [Bestellungen und Rechnungen](SchuB/erwerbung/bestellungen.md)
 * [Zeitschriften](SchuB/zeitschriften.md)
