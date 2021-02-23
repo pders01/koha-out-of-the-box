@@ -1,7 +1,7 @@
 Der **Online Public Access Catalog (OPAC)** ist die Oberfläche der Bibliothek aus Perspektive der Nutzenden und kann zwar über die Verwaltungsoberfläche konfiguriert werden, existiert aber als Webseite unabhängig von dieser. Es handelt sich um eine Web-Oberfläche, welche in erster Linie den Nutzenden einer Bibliothek dazu dient, außerhalb der Bibliothek auf eigenen Geräten den Bestand zu durchsuchen. Darüber hinaus bietet der OPAC den Nutzenden viele Funktionen, für welche diese ansonsten die Bibliothek in Person besuchen und ihre Anliegen den Verantwortlichen mitteilen müssten.
 Diese Seite behandelt die Möglichkeiten, die Nutzende durch einen OPAC haben. Um mehr zur Konfiguration des OPACs zu erfahren, lesen Sie die Seite [OPAC](SpB/opac/).
 
-Die Informationen auf dieser Seite finden Sie auch in einem <a href="https://pders01.github.io/Koha_out_of_the_box/opac_nutzungsanleitung" download>vorgefertigten Handout</a>, welches Sie an die Nutzenden Ihrer Bibliothek als pdf-Datei oder ausgedruckt weitergeben können.
+Die Informationen auf dieser Seite finden Sie auch in einem <a href="https://pders01.github.io/Koha_out_of_the_box/opac_nutzungsanleitung.pdf" download>vorgefertigten Handout</a>, welches Sie an die Nutzenden Ihrer Bibliothek als pdf-Datei oder ausgedruckt weitergeben können.
 
 # Suche
 
@@ -9,7 +9,7 @@ Gut sichtbar im Header finden Nutzende einen Suchschlitz mit ausklappbarer Suchp
 
 # Titelansicht
 
-![Screenshot der Titelansicht im OPAC](../Images/opac_titel.PNG)
+![Screenshot der Titelansicht im OPAC](../../Images/opac_titel.PNG)
 
 Die Titelansicht gibt alle Informationen zu einem Titel an, Informationen zu den jeweiligen Exemplaren und deren Verfügbarkeit findet man hier jeweils unten in Form einer Liste. Die Menge an Informationen zum Titel sind abhängig davon, was in der koha-Verwaltungsoberfläche konfiguriert wurde und welche Informationen im Titeldatensatz hinterlegt sind. Rechts gibt es einen Bereich mit unterschiedlichen Aktionen, welche im Nachfolgenden erläutert werden.
 
@@ -43,7 +43,7 @@ Hier werden den Nutzenden weitere Suchmöglichkeiten hinterlegt, an welche der T
 
 # Benutzerkonto
 
-![Screenshot der Kontoansicht im OPAC](../Images/opac_nutzende.PNG)
+![Screenshot der Kontoansicht im OPAC](../../Images/opac_nutzende.PNG)
 
 ## Kontoübersicht
 
@@ -51,7 +51,7 @@ Die erste Seite passt sich vollkommen an das eigene Konto an und kann unter Umst
 
 ## Gebühren und Entgelte
 
-![Screenshot der Titelansicht im OPAC](../Images/opac_konto_gebuehren.PNG)
+![Screenshot der Titelansicht im OPAC](../../Images/opac_konto_gebuehren.PNG)
 
 Sofern für das Konto Gebühren verzeichnet sind, werden diese hier aufgezählt. Werden diese Gebühren in der Bibliothek bezahlt und in der Verwaltung als bezahlt bestätigt, so tauchen diese nicht mehr in dieser Übersicht auf, können allerdings unter „Alle Transaktionen anzeigen“ erneut eingesehen werden.
 
@@ -61,42 +61,42 @@ Hier können Nutzende die persönlichen Daten wie Name, Adresse, E-Mail-Adresse 
 
 ## Tags
 
-![Screenshot der Titelansicht im OPAC](../Images/opac_konto_tags.PNG)
+![Screenshot der Titelansicht im OPAC](../../Images/opac_konto_tags.PNG)
 
 Tags sind eine Art „Schlagwörter“, welche Nutzende frei den Titeln im Katalog anhängen können. Innerhalb des Katalogs sind diese Tags zwar allen sichtbar, aber Tags können schnell durch die Verwaltung wieder gelöscht werden. In diesem Menü können alle selbst erstellten Tags eingesehen und bei Bedarf selbst gelöscht werden.
 
 ## Passwort ändern
 
-![Screenshot der Titelansicht im OPAC](../Images/opac_konto_passwort.PNG)
+![Screenshot der Titelansicht im OPAC](../../Images/opac_konto_passwort.PNG)
 
 Dieses Menü dient Nutzenden lediglich dazu, ihr Passwort für den OPAC-Zugang eigenständig zu ändern. Zur Bestätigung muss das alte Passwort als erstes eingegeben werden.
 
 ## Suchhistorie
 
-![Screenshot der Titelansicht im OPAC](../Images/opac_konto_suchhistorie.PNG)
+![Screenshot der Titelansicht im OPAC](../../Images/opac_konto_suchhistorie.PNG)
 
 Hier wird Nutzenden ermöglicht, ihre vergangenen Suchen in koha noch einmal anzuschauen und gegebenenfalls erneut zu tätigen. Die Suchhistorie kann hier auch jederzeit gelöscht werden.
 
 ## Ausleihverlauf
 
-![Screenshot der Titelansicht im OPAC](../Images/opac_konto_ausleihverlauf.PNG)
+![Screenshot der Titelansicht im OPAC](../../Images/opac_konto_ausleihverlauf.PNG)
 
 Hier können sich Nutzende je nach Konfiguration in der Verwaltung ihre aktuellen und vergangenen Ausleihen anschauen, etwa um vormals ausgeliehene Bücher schneller wiederzufinden.
 
 ## Anschaffungsvorschläge
 
-![Screenshot der Titelansicht im OPAC](../Images/opac_konto_anschaffungen.PNG)
+![Screenshot der Titelansicht im OPAC](../../Images/opac_konto_anschaffungen.PNG)
 
 Eine Übersicht der an die Bibliothek gesendeten Anschaffungsvorschläge findet sich hier, daneben steht der Status der Bearbeitung und die für die Bearbeitung des Anschaffungsvorschlags verantwortliche Person in der Verwaltung. Oben im Menü können neue Anschaffungsvorschläge erstellt werden, die vorhandenen Informationen zum gewünschten Titel werden in eine Maske auf einer eigenen Seite eingetragen und abgeschickt.
 
 ## Benachrichtigungen
 
-![Screenshot der Titelansicht im OPAC](../Images/opac_konto_benachrichtigungen.PNG)
+![Screenshot der Titelansicht im OPAC](../../Images/opac_konto_benachrichtigungen.PNG)
 
 In diesem Menü können Nutzende die Parameter für an sie gesendete Benachrichtigungen konfigurieren, etwa ob Aktionen nur im OPAC eine Benachrichtigung auslösen, oder ob diese auch eine Mail an das jeweils eingetragene Konto verschicken.
 
 ## Listen
 
-![Screenshot der Titelansicht im OPAC](../Images/opac_konto_liste.PNG)
+![Screenshot der Titelansicht im OPAC](../../Images/opac_konto_liste.PNG)
 
 Hier werden alle Listen aufgezählt, die von diesem Konto erstellt wurden. Sie werden in private und öffentliche Listen in einer Reiternavigation getrennt dargestellt. Nutzende können die enthaltenen Titel einsehen und die Listen löschen oder bearbeiten, oder aber jeweils oben in der Übersicht eine ganz neue Liste erstellen.

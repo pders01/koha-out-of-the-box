@@ -57,7 +57,7 @@ Hier kann unter anderem angegeben werden welche Felder beim Anlegen eines Titeld
 
 <img src="https://pders01.github.io/Koha_out_of_the_box/Images/import_button.PNG" alt="Bild von Import Button" width="1450">
 
-Nachdem Z39.50 wie in ** erklärt mit der Fremddatenquelle Ihrer Wahl eingerichtet wurde, kann diese genutzt werden, um Titeldatensätze zu importieren. 
+Nachdem Z39.50 wie in der gleichnamigen Unterseite erklärt mit der Fremddatenquelle Ihrer Wahl eingerichtet wurde, kann diese genutzt werden, um Titeldatensätze zu importieren. 
 In der Suchmaske können verschieden Suchkriterien und Suchziele angegeben werden. Die Suchziele hängen davon ab, welche Fremddatenquellen für Z39.50 konfiguriert wurden. Die ISBN kann automatisch eingefügt werden, falls Sie einen Handscanner verwenden.
 
 <img src="https://pders01.github.io/Koha_out_of_the_box/Images/z3950_ergebnisliste.PNG" alt="Bild der Ergebnisliste" width="1450">

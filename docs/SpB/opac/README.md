@@ -3,7 +3,7 @@
 
 Die Systemparameter zur Bearbeitung des OPAC finden Sie auf der Admin-Oberfläche unter *“Administration“ > „Systemparameter“* auf der Seite OPAC. 
 
-![Einstieg zu Opac Systemparametern ](../Images/OPAC_start.PNG)  
+![Einstieg zu Opac Systemparametern ](../../Images/OPAC_start.PNG)  
 
 Hier folgen einige Systemparameter, die wir Ihnen empfehlen würden zu bearbeiten und zusätzlich Informationen zu Möglichkeiten der Individualisierung des Design im OPAC.
 
@@ -13,7 +13,7 @@ Hier folgen einige Systemparameter, die wir Ihnen empfehlen würden zu bearbeite
 
 Hier definieren Sie, welche Bezeichnung in den Tabs des OPAC angezeigt wird. Um den eigenen Bibliotheks- oder Institutionsnamen im OPAC anzuzeigen, müssen Sie diesen im Systemparameter 'LibraryName' als freien Text eintragen. Der Name wird anschließend angezeigt. Lassen Sie diesen Parameter frei, wird hier kein Text angezeigt.  
 
-![LibraryName Systemparameter](../Images/OPAC_libraryName.PNG)
+![LibraryName Systemparameter](../../Images/OPAC_libraryName.PNG)
 
 **OPACBaseURL**
  
@@ -32,7 +32,7 @@ Für die bessere Funktion von Koha insgesammt würden wir empfehlen, Einstellung
 In Koha gibt es die Option „Im Regal stöbern“, durch die bei einer Volltitelansicht verwandte Werke angezeigt werden. Sie ist standardmäßig aktiviert, verbraucht aber viele Ressourcen des Servers, weshalb sie bei Nutzung des Raspberry Pi deaktiviert werden sollte.
 Die Systemeinstellung dazu finden Sie in der Admin-Oberfläche unter *“Administration“ > „Systemparameter“* und letztlich OPAC. Es gibt zu der Einstellung eine eigene Tabelle mit vier Systemparametern. Um das virtuelle Bücherregal zu deaktivieren reicht es, bei dem ersten Parameter „OPACShelfBrowser“ im Dropdown-Menü die Option „Zeige keine“ auszuwählen.  
 
-![Systemparameter OPACShelfBrowser](../Images/OPAC_shelfBrowser.PNG)
+![Systemparameter OPACShelfBrowser](../../Images/OPAC_shelfBrowser.PNG)
 
 **OpacNoItemTypeImages**
 
@@ -72,23 +72,27 @@ Die hier definierten Stile überschreiben den Code aus 'opaclayoutstylesheet' un
 Dieser Parameter funktionieert in der Nutzung wie das eben beschriebene OPACUserCSS, wobei hier der im Koha-OPAC verwendete JavaScript Code beeinflusst wird. Jegliches JavaScript oder JQuery, das hier eingefügt wird, ist auf allen Seiten des OPAC integriert. 
 Hierdurch können interaktive Aspekte von Koha Beeinflusst werden, etwa kann das Login-Fenster für Nutzer angepasst werden.  
 
-![Systemparameter OPACUserJS ](../Images/OPAC_userJS.PNG)
+![Systemparameter OPACUserJS ](../../Images/OPAC_userJS.PNG)
 
 In dem Code auf der Abbildung wird beispielsweise das Login-Fenster angepasst, dass anstelle von ‚Login‘ und ‚Passwort‘ die Begriffe ‚Card Number‘ und ‚Pin‘ angezeigt werden. 
 Beispiele für JQuery-Snippets, die in dieser Systemstelle verwendet wurden, finden Sie in der Koha Community [JQuery Library](http://wiki.koha-community.org/wiki/JQuery_Library)
 
 # Weitere Informationsquellen
 
-* <a href="https://koha-community.org/manual/20.11/en/html/opac.html">Koha 20.11 Dokumentation - OPAC (Die offizielle Dokumentation zu Koha Version 20.11. Bisher ist keine deutsche Ausgabe vorhanden.
-)</a>
+* <a href="https://koha-community.org/manual/20.11/en/html/opac.html">Koha 20.11 Dokumentation - OPAC</a>
+Die offizielle Dokumentation zu Koha Version 20.11. Bisher ist keine deutsche Ausgabe vorhanden.
 
-* <a href="https://wiki.bsz-bw.de/pages/viewpage.action?pageId=17565617&preview=/17565617/3454472/3-18_OPAC-Textbausteine.pdf">Koha OPAC-Handbuch des BSZ(Das Koha-OPAC Handbuch des BSZ, Bibliotheksservice-Zentrum baden-Württemberg. Die Erläuterungen und Abbildungen sind teilweise nicht auf die Koha-Instanz von Koha out of the Box anzuwenden, da hier eine ältere Version Erläutert wird.)</a>
+* <a href="https://wiki.bsz-bw.de/pages/viewpage.action?pageId=17565617&preview=/17565617/3454472/3-18_OPAC-Textbausteine.pdf">Koha OPAC-Handbuch des BSZ</a>
+Das Koha-OPAC Handbuch des BSZ, Bibliotheksservice-Zentrum baden-Württemberg. Die Erläuterungen und Abbildungen sind teilweise nicht auf die Koha-Instanz von Koha out of the Box anzuwenden, da hier eine ältere Version Erläutert wird.
 
-* <a href="http://wiki.koha-community.org/wiki/JQuery_Library">JQuery Library(Eine Liste von verwendeten JQuery Snippets zur OPAC-Anpassung, welche genutzt werden können.)</a>
+* <a href="http://wiki.koha-community.org/wiki/JQuery_Library">JQuery Library</a>
+Eine Liste von verwendeten JQuery Snippets zur OPAC-Anpassung, welche genutzt werden können.
 
-* <a href="https://wiki.koha-community.org/wiki/HTML_%26_CSS_Library">CSS und HTML Library(Liste von HTML und CSS Code-Snippets, welche zum anpassen des OPACs oder als Inspiration genutzt werden können. Sie finden auch jeweils den verwendeten Systemparameter.)</a>
+* <a href="https://wiki.koha-community.org/wiki/HTML_%26_CSS_Library">CSS und HTML Library</a>
+Liste von HTML und CSS Code-Snippets, welche zum anpassen des OPACs oder als Inspiration genutzt werden können. Sie finden auch jeweils den verwendeten Systemparameter.
 
-* <a href="https://wiki.koha-community.org/wiki/CSS_Customizations">CSS Customization(Weitere Informationen zum Erstellen eigener CSS-Templates
-)</a>
+* <a href="https://wiki.koha-community.org/wiki/CSS_Customizations">CSS Customization</a>
+Weitere Informationen zum Erstellen eigener CSS-Templates
 
-* <a href="https://wiki.koha-community.org/wiki/Gallery_of_customized_OPACs">Beispiele angepasster OPAC-Designs(Eine Liste an Beispielen von angepassten Koha OPACs für die Inspiration eigener Designs, wobei diese Beispiele sehr umfassend und kompliziert sind.)</a>
+* <a href="https://wiki.koha-community.org/wiki/Gallery_of_customized_OPACs">Beispiele angepasster OPAC-Designs</a>
+Eine Liste an Beispielen von angepassten Koha OPACs für die Inspiration eigener Designs, wobei diese Beispiele sehr umfassend und kompliziert sind.
