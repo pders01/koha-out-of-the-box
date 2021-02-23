@@ -4,7 +4,7 @@
 
 Die Systemparameter zur Bearbeitung des OPAC finden Sie auf der Admin-Oberfläche unter *“Administration“ > „Systemparameter“* auf der Seite OPAC.   
 
-![Einstieg zu Opac Systemparametern ](../Images/OPAC_start.PNG)
+![Einstieg zu Opac Systemparametern ](../../Images/OPAC_start.PNG)
 
 Hier folgen einige Systemparameter, die wir Ihnen empfehlen würden zu bearbeiten und zusätzlich Informationen zu Möglichkeiten der Individualisierung des Design im OPAC.
 
