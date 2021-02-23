@@ -1,6 +1,10 @@
 # Koha Dokumentation - Schulbibliotheken
 
-In diesem Abschnitt werden alle Bereiche unter den Gesichtspunkt der Schulbibliotheken behandelt. Im Rahmen des Projekts wurde sich primär auf diejenigen Schulbibliotheken fokussiert, welche nicht als Zweigstelle der lokalen öffentlichen Bibliothek fungieren, sondern von der Schule selber geleitet werden. Es wird davon ausgegangen, dass in diesen aufgrund hoher Kosten für Fachkräfte primär ungelernte und freiwillige Mitarbeiter wie etwa Schüler oder Lehrer tätig sind. Auch wird in diesem Abschnitt der Dokumentation die Fernleihe nicht behandelt, da dies für eine Schulbibliothek in der Regel weniger oder nicht relevant ist. Informationen hierzu sind allerdings in den Abschnitten zu Spezialbibliotheken und kleinen öffentlichen Bibliotheken zu  finden.
+Es gibt zwei unterschiedliche Organisationsformen von Schulbibliotheken. Zum einen gibt es Schulbibliotheken, die von einer lokalen öffentlichen Bibliothek betrieben werden, zum anderen welche, die von der Schule selbst betrieben werden. Für Letztere ist diese Implementierung des Bibliothekssystems „Koha“ von höherer Bedeutung. 
+Die Situation von Schulbibliotheken in Deutschland ist sehr heterogen, was vor allem den verfügbaren finanziellen Mitteln zuzuschreiben ist. 
+Das Personal besteht selten aus Fachkräften, sondern vielmehr aus unqualifizierten Freiwilligen, wie beispielsweise den Schüler:innen selbst oder deren Eltern. Aufgrund dessen fehlt es an Fachwissen zu entscheidenden bibliothekarischen Themen und es wird kein professionelles Bibliothekssystem verwendet. Aus diesem Grund ist die Dokumentation des Bibliothekssystems für Schulbibliotheken in vielen Punkten umfangreicher gestaltet. Grundlegende bibliothekarische Methoden, wie die Katalogisierung, wird somit umfangreich für Laien erläutert. 
+Die finanziellen Nachteile der Schulbibliotheken sollen mithilfe dieses Bibliothekssystems im Ansatz ausgeglichen werden. 
+Ein weiteres Problem an Schulbibliotheken stellt der Mangel an technikaffinem Personal dar. Dies soll behoben werden, indem der Bibliothekssoftware eine ausführliche technische Dokumentation beiliegt. 
 
 **Die hier behandelten Themen sind:**
 
