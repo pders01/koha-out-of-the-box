@@ -8,12 +8,12 @@ Ein weiteres Problem an Schulbibliotheken stellt der Mangel an technikaffinem Pe
 
 **Die hier behandelten Themen sind:**
 
-* Katalogisierung, 
-* Ausleihe,
-* Benutzerverwaltung, 
-* Erwerbung, 
-* Zeitschriften, 
-* OPAC-Konfiguration und OPAC-Nutzung, 
+* Katalogisierung
+* Ausleihe
+* Benutzerverwaltung
+* Erwerbung 
+* Zeitschriften 
+* OPAC-Konfiguration und OPAC-Nutzung 
 * Konfiguration der Admin-Oberfläche
 * Datenschutz
 
