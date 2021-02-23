@@ -11,5 +11,6 @@ OPAC | Ein **Online Public Access Catalog** ist die Oberfläche, über welche Nu
 PPN | **Pica Production Number**, eindeutige Identifikationssnummer eines Datensatzes in Verbundkatalogen, z. B. dem K10plus.
 Signatur | Auszeichnung der einzelnen Medien die ihre Einordnung in die Systematik und evtl. andere Sortierungskriterien für die Aufstellung reflektiert; s. *Katalogisierung -> Systematik und Signatur*
 Systematik | Ordnungssystem, dass die verschiedenen Themenbereiche und Gruppierungen des Bibliotheksbestandes abbildet; s. *Katalogisierung -> Systematik und Signatur*
+Tag | Hiermit sind Schlagwörter gemeint, welche die Nutzenden des OPACs selbst Titeln anhängen können. Diese können zwar von allen Bibliotheksnutzenden angesehen werden, doch Admins können jederzeit wieder Tags von Titeln lösen oder Tags komplett löschen; s. [Opac-Nutzung -> Benutzerkonto -> Tags](https://pders01.github.io/Koha_out_of_the_box/#/Oeb/opac/opac_nutzung?id=tags)
 Titeldatensatz | allgemeingeltende beschreibende Metadaten eines Mediums; s. *Katalogisierung -> Titel- und Exemplardatensätze*
 Z39.50 | Netzwerkprotokoll, welches die Übernahme von bibliografischen Daten über entsprechende Schnittstellen ermöglicht

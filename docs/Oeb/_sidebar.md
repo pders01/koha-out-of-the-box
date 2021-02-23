@@ -13,4 +13,5 @@
 	* [OPAC-Nutzung](Oeb/opac/opac_nutzung.md)
 * [Admin-Oberfläche](Oeb/admin.md)
 * [Datenschutz](Oeb/datenschutz.md)
+* [Glossar](Oeb/glossar.md)
 * [Home](/)

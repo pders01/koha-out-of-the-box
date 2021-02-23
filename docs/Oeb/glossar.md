@@ -9,3 +9,4 @@ PPN | **Pica Production Number**, eindeutige Identifikationssnummer eines Datens
 Tag | Hiermit sind Schlagwörter gemeint, welche die Nutzenden des OPACs selbst Titeln anhängen können. Diese können zwar von allen Bibliotheksnutzenden angesehen werden, doch Admins können jederzeit wieder Tags von Titeln lösen oder Tags komplett löschen; s. [Opac-Nutzung -> Benutzerkonto -> Tags](https://pders01.github.io/Koha_out_of_the_box/#/Oeb/opac/opac_nutzung?id=tags)
 Titeldatensatz | allgemeingeltende beschreibende Metadaten eines Mediums; s. *Katalogisierung -> Titel- und Exemplardatensätze*
 Z39.50 | Netzwerkprotokoll, welches die Übernahme von bibliografischen Daten über entsprechende Schnittstellen ermöglicht
+

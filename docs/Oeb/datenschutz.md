@@ -15,9 +15,7 @@ Der Deutsche Bibliotheksverband (dbv) bietet als Hilfestellung eine Mustervorlag
 Koha bietet diverse Systemparameter, die sich mit dem Thema Datenschutz auseinandersetzen. 
 Diese finden sich ausgehend von der Koha-Startseite unter *Administration* und anschließend unter *Globale Systemparameter*.
 
-![Globale Systemparameter](../Images/DS_parameter.png)
- 
-Links wird anschließend der Reiter *Benutzer* ausgewählt. Hier findet sich eine Unterüberschrift mit dem Titel *Datenschutz*.
+Hier wird anschließend der Reiter *Benutzer* ausgewählt. Hier findet sich eine Unterüberschrift mit dem Titel *Datenschutz*.
 
 **GDPR_Policy**: GDPR steht für die Datenschutz-Grundverordnung der Europäischen Union (EU-DSGVO). Wird hier „erzwungen“ ausgewählt, müssen Benutzer Ihrer Datenschutzerklärung zustimmen, bevor der OPAC genutzt werden kann. Bei „tolerant“ wird zwar auf die Datenschutzerklärung hingewiesen, ein Zugriff auf den OPAC ist aber auch ohne Zustimmung möglich. 
 
