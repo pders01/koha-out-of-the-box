@@ -1,5 +1,6 @@
 <!-- docs/SpB/_sidebar.md -->
 
+* [Home](/)
 * [Übersicht](/SpB/uebersicht.md)
 * [Ausleihe](SpB/ausleihe.md)
 	* [Fernleihe](SpB/fernleihe.md)
@@ -15,4 +16,3 @@
 * [Datenschutz](SpB/datenschutz.md)
 * [Zusätzliche Informationsquellen](SpB/quellen_spb.md)
 * [Glossar](SpB/glossar.md)
-* [Home](/)
