@@ -80,22 +80,20 @@ Beispiele für JQuery-Snippets, die in dieser Systemstelle verwendet wurden, fin
 
 # Weitere Informationsquellen
 
-* <a href="https://koha-community.org/manual/20.11/en/html/opac.html">Koha 20.11 Dokumentation - OPAC (
-)</a>
+* <a href="https://koha-community.org/manual/20.11/en/html/opac.html">Koha 20.11 Dokumentation - OPAC</a>
 Die offizielle Dokumentation zu Koha Version 20.11. Bisher ist keine deutsche Ausgabe vorhanden.
 
-* <a href="https://wiki.bsz-bw.de/pages/viewpage.action?pageId=17565617&preview=/17565617/3454472/3-18_OPAC-Textbausteine.pdf">Koha OPAC-Handbuch des BSZ()</a>
+* <a href="https://wiki.bsz-bw.de/pages/viewpage.action?pageId=17565617&preview=/17565617/3454472/3-18_OPAC-Textbausteine.pdf">Koha OPAC-Handbuch des BSZ</a>
 Das Koha-OPAC Handbuch des BSZ, Bibliotheksservice-Zentrum baden-Württemberg. Die Erläuterungen und Abbildungen sind teilweise nicht auf die Koha-Instanz von Koha out of the Box anzuwenden, da hier eine ältere Version Erläutert wird.
 
-* <a href="http://wiki.koha-community.org/wiki/JQuery_Library">JQuery Library()</a>
+* <a href="http://wiki.koha-community.org/wiki/JQuery_Library">JQuery Library</a>
 Eine Liste von verwendeten JQuery Snippets zur OPAC-Anpassung, welche genutzt werden können.
 
-* <a href="https://wiki.koha-community.org/wiki/HTML_%26_CSS_Library">CSS und HTML Library()</a>
+* <a href="https://wiki.koha-community.org/wiki/HTML_%26_CSS_Library">CSS und HTML Library</a>
 Liste von HTML und CSS Code-Snippets, welche zum anpassen des OPACs oder als Inspiration genutzt werden können. Sie finden auch jeweils den verwendeten Systemparameter.
 
-* <a href="https://wiki.koha-community.org/wiki/CSS_Customizations">CSS Customization(
-)</a>
+* <a href="https://wiki.koha-community.org/wiki/CSS_Customizations">CSS Customization</a>
 Weitere Informationen zum Erstellen eigener CSS-Templates
 
-* <a href="https://wiki.koha-community.org/wiki/Gallery_of_customized_OPACs">Beispiele angepasster OPAC-Designs()</a>
+* <a href="https://wiki.koha-community.org/wiki/Gallery_of_customized_OPACs">Beispiele angepasster OPAC-Designs</a>
 Eine Liste an Beispielen von angepassten Koha OPACs für die Inspiration eigener Designs, wobei diese Beispiele sehr umfassend und kompliziert sind.
