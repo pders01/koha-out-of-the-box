@@ -79,22 +79,18 @@ In dem Code auf der Abbildung wird beispielsweise das Login-Fenster angepasst, d
 Beispiele für JQuery-Snippets, die in dieser Systemstelle verwendet wurden, finden Sie in der Koha Community [JQuery Library](http://wiki.koha-community.org/wiki/JQuery_Library)
 
 
-# Linksammlung:
+# Weitere Informationsquellen
 
-[Koha 20.11 Dokumentation - OPAC](https://koha-community.org/manual/20.11/en/html/opac.html)
-Die offizielle Dokumentation zu Koha Version 20.11. Bisher ist keine deutsche Ausgabe vorhanden.
+* <a href="https://koha-community.org/manual/20.11/en/html/opac.html">Koha 20.11 Dokumentation - OPAC (Die offizielle Dokumentation zu Koha Version 20.11. Bisher ist keine deutsche Ausgabe vorhanden.
+)</a>
 
-[Koha OPAC-Handbuch des BSZ](https://wiki.bsz-bw.de/pages/viewpage.action?pageId=17565617&preview=/17565617/3454472/3-18_OPAC-Textbausteine.pdf)
-Das Koha-OPAC Handbuch des BSZ, Bibliotheksservice-Zentrum baden-Württemberg. Die Erläuterungen und Abbildungen sind teilweise nicht auf die Koha-Instanz von Koha out of the Box anzuwenden, da hier eine ältere Version Erläutert wird.
+* <a href="https://wiki.bsz-bw.de/pages/viewpage.action?pageId=17565617&preview=/17565617/3454472/3-18_OPAC-Textbausteine.pdf">Koha OPAC-Handbuch des BSZ(Das Koha-OPAC Handbuch des BSZ, Bibliotheksservice-Zentrum baden-Württemberg. Die Erläuterungen und Abbildungen sind teilweise nicht auf die Koha-Instanz von Koha out of the Box anzuwenden, da hier eine ältere Version Erläutert wird.)</a>
 
-[JQuery Library](http://wiki.koha-community.org/wiki/JQuery_Library)
-Eine Liste von verwendeten JQuery Snippets zur OPAC-Anpassung, welche genutzt werden können.
+* <a href="http://wiki.koha-community.org/wiki/JQuery_Library">JQuery Library(Eine Liste von verwendeten JQuery Snippets zur OPAC-Anpassung, welche genutzt werden können.)</a>
 
-[CSS und HTML Library](https://wiki.koha-community.org/wiki/HTML_%26_CSS_Library)
-Liste von HTML und CSS Code-Snippets, welche zum anpassen des OPACs oder als Inspiration genutzt werden können. Sie finden auch jeweils den verwendeten Systemparameter.
+* <a href="https://wiki.koha-community.org/wiki/HTML_%26_CSS_Library">CSS und HTML Library(Liste von HTML und CSS Code-Snippets, welche zum anpassen des OPACs oder als Inspiration genutzt werden können. Sie finden auch jeweils den verwendeten Systemparameter.)</a>
 
-[CSS Customization](https://wiki.koha-community.org/wiki/CSS_Customizations)
-Weitere Informationen zum Erstellen eigener CSS-Templates
+* <a href="https://wiki.koha-community.org/wiki/CSS_Customizations">CSS Customization(Weitere Informationen zum Erstellen eigener CSS-Templates
+)</a>
 
-[Beispiele an OPACs](https://wiki.koha-community.org/wiki/Gallery_of_customized_OPACs)
-Eine Liste an Beispielen von angepassten Koha OPACs für die Inspiration eigener Designs, wobei diese Beispiele sehr umfassend und kompliziert sind.
+* <a href="https://wiki.koha-community.org/wiki/Gallery_of_customized_OPACs">Beispiele angepasster OPAC-Designs(Eine Liste an Beispielen von angepassten Koha OPACs für die Inspiration eigener Designs, wobei diese Beispiele sehr umfassend und kompliziert sind.)</a>
