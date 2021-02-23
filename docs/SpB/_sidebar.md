@@ -13,6 +13,6 @@
 	* [OPAC-Nutzung](SpB/opac/opac_nutzung.md)
 * [Admin-Oberfläche](SpB/admin.md)
 * [Datenschutz](SpB/datenschutz.md)
-* [Zusätzliche Informationsquellen](SchuB/quellen_spb.md)
+* [Zusätzliche Informationsquellen](SpB/quellen_spb.md)
 * [Glossar](SpB/glossar.md)
 * [Home](/)
