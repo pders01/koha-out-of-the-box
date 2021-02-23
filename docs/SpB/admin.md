@@ -47,3 +47,12 @@ Ebenfalls identisch zu den Systemparametern des OPAC gibt es die Option, kurze C
 **IntranetUserJS**
 
 Über diesen Systemparameter gibt es ebenfalls die Option, JavaScript und JQuery einzubinden. Dieser Code wird auf allen Seiten der Admin-Oberfläche eingebettet und kann die interaktiven Elemente der Admin-Oberfläche beeinflussen. In der Koha Community [JQuery Library](http://wiki.koha-community.org/wiki/JQuery_Library) finden Sie Beispiele von JavaScript und JQuery Code, welcher in Koha von Nutzern eingebunden wurde.
+
+# Weitere Informationsquellen
+
+* <a href="https://koha-community.org/manual/20.11/en/html/administration.html">Koha 20.11 Dokumentation - Administration (Der Abschnitt zur Admin-Oberfläche in der offizielle Dokumentation zu Koha Version 20.11. Bisher ist keine deutsche Ausgabe vorhanden.
+)</a>
+
+* <a href="http://wiki.koha-community.org/wiki/JQuery_Library">JQuery Library(Eine Liste von verwendeten JQuery Snippets, welche auch teilweise zur Anpassungder Admin-Oberfläche genutzt werden können.)</a>
+
+* <a href="https://wiki.koha-community.org/wiki/HTML_%26_CSS_Library">CSS und HTML Library(Liste von HTML und CSS Code-Snippets, welche zum anpassen der Admin-Oberfläche genutzt werden können. Der jeweils angepasste bzw. verwendete Systemparameter ist angegeben.)</a>
