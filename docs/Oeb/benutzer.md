@@ -51,6 +51,8 @@ Sind die Formulare den Anforderungen entsprechend ausgefüllt, so kann dies gesp
 
 Bei der Erfassung von Minderjährigen besteht die Beonderheit darin, dass eine zusätzliche Kategorie zu einer bürgenden Person des Kindes zu erfassen ist. 
 
+![Kind](../Images/B_kind.PNG)
+
 ![Bürge des Kindes](../Images/B_kind_bürge.PNG)
 
 ## Benutzerschnellerfassung
