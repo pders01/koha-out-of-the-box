@@ -31,7 +31,7 @@ In diesem Abschnitt ist es möglich, den zuvor eingestellten Medientyp auf "Fern
 ## Benutzerkonto eine Fernleihbibliothek
 
 Es besteht die Möglichkeit, dass eine Bibliothek, mit der Ihre Bibliothek Fernleihe betreibt, diese als Benutzerkonto erfasst. 
-Hierbei ist der Name der Organisation verpflichtend anzugeben. Die weiteren Schritte der Erfassung der Bibliothek gleichen denen eines "normalen" Benutzerkontos. Bei Schwierigkeiten können Sie [Hier](SpB/benutzerverwaltung/) darauf zugreifen. 
+Hierbei ist der Name der Organisation verpflichtend anzugeben. Die weiteren Schritte der Erfassung der Bibliothek gleichen denen eines "normalen" Benutzerkontos. Bei Schwierigkeiten können Sie [Hier](benutzer.md) darauf zugreifen. 
 ![Benutzerkonto eine Fernleihbibliothek](../Images/FL_benutzerkonto.PNG)
 
 ## Weitere Informationsquellen
