@@ -33,3 +33,8 @@ In diesem Abschnitt ist es möglich, den zuvor eingestellten Medientyp auf "Fern
 Es besteht die Möglichkeit, dass eine Bibliothek, mit der Ihre Bibliothek Fernleihe betreibt, diese als Benutzerkonto erfasst. 
 Hierbei ist der Name der Organisation verpflichtend anzugeben. Die weiteren Schritte der Erfassung der Bibliothek gleichen denen eines "normalen" Benutzerkontos. Bei Schwierigkeiten können Sie [Hier](SpB/benutzerverwaltung/) darauf zugreifen. 
 ![Benutzerkonto eine Fernleihbibliothek](../Images/FL_benutzerkonto.PNG)
+
+## Weitere Informationsquellen
+
+* <a href="https://www.bsz-bw.de/fernleihe.html">BSZ: Fernleihe</a>
+* <a href="https://bibliotheksportal.de/informationen/bibliothekslandschaft/bibliotheksverbuende/">Bibliotheksportal: Verbundsysteme in Deutschland</a>
