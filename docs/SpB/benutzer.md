@@ -109,3 +109,7 @@ Wird nun die Auswahl "Karte verloren" gewählt, so erscheint folgende Notiz bei 
 
 ![Sperre wegen eines verlorenen Ausweises](../Images/B_sperre_ausweis_verloren.PNG)
 
+## Weitere Informationsquellen
+
+* <a href="https://wiki.bsz-bw.de/pages/viewpage.action?pageId=17565617&preview=/17565617/3454267/18-11_Handbuch_Benutzerverwaltung.pdf">BSZ: Koha Handbuch Benutzerverwaltung</a>
+* <a href="https://koha-community.org/manual/20.05/de/html/patrons.html">Koha Manual 20.05 Dokumentation: Benutzer</a>
