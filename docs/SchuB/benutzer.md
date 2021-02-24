@@ -1,8 +1,8 @@
 # Benutzerverwaltung
-Jeder Benutzende einer Bibliothek mit einem Bibliotheksausweis, wird in einem Bibliothekssystem in einer Datenbank hinterlegt. Koha bietet vielseitige Möglichkeiten diese Datensätze anzulegen, zu bearbeiten und verschiedene Einstellungen zu treffen. 
+Jeder Benutzende einer Bibliothek mit einem Bibliotheksausweis wird in einem Bibliothekssystem in einer Datenbank hinterlegt. Koha bietet vielseitige Möglichkeiten, diese Datensätze anzulegen, zu bearbeiten und verschiedene Einstellungen zu treffen. 
 
 ## Benutzerneuerfassung
-Auf der Startseite von Koha können Sie die Benutzerverwaltung, über die Schaltfläche "Benutzer" oder den Link "Benutzer suchen", öffnen.
+Auf der Startseite von Koha können Sie die Benutzerverwaltung über die Schaltfläche "Benutzer" oder den Link "Benutzer suchen", öffnen.
 
 ![Koha-Startseite](../Images/B_benutzer_startseite.PNG)
 
@@ -11,19 +11,19 @@ Nun kann der Button "Neuer Benutzer" ausgewählt werden und der Benutzertyp wird
 ![Benutzertypen](../Images/B_benutzertypen.PNG)
 
 Es öffnet sich eine leere Datenmaske mit einigen Feldern.
-Der Nachname und die Ausweisnummer sind immer Pflichtfelder, welche zwangsläufig ausgefüllt werden müssen. Diese sind immer mit roter Schrift gekennzeichnte. Andere Felder, wie die Adresse oder Angaben zur Person, können zusätzlich ausgefüllt werden. Wenn alle notwendigen Angaben erfasst wurden, kann das Formular über den Button "Speichern, der sich am Anfang der Datenmaske befindet, in der Datenbank gespeichert werden.
+Der Nachname und die Ausweisnummer sind immer Pflichtfelder, welche zwangsläufig ausgefüllt werden müssen. Diese sind immer mit roter Schrift gekennzeichnet. Andere Felder, wie die Adresse oder Angaben zur Person, können zusätzlich ausgefüllt werden. Wenn alle notwendigen Angaben erfasst wurden, kann das Formular über den Button "Speichern", der sich am Anfang der Datenmaske befindet, in der Datenbank gespeichert werden.
 
 ![Identität von Erwachsenen](../Images/B_erwachsen_identität.PNG)
 
-In diesem Fall wurde beispielhaft ein Benutzerdatensatz für einen Erwachsenen erstellt. In der Kategorie "Benutzeridentität" ist der Anchname verpflichtend einzutragen.
+In diesem Fall wurde beispielhaft ein Benutzerdatensatz für einen Erwachsenen erstellt. In der Kategorie "Benutzeridentität" ist der Nachname verpflichtend einzutragen.
 
 ![Hauptadresse von Erwachsenen](../Images/B_erwachsen_hauptadresse.PNG)
 
-In der Kategorie "Hauptadresse" ist die Anschrift des Benutzers einzutragen. Dies ist notwendig, wenn Erinnerungen an die Leihfrist per Post verschickt werden wollen.
+In der Kategorie "Hauptadresse" ist die Anschrift des Benutzers einzutragen. Dies ist notwendig, wenn Erinnerungen an die Leihfrist per Post verschickt werden sollen.
 
 ![Kontakt von Erwachsenen](../Images/B_erwachsen_kontakt.PNG)
 
-Bei der Kategorie "Kontakt" gibt es die Möglichkeit einen Bürgenden für den Bibliotheksnutzenden einzutragen.
+Bei der Kategorie "Kontakt" gibt es die Möglichkeit, einen Bürgenden für den Bibliotheksnutzenden einzutragen.
 
 Es gibt zwei weitere Kategorien, in die ein alternativer Kontakt und eine alternative Adresse eingetragen werden können.
 
@@ -31,7 +31,7 @@ Es gibt zwei weitere Kategorien, in die ein alternativer Kontakt und eine altern
 
 ![Alternativkontakt von Erwachsenen](../Images/B_erwachsen_alternativkontakt.PNG)
 
-In der Kategorie "Bibliotheksverwaltung" ist die Ausweisnummer, sowie die Bibliothek und der Benutzertyp verpflichtend zu erfassen. 
+In der Kategorie "Bibliotheksverwaltung" ist die Ausweisnummer sowie die Bibliothek und der Benutzertyp verpflichtend zu erfassen. 
 
 ![Biblitheksverwaltung von Erwachsenen](../Images/B_erwachsen_biliotheksverwaltung.PNG)
 
@@ -47,7 +47,7 @@ In der letzten Kategorie "Benachrichtigungseinstellungen" können Haken bei den 
 
 ![Benachrichtigungseinstellungen von Erwachsenen](../Images/B_erwachsen_benachrichtigungseinstellungen.PNG)
 
-Sind die Formular den Anforderungen entsprechend ausgefüllt, so kann dies gespeichert werden. 
+Sind die Formulare den Anforderungen entsprechend ausgefüllt, so kann dies gespeichert werden. 
 
 ## Konfiguration von Benutzertypen
 
@@ -60,7 +60,7 @@ Anschließend wählen Sie die Option "Benutzertypen" aus.
 
 ![Konfiguration des Benutzertyps](../Images/B_benutzertyp_konfiguration.PNG)
 
-In diesem Beispiel würde der Benutzertyp "Schüler:in" erstellt. Verpflichtend zu erfassen ist der Kategoriecode, die Beschreibung und die Kategorie. Weitere Einstellungen können Sie optional treffen. Abschließend sollte Sie Ihre Einstellungen abspeichern.  
+In diesem Beispiel würde der Benutzertyp "Schüler:in" erstellt. Verpflichtend zu erfassen ist der Kategoriecode, die Beschreibung und die Kategorie. Weitere Einstellungen können Sie optional treffen. Abschließend sollten Sie Ihre Einstellungen abspeichern.  
 
 ![Schüler als Benutzertyp](../Images/B_benutzertyp_schüler.PNG)
 
@@ -80,7 +80,7 @@ Sie wählen hierfür auf der Koha-Startseite erneut das Feld "Administration" au
 
 ![Auswahl der Benutzerattribute](../Images/B_auswahl_benutzerattribut.PNG)
 
-Nun können Sie ein neues Benutzerattribut hinzufügen. In diesem Beispiel wurde das Attribut "Schulklasse" genutzt, welches für Schulbibliotheken nützlich sein könnte.
+Nun können Sie ein neues Benutzerattribut hinzufügen. In diesem Beispiel wurde das Attribut "Schulklasse" gewählt, welches für Schulbibliotheken nützlich sein könnte.
 
 ![Konfiguration der Benutzerattribute](../Images/B_benutzerattribut_konfigurieren.PNG)
 
@@ -94,7 +94,7 @@ In den Formularen der Benutzererfassung erscheint Ihr konfiguriertes Attribut un
 
 ## Benutzerschnellerfassung
 
-Wenn Sie viele Kunden in der Bibliothek haben, so bleibt vermutlich wenig Zeit, um Neukunden in die gesamten Erfassungsformulare einzutragen. In diesem Fall hilft Ihnen die Benutzerschnellerfassungweiter. Sie erreiche diese, indem Sie wie gewohnt von der Startseite aus auf die Benutzer gehen und anschließend den Button "Benutzerschnellerfassung" auswählen.
+Wenn Sie viele Kunden in der Bibliothek haben, so bleibt vermutlich wenig Zeit, um Neukunden in die gesamten Erfassungsformulare einzutragen. In diesem Fall hilft Ihnen die Benutzerschnellerfassung weiter. Sie erreichen diese, indem Sie wie gewohnt von der Startseite aus auf die Benutzer gehen und anschließend den Button "Benutzerschnellerfassung" auswählen.
 
 ![Benutzerschnellerfassung](../Images/B_benutzerschnellerfassung.PNG)
 
@@ -104,9 +104,7 @@ Anschließend erscheint ein verkürztes Formular zur Erfassung von neuen Benutze
 
 ## Suchen von Benutzern
 
-## Suchen von Benutzern
-
-In der Suchleiste, welche sich ebenfalls auf der Benutzer-Oberfläche befindet, können die Benutzer:innen gesucht werden. Dies geschieht mithilfe der Ausweisnummer des Bibliotheksausweises oder dem Namen des Benutzers. In diesem Beispiel wird die benutzerin "Maria Musterfrau" gesucht.
+In der Suchleiste, welche sich ebenfalls auf der Benutzer-Oberfläche befindet, können die Benutzer:innen gesucht werden. Dies geschieht mithilfe der Ausweisnummer des Bibliotheksausweises oder dem Namen des Benutzers. In diesem Beispiel wird die Benutzerin "Maria Musterfrau" gesucht.
 
 ![Benutzersuche](../Images/B_benutzersuche.png)
 
@@ -114,7 +112,7 @@ Zusätzlich werden verschiedene Filteroptionen links unterhalb der Suchleiste od
 
 ![Filteroptionen der Benutzer](../Images/B_benutzer_filteroptionen.PNG)
 
-Wenn Sie das gesuchte BEnutzerkonto geöffnet haben, so können Sie in der oberen Spalte verschiedenen Optionen sehen, welche weitestgehend selbsterklärend sind.
+Wenn Sie das gesuchte Benutzerkonto geöffnet haben, so können Sie in der oberen Spalte verschiedenen Optionen sehen, welche weitestgehend selbsterklärend sind.
 
 ![Optionen der Benutzersuche](../Images/B_benutzersuche_optionen.PNG)
 
