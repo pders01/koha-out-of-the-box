@@ -1,9 +1,11 @@
 <!-- docs/SpB/_sidebar.md -->
 
+* [Home](/)
 * [Übersicht](/SpB/uebersicht.md)
 * [Ausleihe](SpB/ausleihe.md)
 	* [Fernleihe](SpB/fernleihe.md)
 * [Benutzerverwaltung](SpB/benutzer.md)
+	* [Benutzerimport](SpB/benutzerimport.md)
 * [Erwerbung](SpB/erwerbung/)
 	* [Bestellungen und Rechnungen](SpB/erwerbung/bestellungen.md)
 * [Zeitschriften](SpB/zeitschriften.md)
@@ -15,4 +17,3 @@
 * [Datenschutz](SpB/datenschutz.md)
 * [Zusätzliche Informationsquellen](SpB/quellen_spb.md)
 * [Glossar](SpB/glossar.md)
-* [Home](/)

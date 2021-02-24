@@ -1,9 +1,11 @@
 <!-- docs/Oeb/_sidebar.md -->
 
+* [Home](/)
 * [Übersicht](/Oeb/uebersicht.md)
 * [Ausleihe](Oeb/ausleihe.md)
 	* [Fernleihe](Oeb/fernleihe.md)
 * [Benutzerverwaltung](Oeb/benutzer.md)
+	* [Benutzerimport](Oeb/benutzerimport.md)
 * [Erwerbung](Oeb/erwerbung/)
 	* [Bestellungen und Rechnungen](Oeb/erwerbung/bestellungen.md)
 * [Zeitschriften](Oeb/zeitschriften.md)
@@ -13,5 +15,6 @@
 	* [OPAC-Nutzung](Oeb/opac/opac_nutzung.md)
 * [Admin-Oberfläche](Oeb/admin.md)
 * [Datenschutz](Oeb/datenschutz.md)
+* [Zusätzliche Informationsquellen](Oeb/quellen_oeb.md)
 * [Glossar](Oeb/glossar.md)
-* [Home](/)
+

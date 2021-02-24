@@ -25,7 +25,7 @@ prompt_choice () {
 	dialog --title "$1" --yesno "$2" 7 60;
 	response=$?
 	case $response in
-		0) $3 && dialog --msgbox "Aktiviert";;
+		0) "$3" && dialog --msgbox "Aktiviert";;
 		1) systemctl restart apache2 && dialog --msgbox "Abgebrochen" &&  exit 1;;
 		255) echo "[ESC] key pressed && exit 1"
 	esac;

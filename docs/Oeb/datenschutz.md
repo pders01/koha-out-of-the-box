@@ -25,7 +25,7 @@ Hier wird anschließend der Reiter *Benutzer* ausgewählt. Hier findet sich eine
 
 **UnsubscribeReflectionDelay**: Sperre Benutzer, die eine Löschung ihres Kontos beantragt oder Ihre Zustimmung zur Datenschutzerklärung verweigert haben nach X Tagen.
 
-**PatronAnonymizeDelay**: Anonymisiert gesperrte/abgelaufene Konten nach X Tagen und 
+**PatronAnonymizeDelay**: Anonymisiert gesperrte/abgelaufene Konten nach X Tagen.
 
 **PatronRemovalDelay**: Entfernt die anonymisierten Konten nach X Tagen.
 
