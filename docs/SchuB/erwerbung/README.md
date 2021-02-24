@@ -114,6 +114,54 @@ Mit „nicht zugegangene Bestellungen umbuchen“ wird der Vorgang begonnen, es 
 
 Bildquelle: Bibliotheksservice-Zentrum Baden-Württemberg: Koha Handbücher / Handbuch Erwerbung, S. 16.
 
+## Lieferanten
+Um Bestellungen anlegen zu können, muss mindestens ein Lieferant in Koha angelegt werden. Die Funktion hierfür findet man auf der Startseite der Erwerbung.
+
+![Übersicht Erwerbungsmodul](../Images/EW_liefübers.PNG)
+ 
+Die Schaltfläche *„Neuer Lieferant“* öffnet eine Erfassungsmaske, die in 3 Bereiche unterteilt ist: *Lieferantendetails, Kontaktdetails und Bestellinformationen.*
+### Lieferantendetails
+
+![Lieferantendetails](../../Images/EW_liefdetails.PNG)
+ 
+Im Feld Lieferantendetails werden allgemeine Informationen zum Lieferanten erfasst. Nur der Name ist ein Pflichtfeld, es sollten allerdings möglichst viele Informationen erfasst werden, um diese bei Bedarf schnell zur Hand zu haben.
+ 
+### Kontaktdetails
+In den Kontaktdetails werden einzelne Personen erfasst, die als Ansprechperson zu Erwerbungsfragen dienen. Hier kann auch angegeben werden, welche Funktion die Person besitzt.
+
+![Kontaktdetails](../../Images/EW_kontaktdetails.PNG)
+
+ 
+**Primärer Erwerbungskontakt**: Ansprechperson für Monografien 
+
+**Primärer Zeitschriftenkontakt**: Ansprechperson für Zeitschriften
+
+**Kontakt bei Bestellungen**: Empfänger von Bestellungen
+
+**Kontakt für verspätete Bestellungen/Hefte**: Empfänger von Mahnungen 
+
+Über *„einen weiteren Kontakt hinzufügen“* können beliebig viele weitere Personen hinzugefügt werden.
+
+### Bestellinformationen
+Im letzten Abschnitt werden Informationen zu den Bestellungen eingetragen. Nur bei aktiven Lieferanten können neue Bestellungen eingetragen werden.
+
+![Bestellinformationen](../../Images/EW_bestellinfos.PNG)
+
+ 
+Hier kann außerdem die Währung, der MWSt-Satz, eventuelle Rabatte und Angaben zur ungefähren Lieferzeit angegeben werden.
+
+### Lieferanten suchen
+Die so angelegten Lieferanten können im Erwerbungsmodul ganz oben über den Suchschlitz durchsucht werden:
+
+![Suchschlitz Lieferantensuche](../../Images/EW_liefsuche.PNG)
+
+ 
+Alternativ kann auch der Suchschlitz unter *„Bestellungen verwalten“* verwendet werden.
+
+![Bestellungen suchen](../../Images/EW_bestellungensuche.PNG)
+
+ 
+Wenn die Suche nach Lieferanten ohne Eingabe eines Suchbegriffs abgeschickt wird, wird die komplette Liste aller erfassten Lieferanten angezeigt.
 
 ## Weitere Informationsquellen
 * <a href="https://koha-wiki.thulb.uni-jena.de/erwerbung/etats-konten/">Koha-Wiki der ThULB Jena: Erwerbung – Etats und Konten</a>
