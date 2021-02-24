@@ -131,3 +131,8 @@ Wird nun die Auswahl "Karte verloren" gewählt, so erscheint folgende Notiz bei 
 
 Bei diesem kann ausgewählt werden, welche Gebühren bezahlt wurden. Wählen Sie den Button "Alle auswählen" aus, so erscheint der Gesamtbetrag aller Gebühren. Nun haben Sie die Wahl zwischen dem Button "Bezahlen" oder "Erlassen". 
 Es gibt die Möglichkeit eine Quittung zu drucken, indem sie den Button "Drucken" betätigen. Daraufhin wird sich der Druckdialog Ihres Internetbrowsers öffnen, welchen Sie bestätigen können. 
+
+## Weitere Informationsquellen
+
+* <a href="https://wiki.bsz-bw.de/pages/viewpage.action?pageId=17565617&preview=/17565617/3454267/18-11_Handbuch_Benutzerverwaltung.pdf">BSZ: Koha Handbuch Benutzerverwaltung</a>
+* <a href="https://koha-community.org/manual/20.05/de/html/patrons.html">Koha Manual 20.05 Dokumentation: Benutzer</a>
