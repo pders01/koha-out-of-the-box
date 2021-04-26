@@ -1,8 +1,20 @@
 <!-- docs/Oeb/_sidebar.md -->
 
+* [Home](/)
 * [Übersicht](/Oeb/uebersicht.md)
 * [Ausleihe](Oeb/ausleihe.md)
+	* [Fernleihe](Oeb/fernleihe.md)
 * [Benutzerverwaltung](Oeb/benutzer.md)
-* [Erwerbung](Oeb/erwerbung.md)
-* [Katalogisierung](Oeb/katalogisierung.md)
-* [z3950](Oeb/z3950.md)
+	* [Benutzerimport](Oeb/benutzerimport.md)
+* [Erwerbung](Oeb/erwerbung/)
+	* [Bestellungen und Rechnungen](Oeb/erwerbung/bestellungen.md)
+* [Zeitschriften](Oeb/zeitschriften.md)
+* [Katalogisierung](Oeb/katalogisierung/)
+	* [Z39.50-Konfiguration](Oeb/katalogisierung/z3950_konfiguration.md)
+* [OPAC](Oeb/opac/)
+	* [OPAC-Nutzung](Oeb/opac/opac_nutzung.md)
+* [Admin-Oberfläche](Oeb/admin.md)
+* [Datenschutz](Oeb/datenschutz.md)
+* [Zusätzliche Informationsquellen](Oeb/quellen_oeb.md)
+* [Glossar](Oeb/glossar.md)
+
