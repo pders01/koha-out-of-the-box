@@ -14,7 +14,7 @@ Teil dieses Projekts ist eine relativ umfangreiche [Dokumentation](https://pders
 
 ## Werden Sie Teil des Projekts
 
-Pull-Requests und Issues sind willkommen, haben allerdings noch keine Priorität.
+Pull-Requests und Issues sind willkommen. Im Zweifel können Sie mir auch eine Email an **jd082@hdm-stuttgart.de** senden.
 
 
 ## Lizenz
