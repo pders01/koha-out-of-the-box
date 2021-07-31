@@ -1,4 +1,4 @@
-# Koha_out_of_the_box
+# koha-out-of-the-box
 
 Dieses Projekt dient dem Zweck, eine vereinfachte Installation und Konfiguration des [Koha ILS](https://koha-community.org) auf dem [Raspberry Pi](https://www.raspberrypi.org/) zu ermöglichen. 
 Anlass hierfür ist ein interdisziplinäres Projekt an der [Hochschule der Medien](https://www.hdm-stuttgart.de) in Stuttgart.
