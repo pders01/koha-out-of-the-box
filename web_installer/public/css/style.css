@@ -3,7 +3,7 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
 
 :root {
-    --primary: #666;
+    --primary: lightgreen;
 }
 
 * {
@@ -13,20 +13,20 @@
 
 html {
     font-family: 'Urbanist', sans-serif;
+    background-color: var(--primary);
+
 }
 
 body {
-    background-color: #eee;
+    margin: 5% 5%;
 }
 
-.brand {
-    background: var(--primary);
-    color: #fff;
+.title {
     text-align: center;
-    padding: 0.5em;
+    background: linear-gradient(to right, #ff00cc, #333399); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-.greeting {
-    padding: 3rem;
-    text-align: center;
-}
+

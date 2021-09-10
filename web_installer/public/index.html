@@ -1,46 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
-    <title>📦</title>
-</head>
-<body>
-    <h1 class="brand">Koha out of the box</h1>
-    <div class="Greeting">
-        <h2>❤ Willkommen im Web Installer!</h2>
-        <br>
-        <p>
-            Hier können Sie alle Einstellungen für das Aufsetzen einer neuen Koha-Instanz 
-            vornehmen und die Installation einleiten.
-            <br>
-            <a href="https://pders01.github.io/koha-out-of-the-box/#/">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>👋 📦</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Koha out of the box</h1>
+      <div class="greeting">
+        <h2 class="title">💚 Willkommen im Web Installer!</h2>
+        <br />
+        <div class="card">
+          <div class="card-header">
+            <div class="card-header-title">
+              <h3>👋 Bevor Sie beginnen..</h3>
+            </div>
+          </div>
+          <div class="card-content">
+            <p class="content">
+              Hier können Sie alle Einstellungen für das Aufsetzen einer neuen
+              Koha-Instanz vornehmen und die Installation einleiten.
+              <br />
+              <a href="https://pders01.github.io/koha-out-of-the-box/#/">
                 Brauchen Sie zusätzliche Informationen?
-            </a>
-        </p>
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="card">
+        <div class="card-header">
+          <div class="card-header-title">
+            <h3>⌨️ Konfiguration</h3>
+          </div>
+        </div>
+        <div class="card-content">
+          <form action="/submit" method="POST">
+            <div class="field">
+              <label for="library-name" class="label">
+                Geben Sie hier einen Namen für Ihre Instanz ein, bspw. den Namen
+                Ihrer Bibliothek. Beachten Sie dabei, dass Sie keine Leer- oder
+                Sonderzeichen verwenden dürfen. Trennen Sie Worte mit einem
+                Unterstrich: _
+              </label>
+              <div class="control">
+                <input
+                  type="text"
+                  name="libraryName"
+                  id="libraryName"
+                  class="input is-normal"
+                />
+              </div>
+            </div>
+            <div class="field">
+              <label for="domain-name" class="label">
+                Geben Sie hier Ihren Domäne-Namen ein. Ein Domäne-Name wäre
+                z.B.: beispiel.de
+              </label>
+              <div class="control">
+                <input
+                  type="text"
+                  name="domainName"
+                  id="domainName"
+                  class="input is-normal"
+                />
+              </div>
+            </div>
+            <div class="field is-grouped">
+              <div class="control">
+                <button class="button is-link">Submit</button>
+              </div>
+              <div class="control">
+                <button class="button is-link is-light">Cancel</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
-    <form action="" class="">
-        <div class="field">
-            <label for="library-name" class="label">
-                Geben Sie hier einen Namen für Ihre Instanz ein, 
-                bspw. den Namen Ihrer Bibliothek. Beachten Sie dabei, dass Sie keine Leer-
-                oder Sonderzeichen verwenden dürfen. Trennen Sie Worte mit einem Unterstrich: _.
-            </label>
-            <div class="control">
-                <input type="text" name="library-name" id="library-name">
-            </div>
-        </div>
-        <div class="field">
-            <label for="domain-name">
-                Geben Sie hier Ihren Domäne-Namen ein. Ein Domäne-Name wäre z.B.: beispiel.de.
-            </label>
-            <div class="control">
-                <input type="text" name="domain-name" id="domain-name">
-            </div>
-        </div>
-
-    </form>
-</body>
+  </body>
 </html>

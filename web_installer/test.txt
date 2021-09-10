@@ -1,0 +1,2 @@
+libraryname=asdf
+domainname=asdf
